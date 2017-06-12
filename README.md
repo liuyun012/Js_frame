@@ -1,5 +1,5 @@
-# Js_frame
-前端js框架知识点学习汇总
+# 前端开发知识大汇总
+前端开发知识点学习汇总 -- 持续更新，调整 by Qzx
 
 ## Mac Pro 初始开发环境搭建
 - 软件安装
@@ -16,13 +16,69 @@
 	- [常用Atom插件列表](http://www.jianshu.com/p/dd97cbb3c22d)
 	- [设计稿标注必装神器-Sketch标注插件Marketch下载](https://github.com/tudou527/marketch)
 	- [安装node包管理工具 nvm 和 node](http://www.cnblogs.com/greenteaone/p/5065981.html)、[nvm重启失效解决方案](http://www.imooc.com/article/12985)	  
+	- [mac 安装 php nginx mysql](http://www.cnblogs.com/lucky-man/p/6207882.html)
+	- [利用Nginx和Host把自定义域名指向本地](http://www.jianshu.com/p/9bc6885ec21a)
+	- [图解Mac下使用Sequel Pro连接操作数据库](http://jingyan.baidu.com/article/8275fc867f432c46a03cf639.html)
 
 ## 技术学习过程记录
 
-- MarkDown语法的学习及整理：完成第一期整理 2017.06.12
+- 前端相关学习网站及论坛
+	- [GitHub](https://github.com/) 
+	- [W3school手册](http://www.w3school.com.cn/)
+	- [W3cplus技术博客](https://www.w3cplus.com/)
+	- [开源中国社区](http://www.oschina.net/)
+	- [掘金](https://juejin.im/timeline)
+	- [简书](http://www.jianshu.com/)
+	- [segmentfault 社区](https://segmentfault.com/)
+	- [MDN](https://developer.mozilla.org/zh-CN/)
+	- [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
+- jQuery学习及使用： 开始学习 2015.11 ~ 2016.02
+	- [jQuery教程 -- w3school](http://www.w3school.com.cn/jquery/)  
+	- [jQuery教程 -- 菜鸟教程](http://www.runoob.com/jquery/jquery-tutorial.html)
+	- [jQuery插件库](http://www.jq22.com/)
+- Bootstrap 框架
+	- [Bootstrap中文官网](http://www.bootcss.com/)  
+	- [Bootstrap 菜鸟教程](http://www.runoob.com/bootstrap/bootstrap-tutorial.html)
+- git 使用教程 2016.02 
+	- [常用 Git 命令清单 -- 阮一峰](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html) 
+- 前端开发辅助工具汇总
+	-  [grunt中文文档](http://www.gruntjs.net/)
+	-  [gulp中文官网](http://www.gulpjs.com.cn/)
+	-  [前端构建工具gulp的使用介绍及技巧](http://www.cnblogs.com/2050/p/4198792.html)
+	-  [Babel中文网](http://babeljs.cn/)
+- UI、产品、后台相关技术
+	- [如何做一份让工程师泪流满面的标注？](http://www.uisdc.com/designer-mark-for-developer)
+- CSS 技术汇总  2015.11 ~ 未知
+	- [前端CSS规范整理](https://www.biaodianfu.com/css-style-guide.html) 
+	- [编写可维护的CSS](https://segmentfault.com/a/1190000000388784) 
+	- [Less中文文档](http://less.bootcss.com/)
+	- [Sass中文文档](http://sass.bootcss.com/)
+	- [stylus中文版文档](http://www.zhangxinxu.com/jq/stylus/)
+	- [PostCSS -- 入门精通教程](https://www.w3cplus.com/blog/tags/516.html)
+- React 技术学习 学习及项目使用 2016.02 ~ 2017.05
+	- [React官网 -- 英文版](https://facebook.github.io/react/)
+	- [React文档 -- 中文版](https://discountry.github.io/react/)
+	- [React 技术栈系列教程 -- 阮一峰](http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html)
+	- [React 入门实例教程 -- 阮一峰](http://www.ruanyifeng.com/blog/2015/03/react.html)
+	- [React Router 使用教程 -- 阮一峰](http://www.ruanyifeng.com/blog/2016/05/react_router.html?utm_source=tool.lu)
+	- [Flux 架构入门教程 -- 阮一峰](http://www.ruanyifeng.com/blog/2016/01/flux.html)
+	- [Redux 入门教程（一）：基本用法 -- 阮一峰](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html)
+	- [Redux 入门教程（二）：中间件与异步操作 -- 阮一峰](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_two_async_operations.html)
+	- [Redux 入门教程（三）：React-Redux 的用法 -- 阮一峰](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_three_react-redux.html)
+	- [一个 react + redux 的完整项目 和 个人总结](https://github.com/bailicangdu/react-pxq)
+	- [React/React Native 的ES5 ES6写法对照表](http://bbs.reactnative.cn/topic/15/react-react-native-的es5-es6写法对照表)
+- React 常用插件汇总整理 
+	- [awesome-react-components 插件大汇总](https://github.com/brillout/awesome-react-components)
+	- [React插件专题 wesomes](https://www.awesomes.cn/subject/react)
+	- [react-paginate 分页器](https://github.com/AdeleD/react-paginate)
+- ECMAScript 6 系列教程  2017.03
+	- [ECMAScript 6 入门](http://es6.ruanyifeng.com) 
+- MarkDown语法的学习及整理：完成第一期整理 2017.06
 	- [markdown 新手指南](http://www.jianshu.com/p/q81RER)
 	- [markdown 编辑器 -- MacDown 官网下载 ](http://macdown.uranusjr.com/)
-- jade 语法学习及整理： 学习时间（2017.05.20 ~ 2017.06.12）
+- jade 语法学习及整理： 学习时间（2017.05 ~ 2017.06）
 	- [jade语法教程](http://www.w3cplus.com/html/how-to-use-jade.html)
 	- [Jade —— 源于 Node.js 的 HTML 模板引擎](https://segmentfault.com/a/1190000000357534)
-	- [jade学习](http://www.w3cplus.com/html/jade.html)	 
+	- [jade学习](http://www.w3cplus.com/html/jade.html)
+- 	全栈开发系列教程
+	- [JavaScript 全栈工程师培训教程 -- 阮一峰](http://www.ruanyifeng.com/blog/2016/11/javascript.html) 
