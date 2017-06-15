@@ -312,8 +312,304 @@ case friends
 ```
 上面的示例可以看出，当没有可输出内容时，就会执行向下查找可执行语句，一直到 `default`
 
+## 遍历语句
+Jade使用 `each` 对数组和对象遍历，用法与JavaScript大同小异。
 
+```
+// 遍历数组
+ul 
+	each val, index in ['zero', 'one', 'two']
+		li= index + ': ' + val
 
+// 遍历对象
+ul 
+	each val, index in {1:'one',2:'two',3:'three'}
+		li= index + ': ' + val
+```
+生成的 HTML: 
+
+```
+<!-- 遍历数组 -->
+<ul>
+	<li>0: zero</li>
+	<li>1: one</li>
+	<li>2: two</li>
+</ul>
+<!-- 遍历对象 -->
+<ul>
+	<li>1: one</li>
+	<li>2: two</li>
+	<li>3: three</li>
+</ul>
+```
+## 循环语句
+Jade 使用 `while` 实现循环，用法与JavaScript相似：
+
+```
+- var n = 0;
+ul 
+	while n < 4
+		li= n++
+```
+生成的 HTML:
+
+```
+<ul>
+	<li>0</li>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+</ul>
+```
+## mixins
+在 Scss 和 Jade 中，混合宏（mixins）都是举足轻重的语法，混合宏具有复用、解耦、可读、可扩、可维护等优势。创建混合宏需要使用 `mixin` 标识符，创建混合宏实例时，需要使用 `+` 标识符：
+
+```
+//- Declaration
+mixin list
+	ul
+		li foo
+		li bar
+		li baz
+//- Use
++list
++list
+```
+生成的 HTML:
+
+```
+<ul> 
+	<li>foo</li> 
+	<li>bar</li> 
+	<li>baz</li> 
+</ul> 
+<ul> 
+	<li>foo</li> 
+	<li>bar</li> 
+	<li>baz</li> 
+</ul> 
+```
+上面是最基本的混合宏，给它传递参数，才能让它更有通用性：
+
+```
+mixin pet(name)
+	li.pet= name
+ul
+	+pet('cat')
+	+pet('dog')
+	+pet('pig')
+```
+生成的 HTML:
+
+```
+<ul>
+	<li class="pet">cat</li>
+	<li class="pet">dog</li>
+	<li class="pet">pig</li>
+</ul>
+```
+此外，还可以使用 `...` 标识符表示不定数量的参数：
+
+```
+mixin list(id, ...items)
+	ul(id=id)
+		each item in items
+			li= item
++list('my-list', 1, 2, 3, 4)
+```
+生成的 HTML:
+
+```
+<ul id="my-list"> 
+	<li>1</li> 
+	<li>2</li> 
+	<li>3</li> 
+	<li>4</li> 
+</ul>
+```
+有时候，我们需要替换混合宏的某个部分，就可以使用 `block` 标识符来占位：
+
+```
+mixin article(title)
+	.article
+		.article-wrapper
+			h1= title
+			if block
+				block
+			else 
+				p No content provided
++article('Hello world')
+
++article('Hello world')
+	p This is my
+	p Amazing article
+```
+生成的 HTML:
+
+```
+<div class="article">
+	<div class="article-wrapper">
+		<h1>Hello world</h1>
+		<p>No content provided</p>
+	</div>
+</div>
+<div class="article">
+	<div class="article-wrapper">
+		<h1>Hello world</h1>
+		<p>This is my</p>
+		<p>Amazing article</p>
+	</div>
+</div>
+```
+有关属性的混合宏，其中一种是：
+
+```
+mixin link(href, name) 
+	a(href=href)&attributes(attributes)= name
+	
++link('/foo', 'foo')(class="btn")
+```
+生成的 HTML:
+
+```
+<a href="/foo" class="btn">foo</a>
+```
+上面混合宏中并没有声明 `attributes`，是因为 Jade 已经隐式为其引用了所有传递给 `&attributes` 的参数
+## includes
+实现高度复用的一种方式是将代码片段保存到不同文件中，然后在需要的地方导入这些片段，为此，Jade 提供了 `include` 指令。下面是一个 `index` 页面：
+
+```
+//- index.jade
+doctype html
+html
+	include ./includes/head.jade
+	body
+		h1 My Site
+		p Welcome to my super lame site.
+		include ./incliudes/foot.jade
+```
+`head` 代码片段：
+
+```
+//- includes/head.jade
+head
+	title My Site
+	script(src='/javascripts/jquery.js')
+	script(src='/javsscripts/app.js')
+```
+`footer` 代码片段：
+
+```
+//- includes/foot.jade
+#footer
+	p Copyright (c) footer
+```
+生成的 HTML:
+
+```
+<!doctype html>
+<html>
+	<head>
+		<title>My Site</title>
+		<script src='/javascripts/jquery.js'></script>
+		<script src='/javsscripts/app.js'></script>
+	</head>
+	<body>
+		<h1>My Site</h1>
+		<p>Welcome to my super lame site.</p>
+		<div id="footer">
+			<p>Copyright (c) footer</p>
+		</div>
+	</body>
+</html>
+```
+## 继承
+Jade 中使用 `extends` 来继承代码片段，与 `include` 本分地引用代码段不同，继承可以修改代码片段。
+首先，在 `layout` 页面使用 `block` 标识符，可以设置一个可修改的代码片段，紧跟之后的是该代码片段的名字：
+
+```
+//- layout.jade
+doctype html 
+html 
+	head
+		block title
+			title Default title
+	body
+		block content
+```
+然后，在 `index` 页面继承 `layout`, 并可以根据代码片段的名字修改相关代码：
+
+```
+//- index.jade
+extends ./layout.jade
+
+block title
+	title Article Title
+
+block content
+	h1 My Article
+```
+生成的 HTML:
+
+```
+<!doctype html> 
+<html> 
+	<head> 
+		<title>Article Title</title> 
+	</head> 
+	<body> 
+	<h1>My Article</h1> 
+	</body> 
+</html>
+```
+上面的继承方式，会抹除原来代码片段的部分，如果想要追加代码片段，可以使用 `append` 和 `prepend` 指令。 `append` 用于在原来代码片段之后追加，`prepend` 用于在原有代码之前追加，一个初始页面：
+
+```
+//- layout.jade
+doctype html 
+html 
+	head
+		title Layout
+	body
+		block content
+			p Hello
+```
+生成的 HTML:
+
+```
+<html> 
+	<head> 
+		<script src="/vendor/jquery.js"></script> 
+		<script src="/vendor/caustic.js"></script> 
+	</head>
+	<body> 
+		<p>Hello</p> 
+		<p>World</p> 
+	</body> 
+</html>
+```
+使用 `prepend` :
+
+```
+extend layout
+
+block prepend content
+	p World
+```
+生成的 HTML：
+
+```
+<html> 
+	<head> 
+		<script src="/vendor/jquery.js"></script> 
+		<script src="/vendor/caustic.js"></script> 
+	</head>
+	<body> 
+		<p>World</p> 
+		<p>Hello</p> 
+	</body> 
+</html>
+```
 
 
 
