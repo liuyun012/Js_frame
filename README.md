@@ -5,6 +5,7 @@
 - 软件安装
 	- 电脑软件：Homebrew(包管理器) Chrome浏览器、Firefox浏览器、微信、Evernote(印象笔记)、有道词典、Microsoft Office套装、Jenkins
 	- 前端开发工具：iTem2(终端)、Dropbox(文件夹共享)、Atom、Yarn(依赖管理工具)、Ps cc2017、Charles(花瓶)、Sequel Pro(数据库)、MacDown(markdown编辑器)、Sketch(设计稿标注神器)
+	- Chrome 浏览器开发常用插件：Page Ruler、Window Resizer、WhatFont、Dimensions、Proxy SwitchyOmega
 - 安装地址及破解教程
 	- [在Mac上安装office2016破解版](http://www.jianshu.com/p/2172835cfb17) 
 	- [Adobe Photoshop CC 2017 Mac中文破解版](http://www.sdifen.com/photoshopcc2017.html)
@@ -17,13 +18,18 @@
 	- [设计稿标注必装神器-Sketch标注插件Marketch下载](https://github.com/tudou527/marketch)
 	- [安装node包管理工具 nvm 和 node](http://www.cnblogs.com/greenteaone/p/5065981.html)、[nvm重启失效解决方案](http://www.imooc.com/article/12985)	  
 	- [mac 安装 php nginx mysql](http://www.cnblogs.com/lucky-man/p/6207882.html)
+	- [Mac 平台搭建PHP开发环境:Nginx、PHP、MySQL](http://www.jianshu.com/p/255889464b2f)
 	- [利用Nginx和Host把自定义域名指向本地](http://www.jianshu.com/p/9bc6885ec21a)
 	- [图解Mac下使用Sequel Pro连接操作数据库](http://jingyan.baidu.com/article/8275fc867f432c46a03cf639.html)
+	- [Chrome 35个开发者工具的小技巧](http://www.w3cplus.com/tools/dev-tips.html)
+	- [Sublime Text 3 Mac破解版](http://www.sdifen.com/sublimetext3.html)
+	- [Sublime Text 3 常用插件推荐](https://github.com/jikeytang/sublime-text)
 
 ## 技术学习过程记录
 
 - 前端相关学习网站及论坛
 	- [GitHub](https://github.com/) 
+	- [Github常用插件和库](https://github.com/jawil/blog/issues/10)
 	- [W3school手册](http://www.w3school.com.cn/)
 	- [W3cplus技术博客](https://www.w3cplus.com/)
 	- [开源中国社区](http://www.oschina.net/)
@@ -32,6 +38,9 @@
 	- [segmentfault 社区](https://segmentfault.com/)
 	- [MDN](https://developer.mozilla.org/zh-CN/)
 	- [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
+	- [WEB 前端开发](http://www.css88.com)
+	- [JavaScript 分类库](http://www.javascript.fun)
+	- [h5 小游戏下载](http://www.108js.com/index.html)
 - jQuery学习及使用： 开始学习 2015.11 ~ 2016.02
 	- [jQuery教程 -- w3school](http://www.w3school.com.cn/jquery/)  
 	- [jQuery教程 -- 菜鸟教程](http://www.runoob.com/jquery/jquery-tutorial.html)
@@ -42,12 +51,19 @@
 - git 使用教程 2016.02 
 	- [常用 Git 命令清单 -- 阮一峰](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html) 
 - 前端开发辅助工具汇总
+	-  [Yarn 中文官网](https://yarnpkg.com/zh-Hans/)
 	-  [grunt中文文档](http://www.gruntjs.net/)
 	-  [gulp中文官网](http://www.gulpjs.com.cn/)
 	-  [前端构建工具gulp的使用介绍及技巧](http://www.cnblogs.com/2050/p/4198792.html)
 	-  [Babel中文网](http://babeljs.cn/)
+	-  [WebPack 简明学习教程](http://www.jianshu.com/p/b95bbcfc590d)
+	-  [npm package.json属性详解](http://www.cnblogs.com/tzyy/p/5193811.html)
+	-  [语法检查 -- ESlint中文](http://eslint.cn/docs/rules/)
 - UI、产品、后台相关技术
 	- [如何做一份让工程师泪流满面的标注？](http://www.uisdc.com/designer-mark-for-developer)
+	- [阿里巴巴矢量图标库](http://www.iconfont.cn)
+	- [移动端设计指南 -- Ant Design Mobile](https://mobile.ant.design/index-cn)
+	- [Ant Design --  UI 设计语言](https://ant.design/index-cn)
 - CSS 技术汇总  2015.11 ~ 未知
 	- [前端CSS规范整理](https://www.biaodianfu.com/css-style-guide.html) 
 	- [编写可维护的CSS](https://segmentfault.com/a/1190000000388784) 
@@ -55,6 +71,11 @@
 	- [Sass中文文档](http://sass.bootcss.com/)
 	- [stylus中文版文档](http://www.zhangxinxu.com/jq/stylus/)
 	- [PostCSS -- 入门精通教程](https://www.w3cplus.com/blog/tags/516.html)
+	- [flex布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool)
+	- [flex布局教程：实例篇](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html?bsh_bid=683103006)
+	- [大量css3 hover效果](https://github.com/IanLunn/Hover)
+	- [weui -- 腾讯开发样式库](https://github.com/Tencent/weui)
+	- [React-WeUI](https://github.com/weui/react-weui)
 - React 技术学习 学习及项目使用 2016.02 ~ 2017.05
 	- [React官网 -- 英文版](https://facebook.github.io/react/)
 	- [React文档 -- 中文版](https://discountry.github.io/react/)
@@ -67,18 +88,51 @@
 	- [Redux 入门教程（三）：React-Redux 的用法 -- 阮一峰](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_three_react-redux.html)
 	- [一个 react + redux 的完整项目 和 个人总结](https://github.com/bailicangdu/react-pxq)
 	- [React/React Native 的ES5 ES6写法对照表](http://bbs.reactnative.cn/topic/15/react-react-native-的es5-es6写法对照表)
+	- [React组件属性部类（propTypes）校验](http://www.myexception.cn/web/2016594.html)
 - React 常用插件汇总整理 
 	- [awesome-react-components 插件大汇总](https://github.com/brillout/awesome-react-components)
 	- [React插件专题 wesomes](https://www.awesomes.cn/subject/react)
 	- [react-paginate 分页器](https://github.com/AdeleD/react-paginate)
+- 前端开发辅助类框架
+	- 图表类框架
+		- [Echarts中文官网](http://echarts.baidu.com/index.html)
+		- [Echarts -- github](https://github.com/ecomfe/echarts)
+	- 移动端触摸滑动框架
+		- [Swiper中文官网](http://www.swiper.com.cn)  
+		- [Hammer.Js -- 移动端手势插件库](http://hammerjs.github.io)
+		- [hammer.js 使用教程](http://www.cnblogs.com/iamlilinfeng/p/4239957.html)
+		- [fastclick.js -- 解决手机 300ms延时插件](https://github.com/ftlabs/fastclick)
+	- 富文本编辑器
+		-  [ueditor](https://github.com/fex-team/ueditor)
+		-  [移动端富文本编辑器 -- artEditor](https://github.com/baixuexiyang/artEditor)
+	- H5 手机端快速开发库
+		- [Light7 -- 轻量，小巧且精美的UI库](http://light7.cn) 
+	- HTML 5 游戏类框架
+		- [CreateJS -- 开发基于HTML5的游戏、动画和交互应用](http://www.createjs.cc) 	 
+- 微信小程序 相关文档  2016.09
+	- [微信小程序开发文档](https://mp.weixin.qq.com/debug/wxadoc/dev/)
+	- [小程序开发社区 -- 很快](http://www.henkuai.com/forum.php)
+	- [微信公众平台开发技术文档](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1445241432)
+	- [微信小程序组件化开发框架 -- Labrador](https://github.com/maichong/labrador)
+	- [WeUI for 小程序 为微信小程序量身设计](https://github.com/Tencent/weui-wxss)
 - ECMAScript 6 系列教程  2017.03
 	- [ECMAScript 6 入门](http://es6.ruanyifeng.com) 
 - MarkDown语法的学习及整理：完成第一期整理 2017.06
 	- [markdown 新手指南](http://www.jianshu.com/p/q81RER)
 	- [markdown 编辑器 -- MacDown 官网下载 ](http://macdown.uranusjr.com/)
 - jade 语法学习及整理： 学习时间（2017.05 ~ 2017.06）
+	- [jade学习](http://www.w3cplus.com/html/jade.html)
 	- [jade语法教程](http://www.w3cplus.com/html/how-to-use-jade.html)
 	- [Jade —— 源于 Node.js 的 HTML 模板引擎](https://segmentfault.com/a/1190000000357534)
-	- [jade学习](http://www.w3cplus.com/html/jade.html)
+- Vue 技术相关文档
+	- [vue官网](https://cn.vuejs.org)
+	- [vue-router](https://github.com/vuejs/vue-router)
+	- [vuex](https://github.com/vuejs/vuex)
+	- [vuex 中文文档](https://vuex.vuejs.org/zh-cn/)
+	- [Vue.js 入门教程](http://www.runoob.com/w3cnote/vue-js-quickstart.html)
+	- [Vue2.0 新手入门 — 从环境搭建到发布](http://www.runoob.com/w3cnote/vue2-start-coding.html)
 - 	全栈开发系列教程
 	- [JavaScript 全栈工程师培训教程 -- 阮一峰](http://www.ruanyifeng.com/blog/2016/11/javascript.html) 
+- 前端优秀个人博客
+	- [阮一峰](http://www.ruanyifeng.com/blog/)  
+	- [熊建刚](http://blog.codingplayboy.com)
