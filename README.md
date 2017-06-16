@@ -41,10 +41,14 @@
 	- [WEB 前端开发](http://www.css88.com)
 	- [JavaScript 分类库](http://www.javascript.fun)
 	- [h5 小游戏下载](http://www.108js.com/index.html)
+	- [软件知识库](http://lib.csdn.net/react/node/408)
+	- [Digcss.com -- 前端知识](http://digcss.com)
+	- [前端人的俱乐部](http://f2er.club)
 - jQuery学习及使用： 开始学习 2015.11 ~ 2016.02
 	- [jQuery教程 -- w3school](http://www.w3school.com.cn/jquery/)  
 	- [jQuery教程 -- 菜鸟教程](http://www.runoob.com/jquery/jquery-tutorial.html)
 	- [jQuery插件库](http://www.jq22.com/)
+	- [jquery+css3制作多种图片切换动画效果](http://www.xwcms.net/js/css3sl/36607.html)
 - Bootstrap 框架
 	- [Bootstrap中文官网](http://www.bootcss.com/)  
 	- [Bootstrap 菜鸟教程](http://www.runoob.com/bootstrap/bootstrap-tutorial.html)
@@ -52,11 +56,12 @@
 	- [常用 Git 命令清单 -- 阮一峰](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html) 
 - 前端开发辅助工具汇总
 	-  [Yarn 中文官网](https://yarnpkg.com/zh-Hans/)
-	-  [grunt中文文档](http://www.gruntjs.net/)
-	-  [gulp中文官网](http://www.gulpjs.com.cn/)
+	-  [Grunt中文文档](http://www.gruntjs.net/)
+	-  [Gulp中文官网](http://www.gulpjs.com.cn/)
 	-  [前端构建工具gulp的使用介绍及技巧](http://www.cnblogs.com/2050/p/4198792.html)
 	-  [Babel中文网](http://babeljs.cn/)
 	-  [WebPack 简明学习教程](http://www.jianshu.com/p/b95bbcfc590d)
+	-  [webpack.config.js 参数详解](http://blog.csdn.net/zaichuanguanshui/article/details/53610694)
 	-  [npm package.json属性详解](http://www.cnblogs.com/tzyy/p/5193811.html)
 	-  [语法检查 -- ESlint中文](http://eslint.cn/docs/rules/)
 - UI、产品、后台相关技术
