@@ -54,12 +54,14 @@
 	- [Bootstrap 菜鸟教程](http://www.runoob.com/bootstrap/bootstrap-tutorial.html)
 - git 使用教程 2016.02 
 	- [常用 Git 命令清单 -- 阮一峰](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html) 
+	- [git学习宝典：程序员走江湖必备](https://segmentfault.com/a/1190000009893041?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 - 前端开发辅助工具汇总
 	-  [Yarn 中文官网](https://yarnpkg.com/zh-Hans/)
 	-  [Grunt中文文档](http://www.gruntjs.net/)
 	-  [Gulp中文官网](http://www.gulpjs.com.cn/)
 	-  [前端构建工具gulp的使用介绍及技巧](http://www.cnblogs.com/2050/p/4198792.html)
 	-  [Babel中文网](http://babeljs.cn/)
+	-  [webpack中文官网](https://doc.webpack-china.org)
 	-  [WebPack 简明学习教程](http://www.jianshu.com/p/b95bbcfc590d)
 	-  [webpack.config.js 参数详解](http://blog.csdn.net/zaichuanguanshui/article/details/53610694)
 	-  [npm package.json属性详解](http://www.cnblogs.com/tzyy/p/5193811.html)

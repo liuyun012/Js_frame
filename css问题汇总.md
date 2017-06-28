@@ -2,6 +2,7 @@
 平常项目中遇到的css不常用语法整理 by Qzx
 ## css问题解决及说明相关网址
 - [前端CSS规范整理 -- 标点符](https://www.biaodianfu.com/css-style-guide.html)
+- [编写高效的CSS教程](https://developer.mozilla.org/zh-CN/docs/Learn/CSS)
 - [PostCSS深入学习系列教程](http://www.w3cplus.com/PostCSS/postcss-deep-dive-preprocessing-with-precss.html)
 - [大量 css3 hover效果动画](http://ianlunn.github.io/Hover/)
 - [CSS3 知识库](http://lib.csdn.net/base/css3)
@@ -20,6 +21,9 @@
 - [CSS3图片摇摆动画](http://www.zzsck.org/js/picture/4097.html)
 - [CSS3 pointer-events:none应用举例及扩展, 按钮点透事件](http://www.zhangxinxu.com/wordpress/2011/12/css3-pointer-events-none-javascript/)
 - [pointer-events属性说明  MDN](https://developer.mozilla.org/cn/docs/Web/CSS/pointer-events)
+- [解决IOS下不支持fixed的问题](http://www.alixixi.com/web/a/2014072993818.shtml)
+- [css伪类元素和伪元素的用法详解](http://www.cnblogs.com/ghost-xyx/p/3763669.html)
+- [小三角带边框带阴影的div——css实现效果](http://blog.csdn.net/swallowliyan/article/details/53639059)
 
 ## Css项目中不常见属性汇总
 1. 字体样式设置：<br>
@@ -47,9 +51,8 @@
 	.center-vertical {
 	    position: relative;
 	    top: 50%;
-	    transform: translateY(-50%);
 	    left: 50%;
-	    transform: translateX(-50%); 
+	    transform: translate(-50%, -50%); 
 	}
 ```
 
@@ -67,7 +70,54 @@
 ```
 <div style="width: 300px;height: 100px; margin: 50px auto; box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.2), 0 0 0 12px rgba(0, 0, 0, 0.2), 0 0 0 18px rgba(0, 0, 0, 0.2), 0 0 0 24px rgba(0, 0, 0, 0.2);"></div>
 
-6. 
+6. 取消chrome浏览器下input和textarea的默认样式(轮廓)    
+	
+	```
+	input, button, select, textarea{
+		outline: none;
+	}
+	textarea{
+		resize: none;  // 文本框不可拖拽
+	}
+	```
+7. 溢出显示省略号（...）：
+
+	```
+	// 单行文本
+	p {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	// 多行文本的溢出显示省略号（2行，可调整）
+	p {
+		 overflow : hidden;
+	    text-overflow: ellipsis;
+	    display: -webkit-box;
+	    -webkit-line-clamp: 2;
+	    -webkit-box-orient: vertical;
+	}
+	```
+8. 特殊选择器：`::selection` 用来改变浏览器网页选中中文的默认效果
+9. css中文竖向排列的属性：`writing-mode`
+10. 段落开头缩进 两个文字间距： `text-indent:2em`;
+11. select 框右对齐的方法：
+	```
+	①、select {direction: rtl;}
+	②、<select dir="rtl">
+    		<option>Foo</option>    
+	   </select>
+	```
+12. Firefox专属hack的写法: 解决 line-height 无法垂直居中问题
+
+	```
+	@-moz-document url-prefix(){
+	    button{
+	      padding-top:2px;
+	    }
+	  }
+	```
+13. 
 
 
 
