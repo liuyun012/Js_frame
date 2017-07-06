@@ -117,7 +117,12 @@
 	    }
 	  }
 	```
-13. 
+13. 移动端 H5页面怎么样消除点击阴影
+
+	```
+	a,img,button,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0);}
+	```
+14. 
 
 
 

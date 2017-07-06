@@ -44,6 +44,9 @@
 	- [软件知识库](http://lib.csdn.net/react/node/408)
 	- [Digcss.com -- 前端知识](http://digcss.com)
 	- [前端人的俱乐部](http://f2er.club)
+- 原生DOM操作学习： 开始学习 2015.09 ~ 至今
+	- [javaScript基础知识点梳理](http://www.jianshu.com/p/f3bcd36e56d1)
+	- [常见的原生javascript DOM操作](https://segmentfault.com/a/1190000004076145) 
 - jQuery学习及使用： 开始学习 2015.11 ~ 2016.02
 	- [jQuery教程 -- w3school](http://www.w3school.com.cn/jquery/)  
 	- [jQuery教程 -- 菜鸟教程](http://www.runoob.com/jquery/jquery-tutorial.html)
