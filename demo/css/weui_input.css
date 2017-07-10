@@ -1,0 +1,85 @@
+/**
+* @description: weui input radio单选， checkbox多选 样式
+* @author: Qzx
+* @update: name (2017-07-07 18:32)
+*/
+
+/* input 样式 */
+.weui-label{
+  display:block;
+  width:105px;
+  word-wrap:break-word;
+  word-break:break-all;
+}
+.weui-input{
+  width:100%;
+  border:0;
+  outline:0;
+  -webkit-appearance:none;
+  background-color:transparent;
+  font-size:inherit;
+  color:inherit;
+  height:1.47058824em;
+  line-height:1.47058824;
+}
+.weui-input::-webkit-outer-spin-button,
+.weui-input::-webkit-inner-spin-button{
+  -webkit-appearance:none;
+  margin:0;
+}
+.weui-textarea{
+  display:block;
+  border:0;
+  resize:none;
+  width:100%;
+  color:inherit;
+  font-size:1em;
+  line-height:inherit;
+  outline:0;
+}
+.weui-textarea-counter{
+  color:#B2B2B2;
+  text-align:right;
+}
+.weui-cell_warn .weui-textarea-counter{
+  color:#E64340;
+}
+
+.weui-check{
+    position: absolute;
+    left: -9999em;
+}
+
+/* input type="radio" 单选按钮样式 */
+.weui-cells_radio .weui-cell__ft{
+  padding-left:0.35em;
+}
+.weui-cells_radio .weui-check:checked + .weui-icon-checked:before{
+  display:block;
+  content:'\EA08';
+  color:#09BB07;
+  font-size:16px;
+}
+
+/* input type="checkbox" 多选按钮样式 */
+.weui-cells_checkbox .weui-cell__hd{
+  padding-right:0.35em;
+}
+.weui-cells_checkbox .weui-icon-checked:before{
+  content:'\EA01';
+  color:#C9C9C9;
+  font-size:23px;
+  display:block;
+}
+.weui-cells_checkbox .weui-check:checked + .weui-icon-checked:before{
+  content:'\EA06';
+  color:#09BB07;
+}
+
+/* label标签选中样式 */ 
+.weui-check__label{
+  -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+.weui-check__label:active{
+  background-color:#ECECEC;
+}

@@ -1,0 +1,203 @@
+/**
+* @description: weui 列表及面板 样式
+* @author: Qzx
+* @update: name (2017-07-07 18:32)
+*/
+
+.weui-cells{
+  margin-top:1.17647059em;
+  background-color:#FFFFFF;
+  line-height:1.47058824;
+  font-size:17px;
+  overflow:hidden;
+  position:relative;
+}
+.weui-cells:before{
+  content:" ";
+  position:absolute;
+  left:0;
+  top:0;
+  right:0;
+  height:1px;
+  border-top:1px solid #e5e5e5;
+  color:#e5e5e5;
+  -webkit-transform-origin:0 0;
+          transform-origin:0 0;
+  -webkit-transform:scaleY(0.5);
+          transform:scaleY(0.5);
+  z-index:2;
+}
+.weui-cells:after{
+  content:" ";
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  height:1px;
+  border-bottom:1px solid #e5e5e5;
+  color:#e5e5e5;
+  -webkit-transform-origin:0 100%;
+          transform-origin:0 100%;
+  -webkit-transform:scaleY(0.5);
+          transform:scaleY(0.5);
+  z-index:2;
+}
+.weui-cells__title{
+  margin-top:.77em;
+  margin-bottom:.3em;
+  padding-left:15px;
+  padding-right:15px;
+  color:#999999;
+  font-size:14px;
+}
+.weui-cells__title + .weui-cells{
+  margin-top:0;
+}
+.weui-cells__tips{
+  margin-top:.3em;
+  color:#999999;
+  padding-left:15px;
+  padding-right:15px;
+  font-size:14px;
+}
+.weui-cell{
+  padding:10px 15px;
+  position:relative;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex;
+  -webkit-box-align:center;
+  -webkit-align-items:center;
+          align-items:center;
+}
+.weui-cell:before{
+  content:" ";
+  position:absolute;
+  left:0;
+  top:0;
+  right:0;
+  height:1px;
+  border-top:1px solid #e5e5e5;
+  color:#e5e5e5;
+  -webkit-transform-origin:0 0;
+          transform-origin:0 0;
+  -webkit-transform:scaleY(0.5);
+          transform:scaleY(0.5);
+  left:15px;
+  z-index:2;
+}
+.weui-cell:first-child:before{
+  display:none;
+}
+.weui-cell_primary{
+  -webkit-box-align:start;
+  -webkit-align-items:flex-start;
+          align-items:flex-start;
+}
+.weui-cell__bd{
+  -webkit-box-flex:1;
+  -webkit-flex:1;
+          flex:1;
+}
+.weui-cell__ft{
+  text-align:right;
+  color:#999999;
+}
+.weui-cell_swiped{
+  display:block;
+  padding:0;
+}
+.weui-cell_swiped > .weui-cell__bd{
+  position:relative;
+  z-index:1;
+  background-color:#FFFFFF;
+}
+.weui-cell_swiped > .weui-cell__ft{
+  position:absolute;
+  right:0;
+  top:0;
+  bottom:0;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex;
+  color:#FFFFFF;
+}
+.weui-swiped-btn{
+  display:block;
+  padding:10px 1em;
+  line-height:1.47058824;
+  color:inherit;
+}
+.weui-swiped-btn_default{
+  background-color:#C7C7CC;
+}
+.weui-swiped-btn_warn{
+  background-color:#FF3B30;
+}
+.weui-cell_access{
+  -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+  color:inherit;
+}
+.weui-cell_access:active{
+  background-color:#ECECEC;
+}
+.weui-cell_access .weui-cell__ft{
+  padding-right:13px;
+  position:relative;
+}
+.weui-cell_access .weui-cell__ft:after{
+  content:" ";
+  display:inline-block;
+  height:6px;
+  width:6px;
+  border-width:2px 2px 0 0;
+  border-color:#C8C8CD;
+  border-style:solid;
+  -webkit-transform:matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+          transform:matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  position:relative;
+  top:-2px;
+  position:absolute;
+  top:50%;
+  margin-top:-4px;
+  right:2px;
+}
+.weui-cell_link{
+  color:#586C94;
+  font-size:14px;
+}
+.weui-cell_link:first-child:before{
+  display:block;
+}
+.weui-check__label{
+  -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+.weui-check__label:active{
+  background-color:#ECECEC;
+}
+.weui-check{
+  position:absolute;
+  left:-9999em;
+}
+.weui-cells_radio .weui-cell__ft{
+  padding-left:0.35em;
+}
+.weui-cells_radio .weui-check:checked + .weui-icon-checked:before{
+  display:block;
+  content:'\EA08';
+  color:#09BB07;
+  font-size:16px;
+}
+.weui-cells_checkbox .weui-cell__hd{
+  padding-right:0.35em;
+}
+.weui-cells_checkbox .weui-icon-checked:before{
+  content:'\EA01';
+  color:#C9C9C9;
+  font-size:23px;
+  display:block;
+}
+.weui-cells_checkbox .weui-check:checked + .weui-icon-checked:before{
+  content:'\EA06';
+  color:#09BB07;
+}

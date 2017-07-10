@@ -1,0 +1,104 @@
+/**
+* @description: 常用的css3动画样式
+* @author: Qzx
+* @update: name (2017-07-07 18:32)
+* 动画class名称索引
+* 上滑：.weui-animate-slide-up   下滑： .weui-animate-slide-down
+* 淡入：.weui-animate-fade-in    淡出： .weui-animate-fade-out
+*/
+
+/* 上滑显示 */
+@-webkit-keyframes slideUp{
+  from{
+    -webkit-transform:translate3d(0, 100%, 0);
+            transform:translate3d(0, 100%, 0);
+  }
+  to{
+    -webkit-transform:translate3d(0, 0, 0);
+            transform:translate3d(0, 0, 0);
+  }
+}
+@keyframes slideUp{
+  from{
+    -webkit-transform:translate3d(0, 100%, 0);
+            transform:translate3d(0, 100%, 0);
+  }
+  to{
+    -webkit-transform:translate3d(0, 0, 0);
+            transform:translate3d(0, 0, 0);
+  }
+}
+.weui-animate-slide-up{
+  -webkit-animation:slideUp ease .3s forwards;
+          animation:slideUp ease .3s forwards;
+}
+
+/* 下滑隐藏 */
+@-webkit-keyframes slideDown{
+  from{
+    -webkit-transform:translate3d(0, 0, 0);
+            transform:translate3d(0, 0, 0);
+  }
+  to{
+    -webkit-transform:translate3d(0, 100%, 0);
+            transform:translate3d(0, 100%, 0);
+  }
+}
+@keyframes slideDown{
+  from{
+    -webkit-transform:translate3d(0, 0, 0);
+            transform:translate3d(0, 0, 0);
+  }
+  to{
+    -webkit-transform:translate3d(0, 100%, 0);
+            transform:translate3d(0, 100%, 0);
+  }
+}
+.weui-animate-slide-down{
+  -webkit-animation:slideDown ease .3s forwards;
+          animation:slideDown ease .3s forwards;
+}
+
+/* 淡入 */
+@-webkit-keyframes fadeIn{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+@keyframes fadeIn{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+.weui-animate-fade-in{
+  -webkit-animation:fadeIn ease .3s forwards;
+          animation:fadeIn ease .3s forwards;
+}
+
+/* 淡出 */ 
+@-webkit-keyframes fadeOut{
+  from{
+    opacity:1;
+  }
+  to{
+    opacity:0;
+  }
+}
+@keyframes fadeOut{
+  from{
+    opacity:1;
+  }
+  to{
+    opacity:0;
+  }
+}
+.weui-animate-fade-out{
+  -webkit-animation:fadeOut ease .3s forwards;
+          animation:fadeOut ease .3s forwards;
+}

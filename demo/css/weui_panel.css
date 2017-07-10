@@ -1,0 +1,64 @@
+/**
+* @description: weui Panel面板 样式
+* @author: Qzx
+* @update: name (2017-07-07 18:32)
+*/
+
+.weui-panel{
+  background-color:#FFFFFF;
+  margin-top:10px;
+  position:relative;
+  overflow:hidden;
+}
+.weui-panel:first-child{
+  margin-top:0;
+}
+.weui-panel:before{
+  content:" ";
+  position:absolute;
+  left:0;
+  top:0;
+  right:0;
+  height:1px;
+  border-top:1px solid #E5E5E5;
+  color:#E5E5E5;
+  -webkit-transform-origin:0 0;
+          transform-origin:0 0;
+  -webkit-transform:scaleY(0.5);
+          transform:scaleY(0.5);
+}
+.weui-panel:after{
+  content:" ";
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  height:1px;
+  border-bottom:1px solid #E5E5E5;
+  color:#E5E5E5;
+  -webkit-transform-origin:0 100%;
+          transform-origin:0 100%;
+  -webkit-transform:scaleY(0.5);
+          transform:scaleY(0.5);
+}
+.weui-panel__hd{
+  padding:14px 15px 10px;
+  color:#999999;
+  font-size:13px;
+  position:relative;
+}
+.weui-panel__hd:after{
+  content:" ";
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  height:1px;
+  border-bottom:1px solid #E5E5E5;
+  color:#E5E5E5;
+  -webkit-transform-origin:0 100%;
+          transform-origin:0 100%;
+  -webkit-transform:scaleY(0.5);
+          transform:scaleY(0.5);
+  left:15px;
+}
