@@ -1,127 +1,155 @@
 # 原生JavaScript DOM操作汇总
 回归最初，熟练掌握原生DOM的操作 by Qzx
-## 1. 创建元素
+## 简介
+通过html dom 可以访问html文档的所有元素，当网页被加载时，浏览器会创建页面的文档对象模型（Document Object Model）。通过可编程的对象模型，JavaScript 获得了足够的能力来创建动态的HTML。
 
-```
-创建元素：document.createElement
-```
-使用<i style="color: red">`document.createElement()`</i> 可以创建新元素，只接受一个参数：创建元素的标签名，这个标签名在`HTML`文档中不区分大小写，在`XHTML`中区分大小写。
-在使用 <i style="color: red">`createElement()`</i>创建新元素的同时，可以同时为新元素设置 `ownerDocument` 属性，可操作元素的特性。
+ - JavaScript 能够改变页面中的所有 HTML 元素
+ - JavaScript 能够改变页面中所有 HTML 属性
+ - JavaScript 能够改变页面中所有 CSS 样式
+ - JavaScript 能够对页面中的所有事件作出反应
+ 
+参考网址：
 
-```
-var div = document.createElement("div");
-div.id = "myDiv";
-div.className = "div1";
-```
-此时，新元素尚未被添加到文档树中，因此设置各种特性均不会影响浏览器的显示，要添加到文档树，可用<i style="color: red">`appendChild()、insertBefore()、replaceChild()`</i>。
+- [HTML DOM Element 属性和方法](http://www.w3school.com.cn/jsref/dom_obj_all.asp)
+- [HTML DOM Event 对象事件](http://www.w3school.com.cn/jsref/dom_obj_event.asp)
 
-```
-document.body.appendChild(div);
-```
-## 2. 创建节点
-```
-创建文本节点：document.createTextNode
-```
-使用<i style="color: red">`document.createTextNode()`</i>来创建文本节点，接受一个参数：要插入节点的文本。与设置已有文本节点的值一样，作为参数的文本将按照 `HTML` 或 `XML` 的格式进行编码。
 
+## 1. 元素查找与获取
 ```
-document.createTextNode("121212");
+通过Id查找: document.getElementById("idName");
+通过class类名查找: document.getElementByClassName("className");
+通过标签名查找: document.getElementsByTagName("tagName");
+通过name属性查找: document.getElementsByName();
 ```
-可以添加多个文本节点，假如两个文本节点是相邻的同胞节点，那么两个文本节点会连起来，中间不会有空格。
-## 3. 节点关系
-文本关系如下:
-
+## 2. 修改HTML元素的内容
 ```
-<div id="div1">
-	<div id="div2">2</div>
-	<div id="div3">3</div>
-	<div id="div4">4</div>
-</div>
-```
-> 父节点：parentNode
-
-`parentNode` 是指定节点的父节点，一个元素节点的父节点可能是一个元素（Element）节点，也可能是一个文档（Document）节点，或者是个文档碎片（DocumentFragment）节点。每一个节点都有一个`parentNode`属性。<br>
-对于下面的节点类型：`Attr、Document、DocumentFragment、Entity、Notation,其parentNode属性返回null`。如果当前节点刚刚被建立，还没有插入到DOM树中，则该节点的parentNode属性也是 返回 null。
-
-```
-<script type="text/javascript">
-	var child2 = document.getElementById("div2");
-	var parent = child2.parentNode;
-</script>
-```
-> 兄弟节点： nextSibling, previousSibling
-
-<i style="color: red">`nextSibling` </i>返回某节点的下一个兄弟节点，<i style="color: red">`previousSibling` </i>返回某节点的上一个兄弟节点，没有的话返回 null。<br>
-<b>注意</b>：可能因为元素换行的原因返回的是 text 节点。
-> 第一个或者最后一个子节点： firstChild、lastChild
-
-firstChild 返回 node 的子节点中的第一个节点的引用，没有则返回 null;<br>
-lastChild 返回 node 的子节点中的最后一个节点的引用，没有则返回 null; 
-
-## 4、节点元素关系
-
-```
-末尾添加节点：someNode.appendChild()
-```
-`appendChild()`用于向 childNodes 列表的末尾添加一个节点，并且返回这个新增的节点。
-
-```
-某个节点前插入：someNode.insetBefore(newNode, someNode)
-```
-`insetBefore()`可以将节点插入到某个特定的位置，接受两个参数：要插入的节点和作为参考的节点。插入节点后，被插入的节点变成参考节点的前一个同胞节点，同时被方法返回，如果参考节点是 null, 则与 appendChild() 执行相同的操作。
-
-```
-替换节点： someNode.replaceChild(newNode, someNode.firstChild);
-```
-`replaceChild()`接受两个参数：要插入的节点和要被替换的节点。被替换的节点将由这个方法返回并从文档中移除，同时由要插入的节点占据其位置
-
-```
-// 移除第一个子节点
-var returnNode = someNode.removeChild(newNode, someNode.firstChild);
-```
-```
-克隆节点 : cloneNode(true/false)
-```
-返回调用该方法的节点的一个副本，参数表示是否采用深度克隆，如果为 true, 则该节点的所有后代节点也会被克隆，如果为 false,则只克隆该节点本身，文本或者换行、空格这些不会复制，因为他们都是一个 textNode。<br>
-<b>注意：</b>为防止一个文档中出现两个 ID 重复的元素，使用 cloneNode() 方法克隆的节点在需要时应该制定另外一个与 原 ID 值不同的ID。
-
-```
-var div1 = document.getElementById("div1");
-var cloneHtml = div1.cloneNode(true);
-document.body.appendChild(cloneHtml);
-``` 
-## 5. 元素选择
-
-```
-// html 代码示例
-<div id="div1">
-    <p id="div2" class="one" name="nameone">2</p>
-    <div id="div3">3</div>
-    <div id="div4" name="div2">4</div>
-</div>
+改变html输出流: document.write();
+改变html内容: document.getElementById("idName").innerHTML="文本内容";
+改变html属性: document.getElementById("idName").attribute="new value";
+	    例如: document.getElementById("idName").src = 'location.png';
+改变html元素样式: document.getElementById("idName").style.property=new style;
+	    例如: document.getElementById("idName").style.color="red";	
 ```
 
+## 3. 添加和删除节点（HTML元素）
 ```
-document.querySelector
-document.querySelectorAll 
+var para = document.createElement("p");
+var node = document.createTextNode("这是新段落");
+para.appendChild(node);
+var element = document.getElementById("div1");
+element.appendChild(para);
 ```
-<i style="color: red">`querySelector`</i> : 返回节点子树内与之相匹配的第一个 Element 节点。若没有匹配的节点则返回 null。<br>
-<i style="color: red">`querySelectorAll`</i>: 返回一个包含节点子树内所有与之相匹配的 Element 节点列表，若没有匹配的则返回 一个空节点列表。<br>
-<b>注意：</b>由 querySelector()、querySelectorAll()返回的节点列表不是动态实时的（非live Collection）。<br>
-选择器方法接受一个或者多个用逗号分隔的选择器来确定需要返回的元素。
+添加步骤：
 
-```
-// 选择文档中所有 CSS 类是 waring 或者 note 的段落(p)元素
-var special = document.querySelectAll("p.warning, p.notr");
-// 也可以通过ID来查询
-var el = document.querySelector("#main, #basic, #exclamation");
-```
+1. 创建新的 `<p>` 元素
+2. 创建文本节点
+3. 向已有的元素追加新元素
 
+## 4. 常用的dom对象方法(documnet.)
+         方法             |          描述   
+         ----            |         ------
+getElementById()	         | 返回带有指定 ID 的元素。
+getElementsByTagName()	  | 返回包含带有指定标签名称的所有元素的节点列表（集合/节点数组）。
+getElementsByClassName() | 返回包含带有指定类名的所有元素的节点列表。
+appendChild()	            | 把新的子节点添加到指定节点。
+removeChild()	            | 删除子节点。
+replaceChild()	         | 替换子节点。
+insertBefore()	         | 在指定的子节点前面插入新的子节点。
+createAttribute()	      | 创建属性节点。
+createElement()	         | 创建元素节点。
+createTextNode()	         | 创建文本节点。
+getAttribute()	         | 返回指定的属性值。
+setAttribute()	         | 把指定属性设置或修改为指定的值。
+
+## 5. html元素的属性和方法(element对象表示元素)
+         方法             |          描述   
+         ----            |         ------
+element.id               | 设置或者返回元素的 id 属性  
+element.className        | 设置或者返回元素的 class 属性  
+element.style            | 设置或返回元素的 style 属性
+element.title            | 设置或者返回元素的 title 属性
+element.innerHTML        | 设置或返回元素的内容
+element.tagName          | 返回元素的标签名
+element.lastChiled       | 返回元素的最后一个子元素
+element.nodeValue        | 设置或返回元素的值
+element.nodeName         | 返回元素的名称
+element.nodeType         | 返回元素的节点类型
+element.toString()       | 把元素转为字符串
+element.textContent      | 设置或者返回节点及其后代的内容
+element.parentNode       | 返回元素的父节点
+element.appendChild()    | 向元素添加新的子节点，作为最后一个子节点
+element.cloneNode()      | 克隆元素
+element.getAttribute()   | 返回元素节点的指定属性值
+element.getAttributeNode() | 返回指定的属性节点
+element.removeAttribute()  | 从元素中移除指定属性
+element.removeAttributeNode()  | 移除指定的属性节点，并返回被移除的节点
+element.hasAttribute()   | 如果元素拥有指定属性，则返回true,否则返回false
+element.hasAttributes()  | 如果元素拥有属性，则返回true,否则返回false
+element.hasChildNodes()  | 如果元素拥有子节点，则返回true,否则返回false
+element.clientWidth      | 返回元素的可见宽度
+element.clientHeight     | 返回元素的可见高度
+element.offsetWidth      | 返回元素的宽度
+element.offsetHeight     | 返回元素的高度
+element.offsetLeft       | 返回元素的水平偏移位置
+element.offsetTop        | 返回元素的垂直偏移位置
+element.offsetParent     | 返回元素的偏移容器
+element.scrollWidth      | 返回元素的整体宽度
+element.scrollHeight     | 返回元素的整体高度
+element.scrollLeft       | 返回元素左边缘与视图之间的距离
+element.scrollTop        | 返回元素上边缘与视图之间的距离
+element.childNodes       | 范湖元素子节点的 NodeList 。
+nodelist.item()          | 返回 NodeList 中位于指定下标的节点
+nodelist.length          | 返回 NodeList 中的节点数
+
+## 6. HTML DOM Event对象
+##### Event 对象
+Event 对象代表事件的状态，比如事件在其中发生的元素、键盘按键的状态、鼠标的位置、鼠标按钮的状态。事件通常与函数结合使用，函数不会在事件发生前被执行！
+### 事件句柄（Event Handlers）
+属性         |          此事件发生在何时...
+------      | ------
+onclick     | 当用户点击某个对象时调用
+onload      | 一张页面或一幅图像完成加载
+onblur      | 元素失去焦点
+onchange    | 域的内容被改变
+ondblclick  | 当用户双击某个对象时调用的事件
+onfocus     | 元素获得焦点
+onsubmit    | 确认按钮被点击
+onreset     | 重置按钮被点击
+onselect    | 文本被选中
+onabort     | 图像的加载被中断
+onerroer    | 在加载文档或图像时发生错误
+onkeydown   | 某个键盘按键被按下
+onkeypress  | 某个键盘按键被松开
+onmousedown | 鼠标按钮被按下
+onmouseup   | 鼠标按键被松开
+onmousemove | 鼠标被移动
+onmouseout  | 鼠标从某元素移开
+onmouseover | 鼠标移到某元素之上
+onresize    | 窗口或框架被重新调整大小
+onunload    | 用户退出页面
+
+
+## 7. 常用的原生JavaScript操作方法汇总
+#### 原生ajax发生接口（4步）
 ```
-document.getElementById()  : 匹配特定ID
-document.getElementsByTagName()  : 匹配标签名
-document.getElementsByName()  : 匹配文档中所有 name 属性的标签
-document.getElementsByClassName()  : 匹配所有指定 class 的子元素
+// 先 new 出一个 XMLHttpRequest 对象
+var xhr = new XMLHttpRequest();
+
+// 配置请求对象的信息
+xhr.open('GET/POST', 'url地址', ['是否异步']);
+注意：若使用post请求，一定要设置请求头
+xhr.setRequestHeader("Content-Type","application/x-www-from-urlencoded; charset=gb2312");
+
+// 发送请求, get请求没有报文头写null
+xhr.send([post请求参数字符串])
+
+// 处理服务器上面返回的响应
+xhr.onreadystatechange = function () {
+	if(xhr.readyState == 4 && xhr.status == 200) {
+		// 做一些操作  xhr.responseText
+	}
+}
+
 ```
 
 

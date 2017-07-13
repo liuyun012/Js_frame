@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+  <title>weui(1.0.0) 进度条Progress组件</title>
+  <link rel="stylesheet" href="./css/common/reset.css">
+  <link rel="stylesheet" href="./css/common/example.css">
+  <link rel="stylesheet" href="./css/common/icon_font.css">
+  <link rel="stylesheet" href="./css/weui_button.css">
+  <link rel="stylesheet" href="./css/weui_progress.css">
+  <script type="text/javascript" src="./js/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="page">
+    <div class="page__hd">
+      <h1 class="page__title">Progress</h1>
+      <p class="page__desc">进度条</p>
+    </div>
+    <div class="page__bd page__bd_spacing">
+      <div class="weui-progress">
+        <div class="weui-progress__bar">
+          <div class="weui-progress__inner-bar js_progress" style="width: 0%;"></div>
+        </div>
+        <a href="javascript:;" class="weui-progress__opr">
+                <i class="weui-icon-cancel"></i>
+            </a>
+      </div>
+      <br>
+      <div class="weui-progress">
+        <div class="weui-progress__bar">
+          <div class="weui-progress__inner-bar js_progress" style="width: 50%;"></div>
+        </div>
+        <a href="javascript:;" class="weui-progress__opr">
+                <i class="weui-icon-cancel"></i>
+            </a>
+      </div>
+      <br>
+      <div class="weui-progress">
+        <div class="weui-progress__bar">
+          <div class="weui-progress__inner-bar js_progress" style="width: 80%;"></div>
+        </div>
+        <a href="javascript:;" class="weui-progress__opr">
+                <i class="weui-icon-cancel"></i>
+            </a>
+      </div>
+      <div class="weui-btn-area">
+        <a href="javascript:;" class="weui-btn weui-btn_primary" id="btnUpload">上传</a>
+      </div>
+    </div>
+    <div class="page__ft">
+      <a href="javascript:home()"><img src="./images/icon_footer_link.png" /></a>
+    </div>
+  </div>
+  <script type="text/javascript">
+    $(function() {
+      var $progress = $('.js_progress'),
+        $btnUpload = $('#btnUpload');
+      var progress = 0;
+
+      function next() {
+        if (progress > 100) {
+          progress = 0;
+          $btnUpload.removeClass('weui-btn_disabled');
+          return;
+        }
+        $progress.css({
+          width: progress + '%'
+        });
+        progress = ++progress;
+        setTimeout(next, 20);
+      }
+
+      $btnUpload.on('click', function() {
+        if ($btnUpload.hasClass('weui-btn_disabled')) return;
+
+        $btnUpload.addClass('weui-btn_disabled');
+        next();
+      });
+    });
+  </script>
+</body>
+
+</html>
