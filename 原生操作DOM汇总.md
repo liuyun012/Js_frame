@@ -62,8 +62,9 @@ getAttribute()	         | 返回指定的属性值。
 setAttribute()	         | 把指定属性设置或修改为指定的值。
 
 ## 5. html元素的属性和方法(element对象表示元素)
-         方法             |          描述   
-         ----            |         ------
+
+方法                      |  描述   
+------                   |  ------
 element.id               | 设置或者返回元素的 id 属性  
 element.className        | 设置或者返回元素的 class 属性  
 element.style            | 设置或返回元素的 style 属性
