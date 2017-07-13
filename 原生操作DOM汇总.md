@@ -46,8 +46,8 @@ element.appendChild(para);
 3. 向已有的元素追加新元素
 
 ## 4. 常用的dom对象方法(documnet.)
-         方法             |          描述   
-         ----            |         ------
+方法                      |  描述   
+-----                    |  ------
 getElementById()	         | 返回带有指定 ID 的元素。
 getElementsByTagName()	  | 返回包含带有指定标签名称的所有元素的节点列表（集合/节点数组）。
 getElementsByClassName() | 返回包含带有指定类名的所有元素的节点列表。
