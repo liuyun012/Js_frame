@@ -15,7 +15,7 @@
         <header>
           <h1>博客目录<h1>
         </header>
-        <div class="">
+        <div class="" id="blog">
             <ul>
               <li><a href="#">jade语法整理</a></li>
             </ul>
@@ -26,7 +26,7 @@
     <script type="text/javascript" src="./js/marked.js"></script>
     <script type="text/javascript">
       $.get("blog/jade语法整理.md", function(response, status, xhr){
-        $("#content").html(marked(response));
+        $("#blog").html(marked(response));
       });
     </script>
   </body>
