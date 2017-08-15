@@ -26,7 +26,8 @@
 	- [Sublime Text 3 常用插件推荐](https://github.com/jikeytang/sublime-text)
 
 ## 技术学习过程记录
-
+- 搭建个人博客
+	- [个人博客网站的搭建(github Pages 和 Jekyll)](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 - 前端相关学习网站及论坛
 	- [GitHub](https://github.com/) 
 	- [Github常用插件和库](https://github.com/jawil/blog/issues/10)
@@ -115,6 +116,8 @@
 	- 富文本编辑器
 		-  [ueditor](https://github.com/fex-team/ueditor)
 		-  [移动端富文本编辑器 -- artEditor](https://github.com/baixuexiyang/artEditor)
+		-  [react-lz-editor](https://github.com/leejaen/react-lz-editor)
+		-  [wangEditor —— 轻量级web富文本框](https://github.com/wangfupeng1988/wangEditor)
 	- H5 手机端快速开发库
 		- [Light7 -- 轻量，小巧且精美的UI库](http://light7.cn) 
 	- HTML 5 游戏类框架

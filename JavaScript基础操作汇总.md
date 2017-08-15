@@ -29,10 +29,12 @@ javascript基础知识点汇总整理 by Qzx
  unshift()  | 向数组的开头添加一个或更多元素，并返回新的长度  | arr.unshift('James','Jack')
  sort()     | 对数组的元素进行排序           |  arr.sort()
  reverse()  | 颠倒数组中元素的顺序           | arr.reverse()
+ reduce()   | 对数组所有元素调用指定的回调函数 | arr.reduce((a,b) => a+b, 0) 数组内所有元素相加
+ map()      | 对数组的每个元素调用定义的回调函数 | arr.map((a) => a + 10) 数组内所有元素加 10
  toString() | 将数组转换为字符串，并返回结果   | arr.toString()
  toSource() | 返回该对象的源代码             | arr.toSource()
  valueOf()  | 返回数组对象的原始值           | arr. valueOf()
- 
+  
 #### String 对象
 创建方式： ①  new String(s)  ②  String(s)  ③ ''
 参数： s 是要存储在 String 对象中或转换成原始字符串的值
