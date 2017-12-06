@@ -24,6 +24,10 @@
 - [解决IOS下不支持fixed的问题](http://www.alixixi.com/web/a/2014072993818.shtml)
 - [css伪类元素和伪元素的用法详解](http://www.cnblogs.com/ghost-xyx/p/3763669.html)
 - [小三角带边框带阴影的div——css实现效果](http://blog.csdn.net/swallowliyan/article/details/53639059)
+- [用CSS让你的文字更有文艺范](http://www.vince.studio/2017/08/19/%E7%94%A8CSS%E8%AE%A9%E4%BD%A0%E7%9A%84%E6%96%87%E5%AD%97%E6%9B%B4%E6%96%87%E8%89%BA/)
+- [实用的 CSS — 贝塞尔曲线(cubic-bezier)](https://segmentfault.com/a/1190000004618375)
+- [clip-path 裁剪属性获取maker](https://bennettfeely.com/clippy/)
+- [Css常用效果总结 — 快速查询笔记](http://www.qdfuns.com/notes/47654/f26eaa6148a3de8e8055bb6327b82055.html)
 
 ## Css项目中不常见属性汇总
 1. 字体样式设置：<br>
@@ -122,7 +126,10 @@
 	```
 	a,img,button,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0);}
 	```
-14. 
+14. ul列表用图片更换默认的圆点和序号
 
-
+	```
+	list-style: square inside url('list.png');
+	```
+15. pointer-events: none; 禁止事件穿透，即取消鼠标的点击事件的执行
 

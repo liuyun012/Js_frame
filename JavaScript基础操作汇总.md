@@ -48,6 +48,7 @@ javascript基础知识点汇总整理 by Qzx
 ##### String 对象方法
  方法           |  描述       |    例子
  ------        | -----      |  ------
+ trim()        | 从字符串中移除前导空格、尾随空格和行终止符| str.trim(" Hello") 
  indexOf()     | 检索字符串   | str.indexOf("Hello") 
  lastIndexOf() | 从后向前搜索字符串  | str.indexOf("Hello") 
  match()       | 找到一个或多个正则表达式的匹配   | str.match("World")

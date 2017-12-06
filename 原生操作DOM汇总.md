@@ -131,7 +131,8 @@ onunload    | 用户退出页面
 
 
 ## 7. 常用的原生JavaScript操作方法汇总
-#### 原生ajax发生接口（4步）
+- 原生ajax发生接口（4步）
+
 ```
 // 先 new 出一个 XMLHttpRequest 对象
 var xhr = new XMLHttpRequest();
@@ -152,6 +153,16 @@ xhr.onreadystatechange = function () {
 }
 
 ```
+
+- 监听手机横竖屏事件
+
+```
+// 监听 orientation changes
+window.addEventListener("orientationchange", function(event) {
+ // 根据event.orientation|screen.orientation.angle等于0|180、90|-90度来判断横竖屏
+}, false);
+```
+orientationchange事件在低端的adroid机器上存在兼容性问题，可能不会触发
 
 
 
