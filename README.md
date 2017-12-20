@@ -5,9 +5,12 @@
 - 软件安装
 	- 电脑软件：Homebrew(包管理器)、Chrome浏览器、Firefox浏览器、微信、Evernote(印象笔记)、有道词典、Microsoft Office套装、Jenkins、Keka(解压缩)、Xcode
 	- 前端开发工具：iTem2(终端)、Dropbox(文件夹共享)、Atom、Yarn(依赖管理工具)、Ps cc2017、Charles(花瓶)、Sequel Pro(数据库)、MacDown(markdown编辑器)、Sketch(设计稿标注神器)
-	- Chrome 浏览器开发常用插件：Page Ruler、Window Resizer、WhatFont、Dimensions、Proxy SwitchyOmega、Postman
+	- Chrome 浏览器开发常用插件：Page Ruler、Window Resizer、WhatFont、Dimensions、Proxy SwitchyOmega、Postman、Full Page Screen Capture、Tampermonkey、CSS Peeper、Redux DevTools
+	- Sketch 插件：Sketch Measure、Craft、
 	- 后端开发集成软件： MAMP
-	- 翻墙工具集合：搬瓦工VPS
+	- 远程控制协助软件：[teamviewer](https://www.teamviewer.com/zhCN/)
+	- 翻墙工具集合：[搬瓦工VPS](http://banwagong.cn/)
+	- [MacOS : 前端必备姿势(工作环境)](https://juejin.im/post/5a09117df265da431a42af79?utm_source=gold_browser_extension)
 - 安装地址及破解教程
 	- [在Mac上安装office2016破解版](http://www.jianshu.com/p/2172835cfb17) 
 	- [Adobe Photoshop CC 2017 Mac中文破解版](http://www.sdifen.com/photoshopcc2017.html)
@@ -27,6 +30,8 @@
 	- [Chrome 35个开发者工具的小技巧](http://www.w3cplus.com/tools/dev-tips.html)
 	- [Sublime Text 3 Mac破解版](http://www.sdifen.com/sublimetext3.html)
 	- [Sublime Text 3 常用插件推荐](https://github.com/jikeytang/sublime-text)
+	- [程序 -- 编程小技巧](https://www.oudahe.com/)
+	- [中国国内可用API合集](https://juejin.im/entry/59e85ee1f265da433561dec0?utm_source=gold_browser_extension#%E7%94%B5%E5%BD%B1)
 
 ## 技术学习过程记录
 - 搭建个人博客
@@ -48,6 +53,7 @@
 	- [软件知识库](http://lib.csdn.net/react/node/408)
 	- [Digcss.com -- 前端知识](http://digcss.com)
 	- [前端人的俱乐部](http://f2er.club)
+	- [浏览器兼容性问题解决方案 · 总结](http://www.lovebxm.com/2017/08/28/compatibility/)
 - 前端在线代码调试工具
 	- [jsFiddle ](https://jsfiddle.net) 
 	- [RunJs ](http://runjs.cn/code)
@@ -75,6 +81,7 @@
 	- [常用 Git 命令清单 -- 阮一峰](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html) 
 	- [git学习宝典：程序员走江湖必备](https://segmentfault.com/a/1190000009893041?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 - 前端开发辅助工具汇总
+	-  [Git 学习教程](https://learngitbranching.js.org/)
 	-  [Yarn 中文官网](https://yarnpkg.com/zh-Hans/)
 	-  [Grunt中文文档](http://www.gruntjs.net/)
 	-  [Gulp中文官网](http://www.gulpjs.com.cn/)
@@ -86,13 +93,21 @@
 	-  [npm package.json属性详解](http://www.cnblogs.com/tzyy/p/5193811.html)
 	-  [语法检查 -- ESlint中文](http://eslint.cn/docs/rules/)
 	-  [精读前端调试技巧](https://zhuanlan.zhihu.com/p/27334352)
+	-  [零配置的 Web 应用打包工具 - Parcel](http://www.css88.com/doc/parcel/)
 - UI、产品、后台相关技术
 	- [如何做一份让工程师泪流满面的标注？](http://www.uisdc.com/designer-mark-for-developer)
 	- [阿里巴巴矢量图标库](http://www.iconfont.cn)
 	- [移动端设计指南 -- Ant Design Mobile](https://mobile.ant.design/index-cn)
 	- [Ant Design --  UI 设计语言](https://ant.design/index-cn)
 	- [后台接口文档生成器 - APIDOC](http://apidocjs.com/)
+	- [DOClever 移动时代首选接口管理平台！](http://doclever.cn/controller/index/index.html)
 	- [奇迹秀--设计工具集锦](http://www.qijishow.com/)
+	- [设计百宝箱](https://uirush.com/page/design)
+	- [草料二维码生成](https://cli.im/)
+	- [Sketch中文官网](http://sketch.im/)
+	- [Sketch 中国社区](http://www.sketchchina.com/special-3)
+	- [设计百宝箱](https://uirush.com/)
+	- [设计师素材管理工具 -- Eagle](https://eagle.cool/macOS)
 - CSS 技术汇总  2015.11 ~ 未知
 	- [前端CSS规范整理](https://www.biaodianfu.com/css-style-guide.html) 
 	- [编写可维护的CSS](https://segmentfault.com/a/1190000000388784) 
@@ -100,7 +115,7 @@
 	- [Sass中文文档](http://sass.bootcss.com/)
 	- [stylus中文版文档](http://www.zhangxinxu.com/jq/stylus/)
 	- [PostCSS -- 入门精通教程](https://www.w3cplus.com/blog/tags/516.html)
-	- [Salad - 基于PostCSS的 CSS 解决方案](http://elemefe.github.io/postcss-salad/)
+	- [postcss-salad - 基于PostCSS的 CSS 解决方案](http://elemefe.github.io/postcss-salad/)
 	- [基于flexbox的栅格化布局库--flex-layout](http://coffcer.github.io/flex-layout/#responsive)
 	- [flex布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool)
 	- [flex布局教程：实例篇](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html?bsh_bid=683103006)
@@ -183,6 +198,7 @@
 	- [vue插件整理汇总-awesome-github-vue](https://github.com/opendigg/awesome-github-vue)
 	- [Element，一套基于 Vue2.0 的桌面端组件库](http://element.eleme.io/#/zh-CN)
 	- [iView, 一套基于 Vue2.0 的高质量 UI 组件库](https://www.iviewui.com/)
+	- [vue(2) - 收藏集 - 掘金](http://www.jianshu.com/p/5a6521c5bdf0?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 - 全栈开发系列教程
 	- [JavaScript 全栈工程师培训教程 -- 阮一峰](http://www.ruanyifeng.com/blog/2016/11/javascript.html) 
 - 后端 PHP 开发 

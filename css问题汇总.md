@@ -13,6 +13,7 @@
 - [css3中单位px,em,rem,vh,vw,vmin,vmax的区别](http://blog.csdn.net/jyy_12/article/details/42557241)
 - [前端不为人知的一面--前端冷知识集锦](http://www.cnblogs.com/Wayou/p/things_you_dont_know_about_frontend.html)
 - [CSS文字两端对齐](http://blog.163.com/lgh_2002/blog/static/440175262013580153222/)
+- [字体两端对齐，兼容ios和安卓系统](http://blog.csdn.net/happycat108/article/details/77095088)
 - [CSS clip:rect矩形剪裁功能及一些应用介绍](http://www.zhangxinxu.com/wordpress/2011/04/css-clip-rect/)
 - [CSS align-items 属性](https://developer.mozilla.org/zh-CN/docs/Web/CSS/align-items)
 - [css单词断词、换行](http://www.alloyteam.com/2016/05/css-word-for-word-breaker-do-you-really-understand/)
