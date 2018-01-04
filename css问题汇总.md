@@ -2,6 +2,7 @@
 平常项目中遇到的css不常用语法整理 by Qzx
 ## css问题解决及说明相关网址
 - [前端CSS规范整理 -- 标点符](https://www.biaodianfu.com/css-style-guide.html)
+- [css属性查看](http://cssreference.io/)
 - [编写高效的CSS教程](https://developer.mozilla.org/zh-CN/docs/Learn/CSS)
 - [PostCSS深入学习系列教程](http://www.w3cplus.com/PostCSS/postcss-deep-dive-preprocessing-with-precss.html)
 - [大量 css3 hover效果动画](http://ianlunn.github.io/Hover/)
@@ -134,3 +135,25 @@
 	```
 15. pointer-events: none; 禁止事件穿透，即取消鼠标的点击事件的执行
 
+16. 修改placeholder 的文字颜色：
+
+	```
+	::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    	color:    #909;
+	}
+	:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	   color:    #909;
+	   opacity:  1;
+	}
+	::-moz-placeholder { /* Mozilla Firefox 19+ */
+	   color:    #909;
+	   opacity:  1;
+	}
+	:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	   color:    #909;
+	}
+	::-ms-input-placeholder { /* Microsoft Edge */
+	   color:    #909;
+	}
+	```
+17. s

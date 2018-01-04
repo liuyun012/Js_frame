@@ -8,9 +8,11 @@
 	- Chrome 浏览器开发常用插件：Page Ruler、Window Resizer、WhatFont、Dimensions、Proxy SwitchyOmega、Postman、Full Page Screen Capture、Tampermonkey、CSS Peeper、Redux DevTools
 	- Sketch 插件：Sketch Measure、Craft、
 	- 后端开发集成软件： MAMP
+	- 软件快捷键查看工具：[CheatSheet](https://www.mediaatelier.com/CheatSheet/) (长按 Command 键)
 	- 远程控制协助软件：[teamviewer](https://www.teamviewer.com/zhCN/)
 	- 翻墙工具集合：[搬瓦工VPS](http://banwagong.cn/)
 	- [MacOS : 前端必备姿势(工作环境)](https://juejin.im/post/5a09117df265da431a42af79?utm_source=gold_browser_extension)
+	- 开源全平台的虚拟机：[VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - 安装地址及破解教程
 	- [在Mac上安装office2016破解版](http://www.jianshu.com/p/2172835cfb17) 
 	- [Adobe Photoshop CC 2017 Mac中文破解版](http://www.sdifen.com/photoshopcc2017.html)
@@ -32,6 +34,7 @@
 	- [Sublime Text 3 常用插件推荐](https://github.com/jikeytang/sublime-text)
 	- [程序 -- 编程小技巧](https://www.oudahe.com/)
 	- [中国国内可用API合集](https://juejin.im/entry/59e85ee1f265da433561dec0?utm_source=gold_browser_extension#%E7%94%B5%E5%BD%B1)
+	- [有字库是全球第一中文font(在线字体)服务平台。](https://www.youziku.com/)
 
 ## 技术学习过程记录
 - 搭建个人博客
@@ -65,6 +68,9 @@
 	- [react 插件大汇总](https://github.com/brillout/awesome-react-components)
 	- [vue插件整理汇总-awesome-github-vue](https://github.com/opendigg/awesome-github-vue)
 	- [MUI-最接近原生App体验的前端框架](http://www.dcloud.io/mui.html)
+	- [前端编辑器 -- Atom](https://atom.io/)
+	- [Fetool -- 大前端工具集](http://www.fefork.com/fetool/)
+	- [前端开发规范手册](http://zhibimo.com/read/Ashu/front-end-style-guide/index.html)
 - 原生DOM操作学习： 开始学习 2015.09 ~ 至今
 	- [javaScript基础知识点梳理](http://www.jianshu.com/p/f3bcd36e56d1)
 	- [常见的原生javascript DOM操作](https://segmentfault.com/a/1190000004076145) 
@@ -102,12 +108,13 @@
 	- [后台接口文档生成器 - APIDOC](http://apidocjs.com/)
 	- [DOClever 移动时代首选接口管理平台！](http://doclever.cn/controller/index/index.html)
 	- [奇迹秀--设计工具集锦](http://www.qijishow.com/)
-	- [设计百宝箱](https://uirush.com/page/design)
+	- [设计百宝箱](https://uirush.com/)
 	- [草料二维码生成](https://cli.im/)
 	- [Sketch中文官网](http://sketch.im/)
 	- [Sketch 中国社区](http://www.sketchchina.com/special-3)
-	- [设计百宝箱](https://uirush.com/)
 	- [设计师素材管理工具 -- Eagle](https://eagle.cool/macOS)
+	- [摄图网](http://699pic.com/)
+	- [站酷](http://www.zcool.com.cn)
 - CSS 技术汇总  2015.11 ~ 未知
 	- [前端CSS规范整理](https://www.biaodianfu.com/css-style-guide.html) 
 	- [编写可维护的CSS](https://segmentfault.com/a/1190000000388784) 
@@ -201,6 +208,9 @@
 	- [vue(2) - 收藏集 - 掘金](http://www.jianshu.com/p/5a6521c5bdf0?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 - 全栈开发系列教程
 	- [JavaScript 全栈工程师培训教程 -- 阮一峰](http://www.ruanyifeng.com/blog/2016/11/javascript.html) 
+- Node 开发
+	- [node中文官网](https://nodejs.org/zh-cn/)  
+	- [Express官网](http://www.expressjs.com.cn/)
 - 后端 PHP 开发 
 	- [Mamp -- PHP开发环境](https://www.mamp.info/en/)
 	- [PHP 菜鸟教程](http://www.runoob.com/php/php-tutorial.html)
@@ -210,4 +220,5 @@
 	- [Apidoc安装与使用](http://www.jianshu.com/p/e3a04b5d8bb4)
 - 前端优秀个人博客
 	- [阮一峰](http://www.ruanyifeng.com/blog/)  
+	- [张鑫旭](http://www.zhangxinxu.com/wordpress/)
 	- [熊建刚](http://blog.codingplayboy.com)
