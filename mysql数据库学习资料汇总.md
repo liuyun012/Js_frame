@@ -1,6 +1,7 @@
 # MySQL数据库学习资料汇总
 数据库（Database）是按照数据结构来组织、存储和管理数据的仓库，每个数据库都有一个或多个不同的API用于创建，访问，管理，搜索和复制所保存的数据。MySQL是一个关系型数据库管理系统。
 ## 参考资料网址
+- [书籍参考《MySQL数据库入门》](https://e.jd.com/30190816.html)
 - [MySQL中文官网](https://www.mysql.com/cn/)
 - [MySQL教程 -- 菜鸟教程](http://www.runoob.com/mysql/mysql-tutorial.html)
 - [mac安装mysql的两种方法（含配置）](https://www.jianshu.com/p/fd3aae701db9)
@@ -429,5 +430,101 @@ serializable;
 
 ```
 // 创建查看student表的存储过程
+// 创建student表
+create table student(
+	id int not null primary key auto_increment,
+	name varchar(4),
+	grade float
+)ENGINE=InnoDB default character set utf8;
+delimiter //   -- 将mysql的结束符设置为//
+create procedure Proc()
+	begin
+	select * from student;
+	end //
+delimiter ;   -- 将mysql的结束符设置为 ;
+call Proc();  -- 这样就可以调用该存储过程
+// 变量的使用，mysql中变量不用事前申明，在用的时候直接用“@变量名”使用就可以
+set @number=100;  -- 或set @num:=1;
+// 定义条件和处理程序
+// 光标的使用 (没有运行过去)
+// 1.声明光标
+DECLARE * cursor_name* CURSOR FOR select_statement
+2. 光标OPEN语句
+OPEN cursor_name
+3. 光标FETCH语句
+FETCH cursor_name INTO var_name [, var_name] ...
+4. 光标CLOSE语句
+CLOSE cursor_name
+// 流程控制的使用 暂不做介绍
+```
 
+### 3-3 调用存储过程
+
+```
+// 定义存储过程
+delimiter //
+create procedure proc1(in name varchar(4),out num int)
+begin
+select count(*) into num from student where name=name;
+end//
+delimiter ;
+// 调用存储过程
+call proc1("tom",@num)  -- 查找名为tom学生人数
+// 查看结果
+select @num; -- 结果 0
+```
+
+```
+// 查看存储过程
+show procedure status like 'p%'  -- 获得以p开头的存储过程信息
+// 修改存储过程
+alter {procedure|function} sp_name[characteristic...]
+// 删除存储过程
+drop procedure proc1;
+```
+
+## 四、视图
+> 如何创建视图 <br>
+> 查看、修改、更新、删除视图
+
+### 4-1、视图的基本操作
+
+```
+// 在单表上创建视图，重新创建student表，插入数据
+create table student(
+	id int not null primary key auto_increment,
+	name varchar(10) not null,
+	math float,
+	chinese float
+);
+insert into student(name,math,chinese) values('howie1',66,77),('howie2',66,77),('howie3',66,77);
+// 开始创建视图
+create view stu_view as select math,chinese,math+chinese from student;   -- select * from stu_view 可以查看是否成功
+// 也可以创建自定义字段名称的视图
+create view stu_view2(math,chin,sum) as select math,chinese,math+chinese from student;
+```
+
+```
+// 在多表上创建视图，创建表 stu_info, 插入数据
+create table stu_info(
+	id int not null primary key auto_increment,
+	class varchar(10) not null,
+	addr varchar(100)
+);
+insert into stu_info(class,addr) values('1','anhui'),('2','fujian'),('3','guangdong');
+// 创建视图stu_class
+create view stu_class(id,name,class) as select student.id,student.name,stu_info.class from student,stu_info where student.id=stu_info.id;
+// 查看视图
+desc stu_class;
+show table status like 'stu_class'
+show create view stu_class
+// 修改视图
+create or replace view stu_view as select * from student;
+alter view stu_view as select chinese from student;
+// 更新视图
+update stu_view set chinese=100;
+insert into student values(null,'haha',100,100);
+delete from stu_view2 where math=100;
+// 删除视图
+drop view if exists stu_view2;
 ```
