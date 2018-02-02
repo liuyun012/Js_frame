@@ -13,6 +13,7 @@
 	- 翻墙工具集合：[搬瓦工VPS](http://banwagong.cn/)
 	- [MacOS : 前端必备姿势(工作环境)](https://juejin.im/post/5a09117df265da431a42af79?utm_source=gold_browser_extension)
 	- 开源全平台的虚拟机：[VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+	- 电脑护眼软件：[F.lux ](https://justgetflux.com/)
 - 安装地址及破解教程
 	- [在Mac上安装office2016破解版](http://www.jianshu.com/p/2172835cfb17) 
 	- [Adobe Photoshop CC 2017 Mac中文破解版](http://www.sdifen.com/photoshopcc2017.html)
@@ -39,6 +40,11 @@
 ## 技术学习过程记录
 - 搭建个人博客
 	- [个人博客网站的搭建(github Pages 和 Jekyll)](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+- 区块链相关技术
+	- [区块链入门教程 -- 阮一峰](http://www.ruanyifeng.com/blog/2017/12/blockchain-tutorial.html)	
+	- [比特币入门教程 -- 阮一峰](http://www.ruanyifeng.com/blog/2018/01/bitcoin-tutorial.html)
+	- [加密货币的本质 -- 阮一峰](http://www.ruanyifeng.com/blog/2018/01/cryptocurrency-tutorial.html)
+	- [火币网 -- 专业比特币交易平台](https://www.huobipro.com)
 - 前端相关学习网站及论坛
 	- [GitHub](https://github.com/) 
 	- [Github常用插件和库](https://github.com/jawil/blog/issues/10)
@@ -57,6 +63,8 @@
 	- [Digcss.com -- 前端知识](http://digcss.com)
 	- [前端人的俱乐部](http://f2er.club)
 	- [浏览器兼容性问题解决方案 · 总结](http://www.lovebxm.com/2017/08/28/compatibility/)
+	- [创造狮导航](http://www.chuangzaoshi.com/)
+	- [前端JavaScript电子书汇总](http://www.java1234.com/a/javabook/webbase/)
 - 前端在线代码调试工具
 	- [jsFiddle ](https://jsfiddle.net) 
 	- [RunJs ](http://runjs.cn/code)
@@ -71,6 +79,8 @@
 	- [前端编辑器 -- Atom](https://atom.io/)
 	- [Fetool -- 大前端工具集](http://www.fefork.com/fetool/)
 	- [前端开发规范手册](http://zhibimo.com/read/Ashu/front-end-style-guide/index.html)
+	- [Eris -- 一套在开发中积累的实用JavaScript工具库(180个模块)](https://github.com/liriliri/eris/blob/master/README_CN.md)
+	- [lodash--js工具库](https://lodash.com/)
 - 原生DOM操作学习： 开始学习 2015.09 ~ 至今
 	- [javaScript基础知识点梳理](http://www.jianshu.com/p/f3bcd36e56d1)
 	- [常见的原生javascript DOM操作](https://segmentfault.com/a/1190000004076145) 
@@ -116,6 +126,7 @@
 	- [摄图网](http://699pic.com/)
 	- [站酷](http://www.zcool.com.cn)
 - CSS 技术汇总  2015.11 ~ 未知
+	- [CSS参考手册](http://css.doyoe.com/)
 	- [前端CSS规范整理](https://www.biaodianfu.com/css-style-guide.html) 
 	- [编写可维护的CSS](https://segmentfault.com/a/1190000000388784) 
 	- [Less中文文档](http://less.bootcss.com/)
@@ -130,6 +141,7 @@
 	- [weui -- 腾讯开发样式库](https://github.com/Tencent/weui)
 	- [React-WeUI](https://github.com/weui/react-weui)
 	- [clip-path 裁剪属性获取maker](https://bennettfeely.com/clippy/)
+	- [使用Flexible实现手淘H5页面的终端适配 --rem方案](https://github.com/amfe/article/issues/17)
 - React 技术学习 学习及项目使用 2016.02 ~ 2017.05
 	- [React官网 -- 英文版](https://facebook.github.io/react/)
 	- [React文档 -- 中文版](https://discountry.github.io/react/)
