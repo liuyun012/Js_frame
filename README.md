@@ -11,7 +11,7 @@
 	- 软件快捷键查看工具：[CheatSheet](https://www.mediaatelier.com/CheatSheet/) (长按 Command 键)
 	- 远程控制协助软件：[teamviewer](https://www.teamviewer.com/zhCN/)
 	- 翻墙工具集合：[搬瓦工VPS](http://banwagong.cn/)
-	- [MacOS : 前端必备姿势(工作环境)](https://juejin.im/post/5a09117df265da431a42af79?utm_source=gold_browser_extension)
+	- MacOS : [前端必备姿势(工作环境)](https://juejin.im/post/5a09117df265da431a42af79?utm_source=gold_browser_extension)
 	- 开源全平台的虚拟机：[VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 	- 电脑护眼软件：[F.lux ](https://justgetflux.com/)
 - 安装地址及破解教程
@@ -38,14 +38,14 @@
 	- [有字库是全球第一中文font(在线字体)服务平台。](https://www.youziku.com/)
 
 ## 技术学习过程记录
-- 搭建个人博客
+- 搭建个人博客 2017.09
 	- [个人博客网站的搭建(github Pages 和 Jekyll)](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
-- 区块链相关技术
+- 区块链相关技术 2018.01
 	- [区块链入门教程 -- 阮一峰](http://www.ruanyifeng.com/blog/2017/12/blockchain-tutorial.html)	
 	- [比特币入门教程 -- 阮一峰](http://www.ruanyifeng.com/blog/2018/01/bitcoin-tutorial.html)
 	- [加密货币的本质 -- 阮一峰](http://www.ruanyifeng.com/blog/2018/01/cryptocurrency-tutorial.html)
 	- [火币网 -- 专业比特币交易平台](https://www.huobipro.com)
-- 前端相关学习网站及论坛
+- 前端相关学习网站及论坛 2015.09
 	- [GitHub](https://github.com/) 
 	- [Github常用插件和库](https://github.com/jawil/blog/issues/10)
 	- [W3school手册](http://www.w3school.com.cn/)
@@ -68,7 +68,7 @@
 - 前端在线代码调试工具
 	- [jsFiddle ](https://jsfiddle.net) 
 	- [RunJs ](http://runjs.cn/code)
-- html 模板引擎(预处理语言)
+- html 模板引擎(预处理语言) 2017.06
 	- [Jade的使用](https://www.w3cplus.com/html/how-to-use-jade.html) 
 	- [Pug - 模板引擎](https://github.com/pugjs/pug-zh-cn/blob/master/Readme_zh-cn.md#a9)
 - 前端开发者的工具、库和资源
@@ -90,13 +90,13 @@
 	- [jQuery教程 -- 菜鸟教程](http://www.runoob.com/jquery/jquery-tutorial.html)
 	- [jQuery插件库](http://www.jq22.com/)
 	- [jquery+css3制作多种图片切换动画效果](http://www.xwcms.net/js/css3sl/36607.html)
-- Bootstrap 框架
+- Bootstrap 框架 2015.11
 	- [Bootstrap中文官网](http://www.bootcss.com/)  
 	- [Bootstrap 菜鸟教程](http://www.runoob.com/bootstrap/bootstrap-tutorial.html)
 - git 使用教程 2016.02 
 	- [常用 Git 命令清单 -- 阮一峰](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html) 
 	- [git学习宝典：程序员走江湖必备](https://segmentfault.com/a/1190000009893041?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
-- 前端开发辅助工具汇总
+- 前端开发辅助工具汇总 2016.05
 	-  [Git 学习教程](https://learngitbranching.js.org/)
 	-  [Yarn 中文官网](https://yarnpkg.com/zh-Hans/)
 	-  [Grunt中文文档](http://www.gruntjs.net/)
@@ -110,7 +110,7 @@
 	-  [语法检查 -- ESlint中文](http://eslint.cn/docs/rules/)
 	-  [精读前端调试技巧](https://zhuanlan.zhihu.com/p/27334352)
 	-  [零配置的 Web 应用打包工具 - Parcel](http://www.css88.com/doc/parcel/)
-- UI、产品、后台相关技术
+- UI、产品、后台相关技术 2016.10
 	- [如何做一份让工程师泪流满面的标注？](http://www.uisdc.com/designer-mark-for-developer)
 	- [阿里巴巴矢量图标库](http://www.iconfont.cn)
 	- [移动端设计指南 -- Ant Design Mobile](https://mobile.ant.design/index-cn)
@@ -156,13 +156,13 @@
 	- [一个 react + redux 的完整项目 和 个人总结](https://github.com/bailicangdu/react-pxq)
 	- [React/React Native 的ES5 ES6写法对照表](http://bbs.reactnative.cn/topic/15/react-react-native-的es5-es6写法对照表)
 	- [React组件属性部类（propTypes）校验](http://www.myexception.cn/web/2016594.html)
-- React 常用插件汇总整理 
+- React 常用插件汇总整理 2016.06
 	- [awesome-react-components 插件大汇总](https://github.com/brillout/awesome-react-components)
 	- [React插件专题 wesomes](https://www.awesomes.cn/subject/react)
 	- [react-paginate 分页器](https://github.com/AdeleD/react-paginate)
 	- [axios 中文文档 翻译](https://segmentfault.com/a/1190000008470355?utm_source=tuicool&utm_medium=referral)
 	- [qs 格式化数据](http://www.jianshu.com/p/3acb6bd0e0a7)
-- React Native 技术学习及资料汇总
+- React Native 技术学习及资料汇总 2017.09
 	-  [React Native 中文网](https://reactnative.cn/)
 	-  [React Native开发环境搭建 -- 熊建刚](http://blog.codingplayboy.com/2017/09/10/react-native-init/)
 	-  [React Native App应用架构设计 -- 熊建刚](http://blog.codingplayboy.com/2017/10/31/react-native-app/)
@@ -207,7 +207,7 @@
 	- [jade学习](http://www.w3cplus.com/html/jade.html)
 	- [jade语法教程](http://www.w3cplus.com/html/how-to-use-jade.html)
 	- [Jade —— 源于 Node.js 的 HTML 模板引擎](https://segmentfault.com/a/1190000000357534)
-- Vue 技术相关文档
+- Vue 技术相关文档 2017.06
 	- [vue官网](https://cn.vuejs.org)
 	- [vue-router](https://github.com/vuejs/vue-router)
 	- [vuex](https://github.com/vuejs/vuex)
@@ -218,7 +218,7 @@
 	- [Element，一套基于 Vue2.0 的桌面端组件库](http://element.eleme.io/#/zh-CN)
 	- [iView, 一套基于 Vue2.0 的高质量 UI 组件库](https://www.iviewui.com/)
 	- [vue(2) - 收藏集 - 掘金](http://www.jianshu.com/p/5a6521c5bdf0?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
-- 全栈开发系列教程
+- 全栈开发系列教程  2017.12
 	- [JavaScript 全栈工程师培训教程 -- 阮一峰](http://www.ruanyifeng.com/blog/2016/11/javascript.html) 
 - Node 开发
 	- [node中文官网](https://nodejs.org/zh-cn/)  
