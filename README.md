@@ -97,6 +97,8 @@
 - git 使用教程 2016.02 
 	- [常用 Git 命令清单 -- 阮一峰](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html) 
 	- [git学习宝典：程序员走江湖必备](https://segmentfault.com/a/1190000009893041?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+	- [Git教程 -- 廖雪峰](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+	- [Git 学习教程](https://learngitbranching.js.org/)
 - 前端开发辅助工具汇总 2016.05
 	-  [Git 学习教程](https://learngitbranching.js.org/)
 	-  [Yarn 中文官网](https://yarnpkg.com/zh-Hans/)
