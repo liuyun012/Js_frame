@@ -65,6 +65,7 @@
 	- [浏览器兼容性问题解决方案 · 总结](http://www.lovebxm.com/2017/08/28/compatibility/)
 	- [创造狮导航](http://www.chuangzaoshi.com/)
 	- [前端JavaScript电子书汇总](http://www.java1234.com/a/javabook/webbase/)
+	- [JavaScript教程 -- 廖雪峰](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
 - 前端在线代码调试工具
 	- [jsFiddle ](https://jsfiddle.net) 
 	- [RunJs ](http://runjs.cn/code)
@@ -216,6 +217,7 @@
 	- [Vue2.0 新手入门 — 从环境搭建到发布](http://www.runoob.com/w3cnote/vue2-start-coding.html)
 	- [vue插件整理汇总-awesome-github-vue](https://github.com/opendigg/awesome-github-vue)
 	- [Element，一套基于 Vue2.0 的桌面端组件库](http://element.eleme.io/#/zh-CN)
+	- [Mint UI 基于 Vue2.0 的移动端组件库](https://mint-ui.github.io/#!/zh-cn)
 	- [iView, 一套基于 Vue2.0 的高质量 UI 组件库](https://www.iviewui.com/)
 	- [vue(2) - 收藏集 - 掘金](http://www.jianshu.com/p/5a6521c5bdf0?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 - 全栈开发系列教程  2017.12
@@ -233,4 +235,5 @@
 - 前端优秀个人博客
 	- [阮一峰](http://www.ruanyifeng.com/blog/)  
 	- [张鑫旭](http://www.zhangxinxu.com/wordpress/)
+	- [廖雪峰](https://www.liaoxuefeng.com)
 	- [熊建刚](http://blog.codingplayboy.com)
