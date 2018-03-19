@@ -14,6 +14,7 @@
 	- MacOS : [前端必备姿势(工作环境)](https://juejin.im/post/5a09117df265da431a42af79?utm_source=gold_browser_extension)
 	- 开源全平台的虚拟机：[VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 	- 电脑护眼软件：[F.lux ](https://justgetflux.com/)
+	- Chrome浏览器插件下载：[插件下载](https://www.chromefor.com)
 - 安装地址及破解教程
 	- [在Mac上安装office2016破解版](http://www.jianshu.com/p/2172835cfb17) 
 	- [Adobe Photoshop CC 2017 Mac中文破解版](http://www.sdifen.com/photoshopcc2017.html)
