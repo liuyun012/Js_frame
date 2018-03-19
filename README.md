@@ -46,6 +46,7 @@
 	- [加密货币的本质 -- 阮一峰](http://www.ruanyifeng.com/blog/2018/01/cryptocurrency-tutorial.html)
 	- [火币网 -- 专业比特币交易平台](https://www.huobipro.com)
 - 前端相关学习网站及论坛 2015.09
+	- [印记中文--前端生态圈大集合](https://docschina.org)
 	- [GitHub](https://github.com/) 
 	- [Github常用插件和库](https://github.com/jawil/blog/issues/10)
 	- [W3school手册](http://www.w3school.com.cn/)
@@ -66,6 +67,7 @@
 	- [创造狮导航](http://www.chuangzaoshi.com/)
 	- [前端JavaScript电子书汇总](http://www.java1234.com/a/javabook/webbase/)
 	- [JavaScript教程 -- 廖雪峰](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
+	- [egg -- 为企业级框架和应用而生](https://eggjs.org/zh-cn/)
 - 前端在线代码调试工具
 	- [jsFiddle ](https://jsfiddle.net) 
 	- [RunJs ](http://runjs.cn/code)
@@ -82,6 +84,7 @@
 	- [前端开发规范手册](http://zhibimo.com/read/Ashu/front-end-style-guide/index.html)
 	- [Eris -- 一套在开发中积累的实用JavaScript工具库(180个模块)](https://github.com/liriliri/eris/blob/master/README_CN.md)
 	- [lodash--js工具库](https://lodash.com/)
+	- [Prettier -- 代码格式化工具](https://prettier.io)
 - 原生DOM操作学习： 开始学习 2015.09 ~ 至今
 	- [javaScript基础知识点梳理](http://www.jianshu.com/p/f3bcd36e56d1)
 	- [常见的原生javascript DOM操作](https://segmentfault.com/a/1190000004076145) 
@@ -197,6 +200,7 @@
 	- [微信公众平台开发技术文档](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1445241432)
 	- [微信小程序组件化开发框架 -- Labrador](https://github.com/maichong/labrador)
 	- [WeUI for 小程序 为微信小程序量身设计](https://github.com/Tencent/weui-wxss)
+	- []()
 - 微信公众号开发与编辑
 	- [135编辑器](http://www.135editor.com/beautify_editor.html)
 	- [秀米--h5快速开发](https://xiumi.us/#/)
