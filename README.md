@@ -39,6 +39,9 @@
 	- [有字库是全球第一中文font(在线字体)服务平台。](https://www.youziku.com/)
 
 ## 技术学习过程记录
+- 快应用相关资料 2018.03
+	- [Quick App中文官网](https://www.quickapp.cn/) 
+	- [快应用快速入门教程](https://juejin.im/post/5ab27d8e518825557e78485e?utm_source=gold_browser_extension)
 - 搭建个人博客 2017.09
 	- [个人博客网站的搭建(github Pages 和 Jekyll)](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 - 区块链相关技术 2018.01
