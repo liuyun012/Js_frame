@@ -24,6 +24,7 @@
 	- [Mac OS下包管理器Homebrew的安装与使用](http://www.jianshu.com/p/d229ac7fe77d)
 	- [svn翻墙插件 -- GFWList 使用教程](https://github.com/FelisCatus/SwitchyOmega/wiki/GFWList)
 	- [zsh+oh my zsh+iterm2](http://www.jianshu.com/p/a741701ff060)、 [ iterm2+oh my zsh](http://blog.csdn.net/u011303816/article/details/70185020)
+	- [Git SSH Key 生成步骤](http://blog.csdn.net/hustpzb/article/details/8230454)
 	- [常用Atom插件列表](http://www.jianshu.com/p/dd97cbb3c22d)
 	- [设计稿标注必装神器-Sketch标注插件Marketch下载](https://github.com/tudou527/marketch)
 	- [安装node包管理工具 nvm 和 node](http://www.cnblogs.com/greenteaone/p/5065981.html)、[nvm重启失效解决方案](http://www.imooc.com/article/12985)	  
@@ -74,12 +75,6 @@
 	- [前端JavaScript电子书汇总](http://www.java1234.com/a/javabook/webbase/)
 	- [JavaScript教程 -- 廖雪峰](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
 	- [egg -- 为企业级框架和应用而生](https://eggjs.org/zh-cn/)
-- 前端在线代码调试工具
-	- [jsFiddle ](https://jsfiddle.net) 
-	- [RunJs ](http://runjs.cn/code)
-- html 模板引擎(预处理语言) 2017.06
-	- [Jade的使用](https://www.w3cplus.com/html/how-to-use-jade.html) 
-	- [Pug - 模板引擎](https://github.com/pugjs/pug-zh-cn/blob/master/Readme_zh-cn.md#a9)
 - 前端开发者的工具、库和资源
 	- [67 个拯救前端开发者的工具、库和资源](http://zcfy.cc/article/67-useful-tools-libraries-and-resources-for-saving-your-time-as-a-web-developer-4174.html)
 	- [react 插件大汇总](https://github.com/brillout/awesome-react-components)
@@ -91,6 +86,52 @@
 	- [Eris -- 一套在开发中积累的实用JavaScript工具库(180个模块)](https://github.com/liriliri/eris/blob/master/README_CN.md)
 	- [lodash--js工具库](https://lodash.com/)
 	- [Prettier -- 代码格式化工具](https://prettier.io)
+- 前端开发辅助工具汇总 2016.05
+	-  [Git 学习教程](https://learngitbranching.js.org/)
+	-  [Yarn 中文官网](https://yarnpkg.com/zh-Hans/)
+	-  [Grunt中文文档](http://www.gruntjs.net/)
+	-  [Gulp中文官网](http://www.gulpjs.com.cn/)
+	-  [前端构建工具gulp的使用介绍及技巧](http://www.cnblogs.com/2050/p/4198792.html)
+	-  [Babel中文网](http://babeljs.cn/)
+	-  [webpack中文官网](https://doc.webpack-china.org)
+	-  [WebPack 简明学习教程](http://www.jianshu.com/p/b95bbcfc590d)
+	-  [webpack.config.js 参数详解](http://blog.csdn.net/zaichuanguanshui/article/details/53610694)
+	-  [npm package.json属性详解](http://www.cnblogs.com/tzyy/p/5193811.html)
+	-  [语法检查 -- ESlint中文](http://eslint.cn/docs/rules/)
+	-  [精读前端调试技巧](https://zhuanlan.zhihu.com/p/27334352)
+	-  [零配置的 Web 应用打包工具 - Parcel](http://www.css88.com/doc/parcel/)
+- 前端开发辅助类框架
+	- 截屏类(HTML转图片)
+		- [html2canvas](https://github.com/niklasvh/html2canvas)
+		- [rasterizeHTML](https://cburgmer.github.io/rasterizeHTML.js/)
+		- [Puppeteer](https://github.com/GoogleChrome/puppeteer)
+	- 图表类框架
+		- [Echarts中文官网](http://echarts.baidu.com/index.html)
+		- [Echarts -- github](https://github.com/ecomfe/echarts)
+	- 移动端触摸滑动框架
+		- [Swiper中文官网](http://www.swiper.com.cn)  
+		- [Hammer.Js -- 移动端手势插件库](http://hammerjs.github.io)
+		- [hammer.js 使用教程](http://www.cnblogs.com/iamlilinfeng/p/4239957.html)
+		- [fastclick.js -- 解决手机 300ms延时插件](https://github.com/ftlabs/fastclick)
+	- 富文本编辑器
+		-  [ueditor](https://github.com/fex-team/ueditor)
+		-  [移动端富文本编辑器 -- artEditor](https://github.com/baixuexiyang/artEditor)
+		-  [react-lz-editor](https://github.com/leejaen/react-lz-editor)
+		-  [wangEditor —— 轻量级web富文本框](https://github.com/wangfupeng1988/wangEditor)
+	- H5 手机端快速开发库
+		- [Light7 -- 轻量，小巧且精美的UI库](http://light7.cn) 
+	- HTML 5 游戏类框架
+		- [CreateJS -- 开发基于HTML5的游戏、动画和交互应用](http://www.createjs.cc) 
+	- 原生基础组件类
+		- [Dialog 移动端弹窗](http://sufangyu.github.io/project/dialog2/dist/demos/) 
+		- [dialog.js -- 移动端弹窗插件](https://github.com/sufangyu/dialog2) 
+		- [mobileSelect.js -- 多功能的移动端滚动选择器](https://github.com/onlyhom/mobileSelect.js/blob/master/docs/README-CN.md)
+- 前端在线代码调试工具
+	- [jsFiddle ](https://jsfiddle.net) 
+	- [RunJs ](http://runjs.cn/code)
+- html 模板引擎(预处理语言) 2017.06
+	- [Jade的使用](https://www.w3cplus.com/html/how-to-use-jade.html) 
+	- [Pug - 模板引擎](https://github.com/pugjs/pug-zh-cn/blob/master/Readme_zh-cn.md#a9)
 - 原生DOM操作学习： 开始学习 2015.09 ~ 至今
 	- [javaScript基础知识点梳理](http://www.jianshu.com/p/f3bcd36e56d1)
 	- [常见的原生javascript DOM操作](https://segmentfault.com/a/1190000004076145) 
@@ -108,20 +149,6 @@
 	- [git学习宝典：程序员走江湖必备](https://segmentfault.com/a/1190000009893041?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 	- [Git教程 -- 廖雪峰](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 	- [Git 学习教程](https://learngitbranching.js.org/)
-- 前端开发辅助工具汇总 2016.05
-	-  [Git 学习教程](https://learngitbranching.js.org/)
-	-  [Yarn 中文官网](https://yarnpkg.com/zh-Hans/)
-	-  [Grunt中文文档](http://www.gruntjs.net/)
-	-  [Gulp中文官网](http://www.gulpjs.com.cn/)
-	-  [前端构建工具gulp的使用介绍及技巧](http://www.cnblogs.com/2050/p/4198792.html)
-	-  [Babel中文网](http://babeljs.cn/)
-	-  [webpack中文官网](https://doc.webpack-china.org)
-	-  [WebPack 简明学习教程](http://www.jianshu.com/p/b95bbcfc590d)
-	-  [webpack.config.js 参数详解](http://blog.csdn.net/zaichuanguanshui/article/details/53610694)
-	-  [npm package.json属性详解](http://www.cnblogs.com/tzyy/p/5193811.html)
-	-  [语法检查 -- ESlint中文](http://eslint.cn/docs/rules/)
-	-  [精读前端调试技巧](https://zhuanlan.zhihu.com/p/27334352)
-	-  [零配置的 Web 应用打包工具 - Parcel](http://www.css88.com/doc/parcel/)
 - UI、产品、后台相关技术 2016.10
 	- [如何做一份让工程师泪流满面的标注？](http://www.uisdc.com/designer-mark-for-developer)
 	- [阿里巴巴矢量图标库](http://www.iconfont.cn)
@@ -177,29 +204,7 @@
 - React Native 技术学习及资料汇总 2017.09
 	-  [React Native 中文网](https://reactnative.cn/)
 	-  [React Native开发环境搭建 -- 熊建刚](http://blog.codingplayboy.com/2017/09/10/react-native-init/)
-	-  [React Native App应用架构设计 -- 熊建刚](http://blog.codingplayboy.com/2017/10/31/react-native-app/)
-- 前端开发辅助类框架
-	- 截屏类(HTML转图片)
-		- [html2canvas](https://github.com/niklasvh/html2canvas)
-		- [rasterizeHTML](https://cburgmer.github.io/rasterizeHTML.js/)
-		- [Puppeteer](https://github.com/GoogleChrome/puppeteer)
-	- 图表类框架
-		- [Echarts中文官网](http://echarts.baidu.com/index.html)
-		- [Echarts -- github](https://github.com/ecomfe/echarts)
-	- 移动端触摸滑动框架
-		- [Swiper中文官网](http://www.swiper.com.cn)  
-		- [Hammer.Js -- 移动端手势插件库](http://hammerjs.github.io)
-		- [hammer.js 使用教程](http://www.cnblogs.com/iamlilinfeng/p/4239957.html)
-		- [fastclick.js -- 解决手机 300ms延时插件](https://github.com/ftlabs/fastclick)
-	- 富文本编辑器
-		-  [ueditor](https://github.com/fex-team/ueditor)
-		-  [移动端富文本编辑器 -- artEditor](https://github.com/baixuexiyang/artEditor)
-		-  [react-lz-editor](https://github.com/leejaen/react-lz-editor)
-		-  [wangEditor —— 轻量级web富文本框](https://github.com/wangfupeng1988/wangEditor)
-	- H5 手机端快速开发库
-		- [Light7 -- 轻量，小巧且精美的UI库](http://light7.cn) 
-	- HTML 5 游戏类框架
-		- [CreateJS -- 开发基于HTML5的游戏、动画和交互应用](http://www.createjs.cc) 	 
+	-  [React Native App应用架构设计 -- 熊建刚](http://blog.codingplayboy.com/2017/10/31/react-native-app/) 
 - 微信小程序 相关文档  2016.09
 	- [微信小程序开发文档](https://mp.weixin.qq.com/debug/wxadoc/dev/)
 	- [小程序开发社区 -- 很快](http://www.henkuai.com/forum.php)
