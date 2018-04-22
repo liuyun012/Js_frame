@@ -39,6 +39,8 @@
 	- [有字库是全球第一中文font(在线字体)服务平台。](https://www.youziku.com/)
 
 ## 技术学习过程记录
+- PWA技术的应用 2018.04
+	- [Lavas 是一套基于Vue的 PWA 解决方案](https://lavas.baidu.com)
 - 快应用相关资料 2018.03
 	- [Quick App中文官网](https://www.quickapp.cn/) 
 	- [快应用快速入门教程](https://juejin.im/post/5ab27d8e518825557e78485e?utm_source=gold_browser_extension)
