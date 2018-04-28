@@ -38,8 +38,15 @@
 	- [程序 -- 编程小技巧](https://www.oudahe.com/)
 	- [中国国内可用API合集](https://juejin.im/entry/59e85ee1f265da433561dec0?utm_source=gold_browser_extension#%E7%94%B5%E5%BD%B1)
 	- [有字库是全球第一中文font(在线字体)服务平台。](https://www.youziku.com/)
+- 工作类辅助软件
+	- [高效ToDo](http://www.gxtodo.com/web/#/task/list?version=person&id=995213)  
+	- [语雀--阿里最大的文档平台，知识管理](https://yuque.com/)
 
 ## 技术学习过程记录
+- 后端接口数据模拟
+	- [Mock.js](http://mockjs.com/)
+	- [json-server](https://github.com/typicode/json-server?utm_source=gold_browser_extension)
+	- [YApi接口管理平台](https://yapi.ymfe.org/index.html)
 - 快应用相关资料 2018.03
 	- [Quick App中文官网](https://www.quickapp.cn/) 
 	- [快应用快速入门教程](https://juejin.im/post/5ab27d8e518825557e78485e?utm_source=gold_browser_extension)
