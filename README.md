@@ -3,7 +3,7 @@
 
 ## Mac Pro 初始开发环境搭建
 - 软件安装
-	- 电脑软件：Homebrew(包管理器)、Chrome浏览器、Firefox浏览器、微信、Evernote(印象笔记)、有道词典、Microsoft Office套装、Jenkins、Keka(解压缩)、Xcode
+	- 电脑软件：Homebrew(包管理器)、Chrome浏览器、Firefox浏览器、微信、Evernote(印象笔记)、有道词典、Microsoft Office套装、Jenkins、The Unarchriver(专注解压)、Keka(解压缩)、Xcode
 	- 前端开发工具：iTem2(终端)、Dropbox(文件夹共享)、Atom、Yarn(依赖管理工具)、Ps cc2017、Charles(花瓶)、Sequel Pro(数据库)、MacDown(markdown编辑器)、Sketch(设计稿标注神器)
 	- Chrome 浏览器开发常用插件：Page Ruler、Window Resizer、WhatFont、Dimensions、Proxy SwitchyOmega、Postman、Full Page Screen Capture、Tampermonkey、CSS Peeper、Redux DevTools
 	- Sketch 插件：Sketch Measure、Craft、
@@ -43,10 +43,15 @@
 	- [语雀--阿里最大的文档平台，知识管理](https://yuque.com/)
 
 ## 技术学习过程记录
+<<<<<<< HEAD
 - 后端接口数据模拟
 	- [Mock.js](http://mockjs.com/)
 	- [json-server](https://github.com/typicode/json-server?utm_source=gold_browser_extension)
 	- [YApi接口管理平台](https://yapi.ymfe.org/index.html)
+=======
+- PWA技术的应用 2018.04
+	- [Lavas 是一套基于Vue的 PWA 解决方案](https://lavas.baidu.com)
+>>>>>>> c31a5c10c9854a02e2e81a5cb59d52d09f541ec4
 - 快应用相关资料 2018.03
 	- [Quick App中文官网](https://www.quickapp.cn/) 
 	- [快应用快速入门教程](https://juejin.im/post/5ab27d8e518825557e78485e?utm_source=gold_browser_extension)
