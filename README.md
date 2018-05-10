@@ -3,7 +3,7 @@
 
 ## Mac Pro 初始开发环境搭建
 - 软件安装
-	- 电脑软件：Homebrew(包管理器)、Chrome浏览器、Firefox浏览器、微信、Evernote(印象笔记)、有道词典、Microsoft Office套装、Jenkins、The Unarchriver(专注解压)、Keka(解压缩)、Xcode
+	- 电脑软件：Homebrew(包管理器)、Chrome浏览器、Firefox浏览器、微信、Evernote(印象笔记)、有道词典、Microsoft Office套装、Jenkins、The Unarchriver(专注解压)、Keka(解压缩)、Xcode、Cornerstone
 	- 前端开发工具：iTem2(终端)、Dropbox(文件夹共享)、Atom、Yarn(依赖管理工具)、Ps cc2017、Charles(花瓶)、Sequel Pro(数据库)、MacDown(markdown编辑器)、Sketch(设计稿标注神器)
 	- Chrome 浏览器开发常用插件：Page Ruler、Window Resizer、WhatFont、Dimensions、Proxy SwitchyOmega、Postman、Full Page Screen Capture、Tampermonkey、CSS Peeper、Redux DevTools
 	- Sketch 插件：Sketch Measure、Craft、
@@ -20,6 +20,8 @@
 	- [Adobe Photoshop CC 2017 Mac中文破解版](http://www.sdifen.com/photoshopcc2017.html)
 	- [Charles破解注册](http://charles.iiilab.com)
 	- [Mamp -- PHP集成工具](https://www.mamp.info/en/)
+	- [Cornerstone 3.0.3 Mac破解版](http://www.sdifen.com/cornerstone303.html)
+	- [mac os 安装 redis](https://www.jianshu.com/p/3bdfda703552)
 - 软件辅助文档及教程
 	- [Mac OS下包管理器Homebrew的安装与使用](http://www.jianshu.com/p/d229ac7fe77d)
 	- [svn翻墙插件 -- GFWList 使用教程](https://github.com/FelisCatus/SwitchyOmega/wiki/GFWList)
@@ -38,20 +40,21 @@
 	- [程序 -- 编程小技巧](https://www.oudahe.com/)
 	- [中国国内可用API合集](https://juejin.im/entry/59e85ee1f265da433561dec0?utm_source=gold_browser_extension#%E7%94%B5%E5%BD%B1)
 	- [有字库是全球第一中文font(在线字体)服务平台。](https://www.youziku.com/)
+	- [Cornerstone的使用](https://www.jianshu.com/p/9ff1fbca8106)
+	- [mac安装pip及简单用法](https://www.jianshu.com/p/f09586e91ab4)
 - 工作类辅助软件
 	- [高效ToDo](http://www.gxtodo.com/web/#/task/list?version=person&id=995213)  
 	- [语雀--阿里最大的文档平台，知识管理](https://yuque.com/)
+	- [在线正则表达式查看](http://refiddle.com/)
 
 ## 技术学习过程记录
-<<<<<<< HEAD
+
 - 后端接口数据模拟
 	- [Mock.js](http://mockjs.com/)
 	- [json-server](https://github.com/typicode/json-server?utm_source=gold_browser_extension)
 	- [YApi接口管理平台](https://yapi.ymfe.org/index.html)
-=======
 - PWA技术的应用 2018.04
 	- [Lavas 是一套基于Vue的 PWA 解决方案](https://lavas.baidu.com)
->>>>>>> c31a5c10c9854a02e2e81a5cb59d52d09f541ec4
 - 快应用相关资料 2018.03
 	- [Quick App中文官网](https://www.quickapp.cn/) 
 	- [快应用快速入门教程](https://juejin.im/post/5ab27d8e518825557e78485e?utm_source=gold_browser_extension)
