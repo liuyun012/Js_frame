@@ -49,10 +49,26 @@
 
 ## 技术学习过程记录
 
-- 后端接口数据模拟
+- AE动画资源汇总 2018.05
+	- 教程文档
+		- [Adobe After Effects CC 2017 Mac中文破解版](http://www.sdifen.com/aftereffectscc2017.html) 
+		- [动画：从AE 到Web | Aotu.io「凹凸实验室」](https://aotu.io/notes/2018/03/06/ae2web/index.html)
+		- [一款高效、高性能的帧动画生成工具 gka](https://github.com/gkajs/gka)
+		- [Bodymovin中文使用教程](https://github.com/bigxixi/bodymovin)
+		- [Airbnb lottie-web使用](https://github.com/airbnb/lottie-web)
+	- 插件汇总
+		- [AE动画导出json工具-bodymovin(lottie)汉化版](https://github.com/bigxixi/bodymovin_cn)
+		- [AE动效插件：Motion2](https://www.jianshu.com/p/6e7e894a6fce)
+		- [Animation Composer](https://misterhorse.tv/animation-composer)
+- 测试开发资料汇总 2018.05
+	- [测试之道](http://www.testtao.cn/)
+	- [软件测试论坛](http://www.testtao.com/portal.php) 
+- 后端接口数据模拟 2018.05
 	- [Mock.js](http://mockjs.com/)
 	- [json-server](https://github.com/typicode/json-server?utm_source=gold_browser_extension)
 	- [YApi接口管理平台](https://yapi.ymfe.org/index.html)
+	- [YApi个人接口空间](http://yapi.demo.qunar.com/group/23575)
+	- [Easy Mock 假数据](https://easy-mock.com/)
 - PWA技术的应用 2018.04
 	- [Lavas 是一套基于Vue的 PWA 解决方案](https://lavas.baidu.com)
 - 快应用相关资料 2018.03
