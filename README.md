@@ -4,8 +4,9 @@
 ## Mac Pro 初始开发环境搭建
 - 软件安装
 	- 电脑软件：Homebrew(包管理器)、Chrome浏览器、Firefox浏览器、微信、Evernote(印象笔记)、有道词典、Microsoft Office套装、Jenkins、The Unarchriver(专注解压)、Keka(解压缩)、Xcode、Cornerstone
-	- 前端开发工具：iTem2(终端)、Dropbox(文件夹共享)、Atom、Yarn(依赖管理工具)、Ps cc2017、Charles(花瓶)、Sequel Pro(数据库)、MacDown(markdown编辑器)、Sketch(设计稿标注神器)
+	- 前端开发工具：iTem2(终端)、Dropbox(文件夹共享)、Atom、Yarn(依赖管理工具)、Ps cc2017、Charles(花瓶)、Sequel Pro(数据库)、MacDown(markdown编辑器)、Sketch(设计稿标注神器)、Visual Studio Code 
 	- Chrome 浏览器开发常用插件：Page Ruler、Window Resizer、WhatFont、Dimensions、Proxy SwitchyOmega、Postman、Full Page Screen Capture、Tampermonkey、CSS Peeper、Redux DevTools
+	- VSCode 常用插件推荐：Open-In-Browser、Quokka、Faker、CSS Peek、Prettier、Color Info、SVG Viewer、Change Case、Regex Previewer、HTML Snippets、Project Manager、beautify、Import Cost
 	- Sketch 插件：Sketch Measure、Craft、
 	- 后端开发集成软件： MAMP
 	- 软件快捷键查看工具：[CheatSheet](https://www.mediaatelier.com/CheatSheet/) (长按 Command 键)
@@ -28,6 +29,8 @@
 	- [zsh+oh my zsh+iterm2](http://www.jianshu.com/p/a741701ff060)、 [ iterm2+oh my zsh](http://blog.csdn.net/u011303816/article/details/70185020)
 	- [Git SSH Key 生成步骤](http://blog.csdn.net/hustpzb/article/details/8230454)
 	- [常用Atom插件列表](http://www.jianshu.com/p/dd97cbb3c22d)
+	- [vscode 插件推荐 - 献给所有前端工程师](https://segmentfault.com/a/1190000006697219)
+	- [精选！15 个必备的 VSCode 插件（前端类）](https://zhuanlan.zhihu.com/p/27905838)
 	- [设计稿标注必装神器-Sketch标注插件Marketch下载](https://github.com/tudou527/marketch)
 	- [安装node包管理工具 nvm 和 node](http://www.cnblogs.com/greenteaone/p/5065981.html)、[nvm重启失效解决方案](http://www.imooc.com/article/12985)	  
 	- [mac 安装 php nginx mysql](http://www.cnblogs.com/lucky-man/p/6207882.html)
@@ -115,6 +118,7 @@
 	- [Eris -- 一套在开发中积累的实用JavaScript工具库(180个模块)](https://github.com/liriliri/eris/blob/master/README_CN.md)
 	- [lodash--js工具库](https://lodash.com/)
 	- [Prettier -- 代码格式化工具](https://prettier.io)
+	- [qs库 -- 对 url 参数处理](https://github.com/ljharb/qs)
 - 前端开发辅助工具汇总 2016.05
 	-  [Git 学习教程](https://learngitbranching.js.org/)
 	-  [Yarn 中文官网](https://yarnpkg.com/zh-Hans/)
@@ -240,7 +244,7 @@
 	- [微信公众平台开发技术文档](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1445241432)
 	- [微信小程序组件化开发框架 -- Labrador](https://github.com/maichong/labrador)
 	- [WeUI for 小程序 为微信小程序量身设计](https://github.com/Tencent/weui-wxss)
-	- []()
+	- [微信小程序club](http://www.wxappclub.com/)
 - 微信公众号开发与编辑
 	- [135编辑器](http://www.135editor.com/beautify_editor.html)
 	- [秀米--h5快速开发](https://xiumi.us/#/)
