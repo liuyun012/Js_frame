@@ -16,6 +16,7 @@
 	- 开源全平台的虚拟机：[VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 	- 电脑护眼软件：[F.lux ](https://justgetflux.com/)
 	- Chrome浏览器插件下载：[插件下载](https://www.chromefor.com)
+	- Mac实现新建文件菜单：[New File Menu 1.3.1 Mac中文破解版](http://www.sdifen.com/newfilemenu131.html)
 - 安装地址及破解教程
 	- [在Mac上安装office2016破解版](http://www.jianshu.com/p/2172835cfb17) 
 	- [Adobe Photoshop CC 2017 Mac中文破解版](http://www.sdifen.com/photoshopcc2017.html)
@@ -52,6 +53,10 @@
 
 ## 技术学习过程记录
 
+- 快应用相关资料 2018.03
+	- [Quick App中文官网](https://www.quickapp.cn/) 
+	- [快应用快速入门教程](https://juejin.im/post/5ab27d8e518825557e78485e?utm_source=gold_browser_extension)
+	- [快应用开发圈资源汇总](https://github.com/quickappdev/awesome-quickapp)
 - AE动画资源汇总 2018.05
 	- 教程文档
 		- [Adobe After Effects CC 2017 Mac中文破解版](http://www.sdifen.com/aftereffectscc2017.html) 
@@ -66,6 +71,8 @@
 - 测试开发资料汇总 2018.05
 	- [测试之道](http://www.testtao.cn/)
 	- [软件测试论坛](http://www.testtao.com/portal.php) 
+	- [自动化测试框架 -- nightwatchjs](http://nightwatchjs.org/)
+	- [Nightwatch.js 中文版教程](https://xianpengshen.gitbooks.io/nightwatch-js-cn/content/)
 - 后端接口数据模拟 2018.05
 	- [Mock.js](http://mockjs.com/)
 	- [json-server](https://github.com/typicode/json-server?utm_source=gold_browser_extension)
@@ -74,9 +81,6 @@
 	- [Easy Mock 假数据](https://easy-mock.com/)
 - PWA技术的应用 2018.04
 	- [Lavas 是一套基于Vue的 PWA 解决方案](https://lavas.baidu.com)
-- 快应用相关资料 2018.03
-	- [Quick App中文官网](https://www.quickapp.cn/) 
-	- [快应用快速入门教程](https://juejin.im/post/5ab27d8e518825557e78485e?utm_source=gold_browser_extension)
 - 搭建个人博客 2017.09
 	- [个人博客网站的搭建(github Pages 和 Jekyll)](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 - 区块链相关技术 2018.01
@@ -84,6 +88,7 @@
 	- [比特币入门教程 -- 阮一峰](http://www.ruanyifeng.com/blog/2018/01/bitcoin-tutorial.html)
 	- [加密货币的本质 -- 阮一峰](http://www.ruanyifeng.com/blog/2018/01/cryptocurrency-tutorial.html)
 	- [火币网 -- 专业比特币交易平台](https://www.huobipro.com)
+	- [区块链比特币设计素材合集](https://juejin.im/post/5b1ddf896fb9a01e242488ef?utm_source=gold_browser_extension)
 - 前端相关学习网站及论坛 2015.09
 	- [印记中文--前端生态圈大集合](https://docschina.org)
 	- [GitHub](https://github.com/) 
@@ -197,6 +202,7 @@
 	- [设计师素材管理工具 -- Eagle](https://eagle.cool/macOS)
 	- [摄图网](http://699pic.com/)
 	- [站酷](http://www.zcool.com.cn)
+	- [uirush 设计百宝箱资源合集](https://uirush.net/)
 - CSS 技术汇总  2015.11 ~ 未知
 	- [CSS参考手册](http://css.doyoe.com/)
 	- [前端CSS规范整理](https://www.biaodianfu.com/css-style-guide.html) 
@@ -282,6 +288,7 @@
 	- [laravel学院 -- 致力于提供优质的 Laravel中文学习资源](http://laravelacademy.org/)
 	- [apiDoc -- 后端写接口文档利器](http://apidocjs.com)
 	- [Apidoc安装与使用](http://www.jianshu.com/p/e3a04b5d8bb4)
+	- [Composer安装方法](https://pkg.phpcomposer.com/)
 - 前端优秀个人博客
 	- [阮一峰](http://www.ruanyifeng.com/blog/)  
 	- [张鑫旭](http://www.zhangxinxu.com/wordpress/)

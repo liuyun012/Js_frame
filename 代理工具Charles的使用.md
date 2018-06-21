@@ -56,7 +56,8 @@ Charles 主要的功能包括：
 	1. `Proxy –> SSL Proxying Setting –> Enable SSL Proxying` 点击 Add，编辑Location，输入 Host: * , Port: 443，点击 OK。
 	2. PC 端证书安装：`Help –> SSL Proxying –> Install Charles Root Certificate`，选择 Charles 的证书，并信任此证书。
 	3. 移动端证书安装：`Help –> SSL Proxying –>Install Charles Root Certificate on a Mobile Device`， 安装弹出的对话框要求，手机配置好端口为 8888 的代理之后，在手机浏览器访问 `http://chls.pro/ssl` 就可以下载证书并安装了。
-	4. 注意：对于 iOS 10.3以上的手机需要设置证书信任：点击 `通用 -> 关于本机 -> 证书信任设置 -> 选择 Charles 的证书打开`。
+	4. 安卓手机安装证书 `Help –> SSL Proxying –>Save Charles Root Certificate...`，选择要保存的文件目录，点击 Save, 将保存的文件传到手机，点击手机的 `设置 -> WLAN -> 高级设置 -> 安装证书`，找到文件保存目录，安装完成。
+	5. 注意：对于 iOS 10.3以上的手机需要设置证书信任：点击 `通用 -> 关于本机 -> 证书信任设置 -> 选择 Charles 的证书打开`。
 
 - **模拟慢速网络**
 	- 在 Charles 的菜单上，选择 “Proxy”->”Throttle Setting” 项，在之后弹出的对话框中，我们可以勾选上 “Enable Throttling”，并且可以设置 Throttle Preset 的类型。
