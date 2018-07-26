@@ -52,7 +52,19 @@
 	- [在线正则表达式查看](http://refiddle.com/)
 
 ## 技术学习过程记录
-
+- 前端和后端的注释文档生成
+	- [前端函数说明文档 - jsDoc](https://www.jianshu.com/p/161495917279)
+	- [后台接口文档生成器 - APIDOC](http://apidocjs.com/) 
+	- [apiDoc - 中文说明](http://apidoc.tools/)
+- 前端面试基础
+	- [前端面试图谱](https://yuchengkai.cn/docs/zh/) 
+- 前端工程化工具集合
+	- [zan-proxy 本地代码调试线上页面](https://youzan.github.io/zan-proxy/) 
+- 前端接口错误统计
+	- [FunDebug](https://www.fundebug.com/) 
+	- [FrontJS](https://www.frontjs.com/)
+- 前端特殊组件
+	- [终端前端组件 -- Xterm.js](https://xtermjs.org/) 
 - 快应用相关资料 2018.03
 	- [Quick App中文官网](https://www.quickapp.cn/) 
 	- [快应用快速入门教程](https://juejin.im/post/5ab27d8e518825557e78485e?utm_source=gold_browser_extension)
@@ -174,6 +186,7 @@
 	- [javaScript基础知识点梳理](http://www.jianshu.com/p/f3bcd36e56d1)
 	- [常见的原生javascript DOM操作](https://segmentfault.com/a/1190000004076145) 
 	- [Javascript中URL 传递参数(特殊字符)解决方法及转码解码的介绍](http://www.cnblogs.com/Tracy-zdy/p/3822080.html)
+	- [javascript获取url参数的值](http://blog.jdk5.com/zh/get-the-value-from-the-url-parameter/)
 - jQuery学习及使用： 开始学习 2015.11 ~ 2016.02
 	- [jQuery教程 -- w3school](http://www.w3school.com.cn/jquery/)  
 	- [jQuery教程 -- 菜鸟教程](http://www.runoob.com/jquery/jquery-tutorial.html)
@@ -251,6 +264,8 @@
 	- [微信小程序组件化开发框架 -- Labrador](https://github.com/maichong/labrador)
 	- [WeUI for 小程序 为微信小程序量身设计](https://github.com/Tencent/weui-wxss)
 	- [微信小程序club](http://www.wxappclub.com/)
+	- [让微信小程序支持 cookie](https://github.com/charleslo1/weapp-cookie)
+	- [mpvue -- 使用vue语法写小程序](http://mpvue.com/)
 - 微信公众号开发与编辑
 	- [135编辑器](http://www.135editor.com/beautify_editor.html)
 	- [秀米--h5快速开发](https://xiumi.us/#/)
@@ -276,6 +291,7 @@
 	- [Mint UI 基于 Vue2.0 的移动端组件库](https://mint-ui.github.io/#!/zh-cn)
 	- [iView, 一套基于 Vue2.0 的高质量 UI 组件库](https://www.iviewui.com/)
 	- [vue(2) - 收藏集 - 掘金](http://www.jianshu.com/p/5a6521c5bdf0?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
+	- [Vant -- 有赞Vue组件库](https://youzan.github.io/vant/#/zh-CN/intro)
 - 全栈开发系列教程  2017.12
 	- [JavaScript 全栈工程师培训教程 -- 阮一峰](http://www.ruanyifeng.com/blog/2016/11/javascript.html) 
 - Node 开发
