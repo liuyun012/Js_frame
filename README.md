@@ -124,6 +124,7 @@
 	- [前端JavaScript电子书汇总](http://www.java1234.com/a/javabook/webbase/)
 	- [JavaScript教程 -- 廖雪峰](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
 	- [egg -- 为企业级框架和应用而生](https://eggjs.org/zh-cn/)
+	- [js算法训练 - codewars](https://www.codewars.com/)
 - 前端开发者的工具、库和资源
 	- [67 个拯救前端开发者的工具、库和资源](http://zcfy.cc/article/67-useful-tools-libraries-and-resources-for-saving-your-time-as-a-web-developer-4174.html)
 	- [react 插件大汇总](https://github.com/brillout/awesome-react-components)
