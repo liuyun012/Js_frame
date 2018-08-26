@@ -18,13 +18,7 @@ module.exports = {
       {
         title: '组件',
         children: [
-          '/components/button',
-          '/components/tabs',
-          '/components/input',
-          '/components/grid',
-          '/components/layout',
-          '/components/toast',
-          '/components/popover',
+          '/components/jade语法整理',
         ]
       },
 
