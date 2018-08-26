@@ -1,0 +1,25 @@
+{
+  "name": "Js_frame",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuyun012/Js_frame.git"
+  },
+  "author": "qinzhenxing <lyun012@126.com>",
+  "license": "MIT",
+  "description": "前端开发知识点学习汇总 -- 持续更新，调整 by Qzx",
+  "bugs": {
+    "url": "https://github.com/liuyun012/Js_frame/issues"
+  },
+  "homepage": "https://github.com/liuyun012/Js_frame#readme",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "vuepress": "^0.14.2"
+  }
+}
