@@ -59,7 +59,8 @@ function othersSidebarConfig () {
       title: '其他',
       collapsable: false,
       children: [
-        '/others/'
+        '/others/',
+        '/others/chrome-plugs'
       ]
     }
   ]
