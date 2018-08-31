@@ -27,7 +27,7 @@
 - 软件辅助文档及教程
 	- [Mac OS下包管理器Homebrew的安装与使用](http://www.jianshu.com/p/d229ac7fe77d)
 	- [svn翻墙插件 -- GFWList 使用教程](https://github.com/FelisCatus/SwitchyOmega/wiki/GFWList)
-	- [zsh+oh my zsh+iterm2](http://www.jianshu.com/p/a741701ff060)、 [ iterm2+oh my zsh](http://blog.csdn.net/u011303816/article/details/70185020)
+	- [iterm2+oh my zsh](http://blog.csdn.net/u011303816/article/details/70185020)、 [Oh-My-Zsh 操作 Git 的快捷键](https://orangexc.xyz/2016/10/11/Git-shortcut-keys-under-oh-my-zsh/)
 	- [Git SSH Key 生成步骤](http://blog.csdn.net/hustpzb/article/details/8230454)
 	- [常用Atom插件列表](http://www.jianshu.com/p/dd97cbb3c22d)
 	- [vscode 插件推荐 - 献给所有前端工程师](https://segmentfault.com/a/1190000006697219)
