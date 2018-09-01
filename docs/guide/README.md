@@ -1,17 +1,8 @@
 ---
-title: 安装
+title: 前端开发指南
 ---
 
-# 安装
+# 前端开发指南
 
 本章节待完善
 
-```bash
-npm install frank-test-1 
-```
-
-或
-
-```bash
-yarn add frank-test-1 
-```

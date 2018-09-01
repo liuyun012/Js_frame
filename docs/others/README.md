@@ -1,7 +1,8 @@
-# 记录每周看到的文章分享
+# 记录每周看到的值得分享的东西
 
-## 第一周 2018.08.27
-- [阮一峰网络日志 -- 每周分享第 19 期](http://www.ruanyifeng.com/blog/2018/08/weekly-issue-19.html)
+## 第一周 2018.08.27~09.02
+
+- [阮一峰网络日志 -- 每周分享第 20 期](http://www.ruanyifeng.com/blog/2018/08/weekly-issue-20.html)
 - [VuePress Vue 驱动的静态网站生成器](https://vuepress.vuejs.org/zh/)
 - [蚂蚁金服移动端可视化解决方案 F2 ](https://antv.alipay.com/zh-cn/f2/3.x/index.html)
 - [首个多端 UI 组件库 - Taro UI 发布 京东凹凸实验室](https://aotu.io/notes/2018/08/27/the-birth-of-taro-ui/?o2src=juejin&o2layout=compat)
