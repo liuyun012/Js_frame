@@ -53,7 +53,8 @@ function utilsSidebarConfig () {
         '/utils/Charles的使用',
         '/utils/webpack教程及插件汇总',
         '/utils/Shell编程基础教程',
-        '/utils/npm发包教程及组件按需加载的实现'
+        '/utils/npm发包教程及组件按需加载的实现',
+        '/utils/个人博客网站的搭建'
       ]
     }
   ]
@@ -71,8 +72,7 @@ function fullSidebarConfig () {
         '/full-stack/PHP基础知识整理',
         '/full-stack/mysql数据库学习资料汇总',
         '/full-stack/http协议资料整理',
-        '/full-stack/Express框架学习',
-        '/full-stack/个人博客网站的搭建'
+        '/full-stack/Express框架学习'
       ]
     }
   ]
