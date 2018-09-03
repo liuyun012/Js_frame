@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/Js_frame/',
+  base: '/',
   dest: 'dist',
   title: 'Liuyun Blog',
   description: '个人在前端开发过程中整理的全栈知识',
