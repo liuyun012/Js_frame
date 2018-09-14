@@ -33,9 +33,19 @@ function guideSidebarConfig () {
       children: [
         '/guide/',
         '/guide/html-head',
+        '/guide/css问题汇总',
+        '/guide/JavaScript语言特性',
+        '/guide/JavaScript基础操作汇总',
+        '/guide/JavaScript学习知识积累',
+        '/guide/JavaScript问题汇总',
         '/guide/前端编码规范整理',
         '/guide/常用正则表达式整理汇总',
         '/guide/jade语法',
+        '/guide/原生操作DOM汇总',
+        '/guide/Vue日常项目学习整理汇总',
+        '/guide/React 日常项目学习整理汇总',
+        '/guide/React-Router4.0使用汇总',
+        '/guide/快应用踩坑集锦',
       ]
     }
   ]
@@ -54,7 +64,9 @@ function utilsSidebarConfig () {
         '/utils/webpack教程及插件汇总',
         '/utils/Shell编程基础教程',
         '/utils/npm发包教程及组件按需加载的实现',
-        '/utils/个人博客网站的搭建'
+        '/utils/个人博客网站的搭建', 
+        '/utils/前端知识及工具整理', 
+        '/utils/VSCode插件推荐' 
       ]
     }
   ]

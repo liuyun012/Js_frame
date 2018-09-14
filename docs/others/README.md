@@ -1,6 +1,18 @@
 # 记录每周看到的值得分享的东西
 
-## 第二周 2018.09.02~09.09
+## 第三周 2018.09.10~09.16
+
+- [阮一峰网络日志 -- 每周分享第 22 期](http://www.ruanyifeng.com/blog/2018/09/weekly-issue-22.html)
+- [puppeteer -recorder Chrome 插件 将用户在浏览器里面的操作，自动生成对应的 Puppeteer 脚本](https://github.com/checkly/puppeteer-recorder)
+- [30个极大提高开发效率的Visual Studio Code插件](https://juejin.im/post/5b99a927f265da0a922399cd?utm_source=gold_browser_extension)
+- [vue插件开发、文档书写、github发布、npm包发布一波流](https://juejin.im/post/5b96586de51d450e7d0984a6?utm_source=gold_browser_extension)
+- [自制前端脚手架](http://imweb.io/topic/59ffc48c1f0e50753869bf91)
+- [教你从零开始搭建一款前端脚手架工具](https://segmentfault.com/a/1190000006190814)
+- [近两万字小程序攻略发布了](https://juejin.im/post/5b8fd1416fb9a05cf3710690?utm_source=gold_browser_extension)
+- [docsify - 动态生成文档网站的工具](https://docsify.js.org/#/zh-cn/)
+- [nowa - webpack & react 开发可视化管理](https://nowa-webpack.github.io/nowa/jian_jie.html)
+
+## 第二周 2018.09.03~09.09
 
 - [阮一峰网络日志 -- 每周分享第 21 期](http://www.ruanyifeng.com/blog/2018/09/weekly-issue-21.html)
 - [Charles 功能介绍和使用教程](https://juejin.im/post/5b8350b96fb9a019d9246c4c?utm_source=gold_browser_extension)
