@@ -10,7 +10,6 @@ cache:
 # 运行的脚本命令 - npm run ci
 script:
   - echo "Skipping tests"
-  - yarn docs:build
 
 # 指定分支，只有指定的分支提交时才会运行脚本
 branches:
@@ -18,14 +17,18 @@ branches:
     - master
 # 指定安装的依赖
 install:
-  - yarn global add vuepress
+  # - yarn global add vuepress
   - yarn install
+  - yarn docs:build
 # 自动部署
 deploy:
-  provider: pages
+  provider: releases
   skip-cleanup: true
-  github-token: "ed57dk5rVoxFDHW5lCUE3Q"  # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
+  api_key:
+    secure: 65013ead3a2cddc59a2e1a0ff085dadb779d6d0b
+  file: "dist"
+  # github-token: "ed57dk5rVoxFDHW5lCUE3Q"  # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
   target-branch: gh-pages
-  local-dir: dist
+  # local-dir: dist
   on:
     branch: master
