@@ -1,10 +1,30 @@
 # 指定运行环境
 language: node_js
-#运行的脚本命令
+# 指定node版本
+node_js:
+  - "8"
+# 指定要忽略的文件夹
+cache:
+  directories:
+    - "node_modules"
+# 运行的脚本命令 - npm run ci
 script:
-  - npm run ci
+  - echo "Skipping tests"
 
-#指定分支，只有指定的分支提交时才会运行脚本
+# 指定分支，只有指定的分支提交时才会运行脚本
 branches:
   only:
     - gh-pages
+# 指定安装的依赖
+install:
+  - npm install
+  - npm run docs:build
+# 自动部署
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: 020237be618367a02b19e2aedf2d4cb1866bba47  # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
+  target-branch: gh-pages
+  local-dir: dist
+  on:
+    branch: master
