@@ -1,5 +1,40 @@
 # 记录每周看到的值得分享的东西
 
+## 第三周 2018.09.10~09.16
+
+- [阮一峰网络日志 -- 每周分享第 22 期](http://www.ruanyifeng.com/blog/2018/09/weekly-issue-22.html)
+- [puppeteer -recorder Chrome 插件 将用户在浏览器里面的操作，自动生成对应的 Puppeteer 脚本](https://github.com/checkly/puppeteer-recorder)
+- [30个极大提高开发效率的Visual Studio Code插件](https://juejin.im/post/5b99a927f265da0a922399cd?utm_source=gold_browser_extension)
+- [vue插件开发、文档书写、github发布、npm包发布一波流](https://juejin.im/post/5b96586de51d450e7d0984a6?utm_source=gold_browser_extension)
+- [自制前端脚手架](http://imweb.io/topic/59ffc48c1f0e50753869bf91)
+- [教你从零开始搭建一款前端脚手架工具](https://segmentfault.com/a/1190000006190814)
+- [近两万字小程序攻略发布了](https://juejin.im/post/5b8fd1416fb9a05cf3710690?utm_source=gold_browser_extension)
+- [docsify - 动态生成文档网站的工具](https://docsify.js.org/#/zh-cn/)
+- [nowa - webpack & react 开发可视化管理](https://nowa-webpack.github.io/nowa/jian_jie.html)
+
+## 第二周 2018.09.03~09.09
+
+- [阮一峰网络日志 -- 每周分享第 21 期](http://www.ruanyifeng.com/blog/2018/09/weekly-issue-21.html)
+- [Charles 功能介绍和使用教程](https://juejin.im/post/5b8350b96fb9a019d9246c4c?utm_source=gold_browser_extension)
+- [搬瓦工VPS - 一款性价比较高的便宜VPS主机](http://banwagong.cn/)
+- [搬瓦工手动部署SS教程](http://www.huizhanzhang.com/2018/04/bandwagon-ss.html)
+- [BandwagonHost搬瓦工VPS快速安装BT宝塔Web面板](http://banwagong.cn/install-bt-panel.html)
+- [宝塔面板手册](https://www.kancloud.cn/chudong/bt2017)
+- [Travis CI - 将GitHub项目自动部署到服务器](https://travis-ci.org/)
+- [Travis-CI自动化测试并部署至自己的CentOS服务器](https://juejin.im/post/5a9e1a5751882555712bd8e1)
+- [持续集成服务 Travis CI 教程 - 阮一峰](http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html)
+- [jenkins 中文官网](http://www.jenkins.org.cn/)
+- [前端异常监控](https://juejin.im/post/5b53218cf265da0f9313a3de)
+- [前端监控和前端埋点方案设计](https://juejin.im/post/5b8b50ea6fb9a01a0b31a9a4?utm_source=gold_browser_extension)
+- [ECMAScript 6 入门 - 阮一峰](http://es6.ruanyifeng.com/)
+- [Flex 布局教程：语法篇 - 阮一峰](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
+- [Flex 布局教程：实例篇 - 阮一峰](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
+- [使用Flexible实现手淘H5页面的终端适配](https://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html)
+- [如何在Vue项目中使用vw实现移动端适配](https://www.w3cplus.com/mobile/vw-layout-in-vue.html)
+- [前端要凉？微软开源Sketch2Code，草图秒变代码](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247489475&idx=1&sn=69558d1c9518bf7429e42970e175810b&chksm=f951a280ce262b9618411cac4ec0de4bfaef94aa8389a55e6b2220140453debc5ad2f2982c6b&token=1625420209&lang=zh_CN#rd)
+- [编写更优雅的 JavaScript 代码（长期更新）](https://juejin.im/post/5b8fd36fe51d450e6475a92d?utm_source=gold_browser_extension)
+- [引言· 2018年前端开发工作手册](https://juejin.im/entry/5b90f29e6fb9a05d035bb690?utm_source=gold_browser_extension)
+
 ## 第一周 2018.08.27~09.02
 
 - [阮一峰网络日志 -- 每周分享第 20 期](http://www.ruanyifeng.com/blog/2018/08/weekly-issue-20.html)

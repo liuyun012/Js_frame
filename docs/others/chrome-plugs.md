@@ -106,3 +106,5 @@ github上查看代码的时候总是一层层进入再出来，有点麻烦, 安
 - [OneTab - 浏览器标签页整合](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
 - [下载+ 管理浏览器下载快速通道](https://chrome.google.com/webstore/detail/gokgophibdidjjpildcdbfpmcahilaaf)
 - [ImageAssistant - 批量下载图片助手](https://chrome.google.com/webstore/detail/imageassistant-batch-imag/dbjbempljhcmhlfpfacalomonjpalpko)
+- [壹伴·小插件 - 简单好用的公众号效率工具](https://yiban.io/download)
+- [Infinity新标签页](https://chrome.google.com/webstore/detail/infinity-new-tabproductiv/dbfmnekepjoapopniengjbcpnbljalfg?hl=zh-CN&gl=US)
