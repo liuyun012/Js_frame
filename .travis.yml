@@ -15,7 +15,7 @@ install:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: cf27bb43976e3d75ad71aaaaadcb3aa72b1c3826
+  github-token: $GITHUB_TOKEN 
   keep-history: true
   target-branch: gh-pages
   local-dir: dist
