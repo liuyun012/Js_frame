@@ -1,34 +1,26 @@
-# 指定运行环境
 language: node_js
-# 指定node版本
 node_js:
-  - "8"
-# 指定要忽略的文件夹
+- '8'
 cache:
   directories:
-    - "node_modules"
-# 运行的脚本命令 - npm run ci
+  - node_modules
 script:
-  - echo "Skipping tests"
-
-# 指定分支，只有指定的分支提交时才会运行脚本
+- echo "Skipping tests"
 branches:
   only:
-    - master
-# 指定安装的依赖
+  - master
 install:
-  # - yarn global add vuepress
-  - yarn install
-  - yarn docs:build
-# 自动部署
+- yarn install
+- yarn docs:build
 deploy:
-  provider: releases
+  provider: pages
   skip-cleanup: true
-  api_key:
-    secure: 65013ead3a2cddc59a2e1a0ff085dadb779d6d0b
-  file: "dist"
-  # github-token: "ed57dk5rVoxFDHW5lCUE3Q"  # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
+  github-token: cf27bb43976e3d75ad71aaaaadcb3aa72b1c3826
+  keep-history: true
   target-branch: gh-pages
-  # local-dir: dist
+  local-dir: dist
   on:
     branch: master
+env:
+  matrix:
+    secure: DI7ZfAtuM2w7PrMQWbLc0P9tXMJ+BosK8HmLTHIKtYsuGYZjaEqqVThVddfQIOVJfkfNQTn2bxQwZybi3AXKphpyyzU/vtZHF+8EQD98rVwnZlG+aiz4PgWujgNbdhj3eJC61+y32Spi7lb0pepeBbOo9vwm2B/e/nj7cAHBSG6haw7LiHCzYgLRYWmXMVt601/KbFVMCoXzoEfUVwWtgGqxJtywV+fsxMX48Ud+uuqnILVnLOoxG8dwSFeIGVw91MrdrVLa61UW0r0Tn6Qzv+KPAhCX/OnB3/KX9JFbM60jF2mcJsUkSJVNVih8ivAtJ/SlonqieiF1Q9OG8qQTKCbHF8WVIqfLCBGPDA9QObUy3Ze7xPdLcwZ1qt7zuPQvW7fHzG89ut7Kp3Y4XZwokp89tmlw2Ob1/kjhGLSQUmbt8qWrQze81RMujZk/wDzxewdSPcOpYHG3GgVnrjc1UAF0VZn6Oi5M7SfDbUqV7PzXCyAccr4PXpJ63YeLrTdA2V4fwg+3jEjjJQ0bMKV/6NjBtvKDMxeVZ3r4eWWvfT77feK9VrXopZiZ4i4CUYd1gmqRk86CHDlA1DR+5UvOzieAQQvuCi4WPSAmLpQ0JJC676XoHAFVEQiOvny53MDtlGF3fln6fmW0Z3aUMXdVqGh4aBzrudgZVNJbePVv8B0=
