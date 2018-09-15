@@ -24,7 +24,7 @@ install:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: ed57dk5rVoxFDHW5lCUE3Q  # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
+  github-token: "ed57dk5rVoxFDHW5lCUE3Q"  # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
   target-branch: gh-pages
   local-dir: dist
   on:
