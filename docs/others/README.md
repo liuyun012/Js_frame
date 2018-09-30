@@ -1,5 +1,25 @@
 # 记录每周看到的值得分享的东西
 
+## 第五周 2018.09.24~09.30
+
+- [阮一峰网络日志 -- 每周分享第 24 期](http://www.ruanyifeng.com/blog/2018/09/weekly-issue-24.html)
+- [浅尝 Web Components](https://denzel.netlify.com/html/web_components.html)
+- [一文读懂前端缓存](https://zhuanlan.zhihu.com/p/44789005)
+- [Westore 1.0 正式发布 - 小程序状态管理、跨页通讯和插件开发](https://github.com/dntzhang/westore)
+- [[译]ES6提示和技巧，使您的代码更清晰，更短，更容易阅读](https://juejin.im/post/5bad8f85f265da0ac256768e?utm_source=gold_browser_extension)
+- [js 模块化思考，原则，设计模式和最佳实践](https://mjavascript.com/)
+- [javascript 精选代码片段](https://github.com/30-seconds/30-seconds-of-code)
+- [FAutoTest - H5、小程序自动化测试框架](https://github.com/Tencent/FAutoTest)
+- [阿里达摩院官网](https://damo.alibaba.com/)
+
+
+## 第四周 2018.09.17~09.23
+- [阮一峰网络日志 -- 每周分享第 23 期](http://www.ruanyifeng.com/blog/2018/09/weekly-issue-23.html)
+- [干货分享：vue2.0做移动端开发用到的相关插件和经验总结(2)](https://juejin.im/post/5b97e60a5188255c5d567aea?utm_source=gold_browser_extension)
+- [一套自生成组件系统的构想与实践](https://juejin.im/post/5b9cf764f265da0aec224b6b?utm_source=gold_browser_extension)
+- [移动端页面分享快照生成总结](https://juejin.im/post/5ba1ab97e51d450e8a65f9ac?utm_source=gold_browser_extension)
+- [MathJax.js -- 浏览器显示数学公式开源库](https://github.com/mathjax/MathJax)
+
 ## 第三周 2018.09.10~09.16
 
 - [阮一峰网络日志 -- 每周分享第 22 期](http://www.ruanyifeng.com/blog/2018/09/weekly-issue-22.html)
