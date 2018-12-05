@@ -51,3 +51,13 @@ Mac Pro 初始开发环境搭建 -- 持续更新，调整 by Qzx
 	- [高效ToDo](http://www.gxtodo.com/web/#/task/list?version=person&id=995213)  
 	- [语雀--阿里最大的文档平台，知识管理](https://yuque.com/)
 	- [在线正则表达式查看](http://refiddle.com/)
+
+- Mac日常使用技巧汇总
+	- [忘记电脑开机密码](https://support.apple.com/zh-cn/HT202860)
+	
+		```
+		1. 重启Mac，然后立即按住 Command-R 或其他 macOS 恢复组合键之一，直到您看到 Apple 标志或旋转的地球。
+		2. 当您看到“macOS 实用工具”窗口时，请从菜单栏中选取“实用工具”>“终端”。
+		3. 在“终端”窗口中，键入 resetpassword，然后按下 Return 键以打开上图所示的“重设密码”助理。
+		4. 选择“我的密码在登录时无法正常工作”，然后点按“下一步”，并按照屏幕上适用于您用户帐户的说明操作。
+		```	 

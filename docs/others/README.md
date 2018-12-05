@@ -1,5 +1,60 @@
 # 记录每周看到的值得分享的东西
 
+## 第十五周 2018.12.03~12.09
+- [使用CSS3绘制网格线 - 信封线](http://www.alloyteam.com/2012/07/css3-grid-line/)
+- [巧用设计模式构建可配置Vue前端应用-活动页生成系统实践](https://juejin.im/post/5be2aa0351882516c3343bbc?utm_source=gold_browser_extension)
+- [VUE开发微信H5页面总结](https://juejin.im/post/5c0490ef51882524cb6f5652?utm_source=gold_browser_extension)
+- [前端项目基于GitLab-CI的持续集成/持续部署](https://juejin.im/post/5c015f4ae51d453244120d86?utm_source=gold_browser_extension)
+- [Fanyi - 命令行里的翻译工具](https://juejin.im/entry/5be959e16fb9a049ec6a9908?utm_source=gold_browser_extension)
+- [谷歌推出的新版web开发者平台](https://web.dev/)
+- [我是如何初始化 Mac 环境的](https://juejin.im/entry/5be3ed60e51d452c8260a818?utm_source=gold_browser_extension)
+
+## 第十二周 2018.11.12~11.18
+- [年终回顾，为你汇总一份「前端技术清单」](https://juejin.im/post/5bdfb387e51d452c8e0aa902?utm_source=gold_browser_extension
+)
+- [webpack4配置详解之慢嚼细咽](https://juejin.im/post/5be64a7bf265da615304493e?utm_source=gold_browser_extension
+)
+- [写给前端开发者不一样的VSCode配置(JS/React)](https://juejin.im/post/5bea48c4e51d454e5b5f19e8?utm_source=gold_browser_extension)
+- [一份超级详细的Vue-cli3.0使用教程](https://juejin.im/post/5bdec6e8e51d4505327a8952?utm_source=gold_browser_extension
+)
+- [微信小程序前端生成图片用于分享朋友圈最终解决方案](https://juejin.im/entry/5be645def265da61524ce7ed?utm_source=gold_browser_extension
+)
+- [22分钟学会书写正则](https://juejin.im/entry/5bea253351882509a767eeaf?utm_source=gold_browser_extension)
+- [前端黑科技：美团网页首帧优化实践](https://juejin.im/post/5bee7dd4e51d451f5b54cbb4?utm_source=gold_browser_extension)
+- [一种自动化生成骨架屏的方案](https://github.com/Jocs/jocs.github.io/issues/22)
+- [小程序的填坑小技巧之网络请求改造](http://www.wxapp-union.com/article-3988-1.html)
+
+
+## 第十周 2018.10.29~11.04
+- [VPN Plus For Mac翻墙VPN工具V18.6.0](https://www.macenjoy.co/blog/vpn-plus-for-mac-vpn)
+- [VSCode支持 wxs/wxml/wxss 等微信小程序代码高亮、补全 - minapp插件](http://one-more-tech.info/%E8%AE%A9-VSCode-%E6%94%AF%E6%8C%81-wxs-wxml-wxss-%E7%AD%89%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E3%80%81%E8%A1%A5%E5%85%A8/index/)
+- [绘制小程序骨架屏，轻量、方便、快捷](https://github.com/jayZOU/skeleton)
+
+## 第九周 2018.10.22~10.28
+- [阮一峰网络日志 -- 每周分享第 28 期](http://www.ruanyifeng.com/blog/2018/10/weekly-issue-28.html)
+- [charles授权码获取_全版本通用|charles 破解](http://www.wrbug.com/2018/10/23/charles%E6%8E%88%E6%9D%83%E7%A0%81%E8%8E%B7%E5%8F%96-%E5%85%A8%E7%89%88%E6%9C%AC%E9%80%9A%E7%94%A8/)
+- [通过.vue文件生成组件使用文档](https://juejin.im/post/5bd05ee6f265da0ab3318d9c?utm_source=gold_browser_extension)
+- [分享一个高性能灵活的多页面Vue脚手架](https://juejin.im/post/5bd169cc6fb9a05d31555255?utm_source=gold_browser_extension)
+- [活动页面生成器](https://github.com/muwoo/blogs/issues/36)
+- [全屏滚动网站 - FullPage,js](https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese#fullpagejs)
+- [webpack4.x最详细入门讲解](https://juejin.im/post/5bd66efcf265da0a8a6af2d2?utm_source=gold_browser_extension)
+- [gulp-sass 在所有进口中定义变量和混合](https://stackoverrun.com/cn/q/12460686)
+- [基于weex的有赞无线开发框架](https://juejin.im/post/5bd7feb85188257100456a85?utm_source=gold_browser_extension)
+- [H5拍照上传填坑汇总](https://juejin.im/post/5bd705abf265da0a8d36dbdc?utm_source=gold_browser_extension)
+- [如何设计高扩展的在线网页制作平台](https://juejin.im/post/5bd83daee51d4524b50d23b5?utm_source=gold_browser_extension)
+- [Omi - 下一代 Web 框架，去万物糟粕，合精华为一](https://github.com/Tencent/omi/blob/master/README.CN.md)
+- [微信小程序解决方案 - 1KB javascript 覆盖状态管理、跨页通讯、插件开发和云数据库开发 ](https://github.com/Tencent/westore)
+
+## 第八周 2018.10.15~10.21
+- [阮一峰网络日志 -- 每周分享第 27 期](http://www.ruanyifeng.com/blog/2018/10/weekly-issue-27.html)
+- [前端骨架屏方案小结](https://juejin.im/post/5bc5396ee51d456f490984eb?utm_source=gold_browser_extension)
+- [基于 Webpack4 搭建 Vue 开发环境](https://juejin.im/post/5bc30d5fe51d450ea1328877?utm_source=gold_browser_extension)
+- [前端进阶之路-利用Jenkins快速打造前端项目自动化工作流](https://juejin.im/post/5bc000826fb9a05d330adf9d?utm_source=gold_browser_extension)
+- [VsCode 添加文件头部注释和函数注释 - koroFileHeader](https://juejin.im/post/5bc45aa66fb9a05cdb10622d?utm_source=gold_browser_extension)
+- [从 1 到完美，用 node 写一个命令行工具](https://mp.weixin.qq.com/s/7CsVqkn6hhHcFYmcB4P3qA)
+- [腾讯发布前端组件框架 Omi，全面拥抱 Web Components](https://juejin.im/post/5bc823d46fb9a05d1d2e3fc9?utm_source=gold_browser_extension)
+- [深度介绍：💾 你听说过原生 HTML 组件吗？](https://juejin.im/post/5bc7ead7f265da0afc2c2c6b)
+
 ## 第五周 2018.09.24~09.30
 
 - [阮一峰网络日志 -- 每周分享第 24 期](http://www.ruanyifeng.com/blog/2018/09/weekly-issue-24.html)
@@ -11,6 +66,7 @@
 - [javascript 精选代码片段](https://github.com/30-seconds/30-seconds-of-code)
 - [FAutoTest - H5、小程序自动化测试框架](https://github.com/Tencent/FAutoTest)
 - [阿里达摩院官网](https://damo.alibaba.com/)
+- [shell代码提交脚本git](https://www.jianshu.com/p/29235bd63e65)
 
 
 ## 第四周 2018.09.17~09.23

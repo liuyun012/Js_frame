@@ -3,6 +3,7 @@
 ## 资料参考网址
 - [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
 - [Shell脚本学习系列教程](http://me.52fhy.com/shell-book/)
+- [shell代码提交脚本git](https://www.jianshu.com/p/29235bd63e65)
 
 
 ### Shell脚本简介
@@ -139,6 +140,7 @@ sh test.sh
 	3. 布尔运算符
 	4. 字符串运算符
 	5. 文件测试运算符
+
 - **Shell里的流程控制**
 	- if else 
 	
@@ -171,5 +173,22 @@ sh test.sh
 	done
 	```
 - **Shell里的一些特殊符号**
+
 - **命令行参数**
+	- cd： 进入文件命令
+	- mkdir: 新建文件夹
+	- open： 打开指定目录
+	- vim : 打开指定文件
+	- cp -r : 拷贝目录 
+
+- **常见操作**
+	- 获取当前目录名： 
+	
+	```
+	basename `pwd`
+	echo ${PWD##*/}
+	``` 
+ 
+
+
 	
