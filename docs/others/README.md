@@ -1,5 +1,64 @@
 # 记录每周看到的值得分享的东西
 
+## 前端优秀技术团队网站集合(人工置顶)
+- [百度EFE（Excellent FrontEnd）技术 Blog](http://efe.baidu.com/)
+- [腾讯全端 AlloyTeam 团队 Blog](http://www.alloyteam.com/)
+- [淘宝前端团队 FED](http://taobaofed.org/)
+- [京东前端 - 凹凸实验室](https://aotu.io/index.html)
+- [奇虎360前端 - 奇舞团](https://75team.com/)
+- [W3cplus - 大漠css技术博客](https://www.w3cplus.com/)
+- [印记中文 - 前端框架翻译文档汇总](https://docschina.org/)
+- [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
+- [Node.js中文网 - api文档](http://nodejs.cn/api/)
+- [InterviewMap - 前端面试图谱](https://yuchengkai.cn/docs/zh/)
+- [掘金 - 程序员开发社区](https://juejin.im/)
+- [Github - 程序员开发必备](https://github.com/)
+
+## 第三周 2019.01.14~01.20
+- [字体搜索引擎](https://www.getthefont.com/)
+- [Awesome Mac: 收入各种好用的 Mac 软件](https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md)
+- [FinderGo - 从Finder快速打开终端](https://github.com/onmyway133/FinderGo)
+- [在单页应用中，如何优雅的上报前端性能数据](https://juejin.im/post/5c3bebf2f265da613f2fae54?utm_source=gold_browser_extension)
+- [vue-cli3 从搭建到优化](https://juejin.im/post/5c3c544c6fb9a049d37f5903?utm_source=gold_browser_extension)
+- [VUE单页应用骨架屏方案](https://juejin.im/post/5c3d952ff265da616e4ca9ad?utm_source=gold_browser_extension)
+
+## 第一周 2019.01.01~01.06
+- [前端项目中常见的 CSS 问题](https://juejin.im/post/5c2b5cb8e51d45673971d582?utm_source=gold_browser_extension)
+- [Weex 起步：项目初始化和模拟器运行 Native APP](https://juejin.im/post/59f204a26fb9a0451968d0db)
+- [在Mac OS X安裝移除JDK](http://blog.tibame.com/?p=2068)
+
+## 第十八周 2018.12.24~12.30
+- [学会使用 curl 命令](https://juejin.im/post/5c1da55b6fb9a049c84f709b?utm_source=gold_browser_extension)
+- [手把手教你开发第一个命令行程序](https://www.kancloud.cn/outsider/clitool/313194)
+- [VSCode折腾log插件](https://juejin.im/post/5c1e2612e51d452aaa7c43fe?utm_source=gold_browser_extension)
+- [chrome 开发者工具详解](https://github.com/hoperyy/blog/issues/122)
+- [使用 Source Map 调试线上代码](https://yi-jy.com/2018/01/25/sourcemap-debug/)
+- [阿里重磅开源中后台UI解决方案Fusion](https://juejin.im/entry/5c218e896fb9a049c84f7a24?utm_source=gold_browser_extension)
+- [Commit message 和 Change log 编写指南 - 阮一峰](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
+- [优雅的提交你的 Git Commit Message](https://juejin.im/post/5afc5242f265da0b7f44bee4)
+- [Git 使用规范流程](http://www.ruanyifeng.com/blog/2015/08/git-use-process.html)
+- [Git Cheat Sheet中文版](https://www.kancloud.cn/thinkphp/git-cheat-sheet)
+- [前端开发规范手册](https://www.kancloud.cn/kancloud/front-end-style-guide)
+
+## 第十七周 2018.12.17~12.23
+- [根据文件层次生成目录结构（node版）](https://juejin.im/post/5b0f47b46fb9a00a220b1a53)
+- [生成项目结构图 - Tree命令的使用](https://wodewone.github.io/2017/02/19/node-tree-user/)
+- [Fontmin 快速指南 - 百度EFE](http://efe.baidu.com/blog/fontmin-getting-started/)
+- [当「SPA」应用遇上了膨胀的项目](https://juejin.im/post/5c18b5f15188252dcb31072a?utm_source=gold_browser_extension)
+- [只需两步快速获取微信小程序源码](https://juejin.im/post/5b0e431f51882515497d979f)
+- [轻松生成小程序分享海报](https://juejin.im/post/5b7e48566fb9a01a1059543f)
+- [开源一个代码规范检测工具](https://juejin.im/post/5c1b9a30e51d4525de5819c6?utm_source=gold_browser_extension)
+- [前端模块化详解(完整版)](https://juejin.im/post/5c17ad756fb9a049ff4e0a62?utm_source=gold_browser_extension)
+
+## 第十六周 2018.12.10~12.16
+- [论如何进行小程序自定义组件的单元测试](https://juejin.im/post/5c0a00a5e51d451d9a7464cb?utm_source=gold_browser_extension)
+- [Mac OS X 配置指南 Docs](https://wild-flame.github.io/guides/docs/mac-os-x-setup-guide/preference_and_settings/readme)
+- [nginx 反向代理](https://juejin.im/post/5c0e6d606fb9a049f66bf246?utm_source=gold_browser_extension)
+- [前端错误收集（Vue.js、微信小程序）](https://juejin.im/post/5c0f19dff265da61461e0140?utm_source=gold_browser_extension)
+- [前端自动化测试](https://juejin.im/post/5c0fa949f265da616e4c49a6?utm_source=gold_browser_extension)
+- [Mac 环境docker 安装jenkins](https://www.jianshu.com/p/e4d1ffc30ce9)
+- [安装Jenkins - 官网](https://jenkins.io/doc/book/installing/#customizing-jenkins-with-plugins)
+
 ## 第十五周 2018.12.03~12.09
 - [使用CSS3绘制网格线 - 信封线](http://www.alloyteam.com/2012/07/css3-grid-line/)
 - [巧用设计模式构建可配置Vue前端应用-活动页生成系统实践](https://juejin.im/post/5be2aa0351882516c3343bbc?utm_source=gold_browser_extension)

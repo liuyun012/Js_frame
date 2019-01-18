@@ -188,7 +188,12 @@ sh test.sh
 	basename `pwd`
 	echo ${PWD##*/}
 	``` 
- 
+   
+   - 获取当前 git 分支名
+   
+   ```
+   git_name=$(git symbolic-ref --short HEAD)
+   ```
 
 
 	
