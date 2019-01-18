@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>PHP 简介 和 开发环境配置 | Liuyun Blog</title>
+    <meta name="description" content="个人在前端开发过程中整理的全栈知识">
+    <link rel="icon" href="/logo.png">
+    
+    <link rel="preload" href="/assets/css/0.styles.cc2a2ebf.css" as="style"><link rel="preload" href="/assets/js/app.179fdb04.js" as="script"><link rel="preload" href="/assets/js/6.a593a008.js" as="script"><link rel="prefetch" href="/assets/js/23.62c86287.js"><link rel="prefetch" href="/assets/js/2.cda51ec0.js"><link rel="prefetch" href="/assets/js/3.d9e4f004.js"><link rel="prefetch" href="/assets/js/4.89782e16.js"><link rel="prefetch" href="/assets/js/5.b88fe57b.js"><link rel="prefetch" href="/assets/js/7.5de1569e.js"><link rel="prefetch" href="/assets/js/8.fe4249fe.js"><link rel="prefetch" href="/assets/js/9.979c7cc3.js"><link rel="prefetch" href="/assets/js/10.d3c0468d.js"><link rel="prefetch" href="/assets/js/11.78d628ba.js"><link rel="prefetch" href="/assets/js/12.a09bf4c7.js"><link rel="prefetch" href="/assets/js/13.d30963c3.js"><link rel="prefetch" href="/assets/js/14.2f465d9a.js"><link rel="prefetch" href="/assets/js/15.8faf7082.js"><link rel="prefetch" href="/assets/js/16.480ac2ea.js"><link rel="prefetch" href="/assets/js/17.dbd2c19f.js"><link rel="prefetch" href="/assets/js/18.0728f048.js"><link rel="prefetch" href="/assets/js/19.2e57d3d7.js"><link rel="prefetch" href="/assets/js/20.b45cef85.js"><link rel="prefetch" href="/assets/js/21.da673e5a.js"><link rel="prefetch" href="/assets/js/22.0adb5271.js"><link rel="prefetch" href="/assets/js/24.5c80a2bb.js"><link rel="prefetch" href="/assets/js/25.7290e58d.js"><link rel="prefetch" href="/assets/js/26.2767c10d.js"><link rel="prefetch" href="/assets/js/27.89b69b2f.js"><link rel="prefetch" href="/assets/js/28.2cf3b2c5.js"><link rel="prefetch" href="/assets/js/29.2545ca7e.js"><link rel="prefetch" href="/assets/js/30.802a91cb.js"><link rel="prefetch" href="/assets/js/31.1b6da1b5.js"><link rel="prefetch" href="/assets/js/32.9e994f0a.js"><link rel="prefetch" href="/assets/js/33.34ee87b9.js"><link rel="prefetch" href="/assets/js/34.a5fa4c30.js"><link rel="prefetch" href="/assets/js/35.34ae4516.js"><link rel="prefetch" href="/assets/js/36.7d4adbea.js"><link rel="prefetch" href="/assets/js/37.39bfa8e7.js"><link rel="prefetch" href="/assets/js/38.85086c4c.js"><link rel="prefetch" href="/assets/js/39.ec5ca575.js"><link rel="prefetch" href="/assets/js/40.bec19f6e.js"><link rel="prefetch" href="/assets/js/41.e00424d9.js"><link rel="prefetch" href="/assets/js/42.45f73e33.js"><link rel="prefetch" href="/assets/js/43.896dfa1e.js"><link rel="prefetch" href="/assets/js/44.cd8a0728.js"><link rel="prefetch" href="/assets/js/45.830001ab.js"><link rel="prefetch" href="/assets/js/46.b9361b43.js"><link rel="prefetch" href="/assets/js/47.67fa6b04.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.cc2a2ebf.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Liuyun Blog</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link">前端指南</a></div><div class="nav-item"><a href="/utils/" class="nav-link">辅助工具</a></div><div class="nav-item"><a href="/full-stack/" class="nav-link router-link-active">全栈集锦</a></div><div class="nav-item"><a href="/others/" class="nav-link">其他</a></div><div class="nav-item"><a href="https://liuyun012.github.io/xes-wxapp/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  xes-wxapp
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/liuyun012/Js_frame/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/" class="nav-link">前端指南</a></div><div class="nav-item"><a href="/utils/" class="nav-link">辅助工具</a></div><div class="nav-item"><a href="/full-stack/" class="nav-link router-link-active">全栈集锦</a></div><div class="nav-item"><a href="/others/" class="nav-link">其他</a></div><div class="nav-item"><a href="https://liuyun012.github.io/xes-wxapp/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  xes-wxapp
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/liuyun012/Js_frame/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>全栈集锦</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/full-stack/" class="sidebar-link">全栈开发知识大汇总</a></li><li><a href="/full-stack/前端和后端注释文档生成.html" class="sidebar-link">前端和后端注释文档生成</a></li><li><a href="/full-stack/PHP基础知识整理.html" class="active sidebar-link">PHP 简介 和 开发环境配置</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/full-stack/PHP基础知识整理.html#php-简介-和-开发环境配置" class="sidebar-link">PHP 简介 和 开发环境配置</a></li><li class="sidebar-sub-header"><a href="/full-stack/PHP基础知识整理.html#php-入门教程及框架汇总" class="sidebar-link">PHP 入门教程及框架汇总</a></li><li class="sidebar-sub-header"><a href="/full-stack/PHP基础知识整理.html#php基础知识" class="sidebar-link">PHP基础知识</a></li></ul></li><li><a href="/full-stack/mysql数据库学习资料汇总.html" class="sidebar-link">MySQL数据库学习资料汇总</a></li><li><a href="/full-stack/http协议资料整理.html" class="sidebar-link">HTTP 协议</a></li><li><a href="/full-stack/Express框架学习.html" class="sidebar-link">Express开发框架学习汇总</a></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h2 id="php-简介-和-开发环境配置"><a href="#php-简介-和-开发环境配置" aria-hidden="true" class="header-anchor">#</a> PHP 简介 和 开发环境配置</h2> <p>PHP(Hypertext Preprocessor)是全球最流行的Web程序开发语言(没有之一)。语法简单,易于学习、功能强大、灵活易用。PHP、Apache和MySQL的组合已成为Web服务器的一种配置标准。</p> <ul><li>配置PHP开发环境
+<ul><li>windows下： <a href="https://www.apachefriends.org/zh_cn/index.html" target="_blank" rel="noopener noreferrer">XAMPP 集成工具<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li>Mac下：<a href="https://www.mamp.info/en/" target="_blank" rel="noopener noreferrer">MAMP 集成工具<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li>Php在线代码工具： <a href="http://www.runoob.com/try/runcode.php?filename=demo_intro&type=php" target="_blank" rel="noopener noreferrer">php 在线工具<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li> <li>PHP 开发工具
+<ul><li><a href="http://www.runoob.com/w3cnote/php-develop-tools.html" target="_blank" rel="noopener noreferrer">PHP 开发工具推荐<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://www.jetbrains.com/phpstorm/" target="_blank" rel="noopener noreferrer">PhpStorm 软件<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="http://www.edbiji.com/doccenter/showdoc/176/nav/3066.html" target="_blank" rel="noopener noreferrer">phpStorm 2017 最新版激活及汉化破解方式<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="http://www.sdifen.com/phpstorm201714.html" target="_blank" rel="noopener noreferrer">PhpStorm 2017.1.4 Mac中文破解版<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://www.mysql.com/cn/" target="_blank" rel="noopener noreferrer">Mysql 开源数据库<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://www.sequelpro.com/" target="_blank" rel="noopener noreferrer">Sequel Pro -- Mac 上的MySQL 管理工具<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://www.phpmyadmin.net/" target="_blank" rel="noopener noreferrer">phpMyAdmin -- MySQL 管理工具<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul> <h2 id="php-入门教程及框架汇总"><a href="#php-入门教程及框架汇总" aria-hidden="true" class="header-anchor">#</a> PHP 入门教程及框架汇总</h2> <ul><li>PHP 教程及资料
+<ul><li><a href="http://www.runoob.com/php/php-tutorial.html" target="_blank" rel="noopener noreferrer">PHP 菜鸟教程<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://www.w3cschool.cn/php/" target="_blank" rel="noopener noreferrer">PHP W3Cschool教程<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li> <li>PHP 框架及项目
+<ul><li><a href="http://www.thinkphp.cn/" target="_blank" rel="noopener noreferrer">Thinkphp 框架<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://laravel.com/" target="_blank" rel="noopener noreferrer">Laravel 官网<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="http://laravelacademy.org/" target="_blank" rel="noopener noreferrer">Laravel 学院<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul> <h2 id="php基础知识"><a href="#php基础知识" aria-hidden="true" class="header-anchor">#</a> PHP基础知识</h2> <ul><li><p>基本语法 <br>
+php脚本以 &lt;?php 开始，以 ?&gt; 结束，默认文件扩展名 &quot;.php&quot;：</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;?php
+	//PHP 代码
+?&gt;
+</code></pre></div><p>在浏览器输出文本的基础指令：echo, print, 每个代码行必须以分号结束，用于把指令集区分开, 注释分 单行注释 和 多行注释。</p> <div class="language- extra-class"><pre class="language-text"><code>	echo &quot;Hello World! &quot;;
+	echo &quot;欢迎 世界 &quot;;
+	
+	// 这是 PHP 单行注释
+	/*
+		这是
+		PHP多行
+		注释
+	*/
+</code></pre></div></li> <li><p>基础数据类型及操作</p> <ul><li><p>变量(以 $符合开始，后面跟变量的名称，变量名必须以字母或者下划线开始)</p> <ul><li>$符号开始，后面跟变量名称</li> <li>变量名以字母或下划线开始，只能包含字母数字字符以及下划线（A-z、0-9和_）</li> <li>变量名不能包含空格，区分 大小写（$y 和 $Y 是两个不同的变量）</li> <li>变量作用域：local、global、static、parameter</li> <li>局部和全局作用域,全局变量存储在一个名为 $GLOBALS[index] 的数组中。 index 保存变量的名称。</li></ul> <div class="language- extra-class"><pre class="language-text"><code>&lt;?php
+	$x=5; // 全局作用域
+	$y=10;
+	function myTest() 
+	{ 
+	    $y=10; // 局部变量 
+	}
+	
+	myTest()；
+	echo &quot;变量 y 为: $y&quot;;
+	function myTest0()
+	{
+	    global $x,$y; // 函数内访问全局变量
+	    $y=$x+$y;
+	    static $z=0;
+	    echo $z;
+	    $z++;
+	}	
+	myTest0();
+	echo $y; // 输出 15	
+?&gt;
+</code></pre></div></li> <li><p>数据类型： String(字符串)、Integer(整型)、Float(浮点型)、Boolean(布尔型)、Array(数组)、Object(对象)、NUll(空值) <br>
+通过PHP的 var_dump() 函数可以返回变量的数据类型和值</p> <div class="language- extra-class"><pre class="language-text"><code>$x = &quot;Hello world!&quot;;  // 字符串
+$x = 5985; // 整数
+$x = -345; // 负数
+$x = 0x8C; // 十六进制数
+$x = 047;  // 八进制数
+$x = 2.4e3;
+$x = 8E-5;
+$x=true;   // 布尔值
+$cars=array(&quot;Volvo&quot;,&quot;BMW&quot;,&quot;Toyota&quot;);  // 数组
+class Car   // 声明类对象
+{
+  var $color;
+  function Car($color=&quot;green&quot;) {
+    $this-&gt;color = $color;
+  }
+  function what_color() {
+    return $this-&gt;color;
+  }
+}
+$x=null;
+var_dump($x);
+</code></pre></div></li> <li><p>常量 define()函数，默认为全局的</p> <div class="language- extra-class"><pre class="language-text"><code>bool define ( string $name , mixed $value [, bool $case_insensitive = false ] )
+</code></pre></div><p>三个参数：name: 必选参数，常量名称即标识符； value: 必须参数，常量的值。
+case_insensitive: 可选参数，若设置为 TRUE,则该常量大小写不敏感，默认为false。</p> <div class="language- extra-class"><pre class="language-text"><code>// 区分大小写的常量名
+define(&quot;GREETING&quot;, &quot;欢迎访问 Runoob.com&quot;);
+echo GREETING;    // 输出 &quot;欢迎访问 Runoob.com&quot;
+// 不区分大小写的常量名
+define(&quot;GREETING&quot;, &quot;欢迎访问 Runoob.com&quot;, true);
+echo greeting;  // 输出 &quot;欢迎访问 Runoob.com&quot;	
+</code></pre></div></li> <li><p>字符串 （文字值变量时，需加 单引号或者双引号）</p> <ul><li>并置运算符( . ), 将两个字符串值连接起来</li> <li>strlen()函数，返回字符串的长度(字符数)</li> <li>dtrpos()函数，查找一个字符或一段指定的文本，找到则返回第一个匹配的字符位置，否则返回FALSE。</li> <li>mb_strlen(), 指定编码输出中文字符个数</li></ul> <div class="language- extra-class"><pre class="language-text"><code>$txt='Hello world!'; 
+$txt2=&quot;What a nice day!&quot;; 
+echo $txt1 . &quot; &quot; . $txt2; // Hello world! What a nice day!
+echo strlen(&quot;Hello world!&quot;);  // 输出 12
+echo strpos(&quot;Hello world!&quot;,&quot;world&quot;);  // 输出 6， 第一个字符的位置为 0
+echo strlen(&quot;中文字符&quot;);   // 输出 12，一个中文占 3 个字符数
+echo mb_strlen(&quot;中文字符&quot;,'utf-8');  // 输出 4
+</code></pre></div></li> <li><p>运算符</p> <ul><li>算数运算符 ( +、-、*、/、%、-x、a.b 和 intdiv() )</li> <li>赋值运算符 ( =、+=、-=、^=、/=、%=、.= )</li> <li>递增/递减运算符 ( ++x、x++、--x、x--)</li> <li>比较运算符 ( ==、===、!=、&lt;&gt;、!==、&gt;、&lt;、&gt;=、&lt;= )</li> <li>逻辑运算符 ( and、or、xor、&amp;&amp;、||、！ )</li> <li>数组运算符 ( +、==、===、!=、&lt;&gt;、!==)</li> <li>三元运算符 ( ?: )</li> <li>组合比较符 ( &lt;=&gt; )</li></ul></li> <li><p>If...Else 条件语句 (if(){ }、if(){ } else {}、if() {} elseif() { }else { })</p></li> <li><p>switch 语句</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>&lt;?php
+	switch (n)
+	{
+	case label1:
+	    如果 n=label1，此处代码将执行;
+	    break;
+	case label2:
+	    如果 n=label2，此处代码将执行;
+	    break;
+	default:
+	    如果 n 既不等于 label1 也不等于 label2，此处代码将执行;
+	}
+?&gt;
+</code></pre></div><ul><li><p>数组 array()</p> <ul><li>count()函数：获取数组的长度</li> <li>遍历数值数组</li></ul> <div class="language- extra-class"><pre class="language-text"><code>&lt;?php
+	$cars=array(&quot;Volvo&quot;,&quot;BMW&quot;,&quot;Toyota&quot;);
+	$arrlength=count($cars);
+	 
+	for($x=0;$x&lt;$arrlength;$x++)
+	{
+	    echo $cars[$x];
+	    echo &quot;&lt;br&gt;&quot;;
+	}
+?&gt;
+</code></pre></div><ul><li>关联数组，创建关联数组的方法：</li></ul> <div class="language- extra-class"><pre class="language-text"><code>$age=array(&quot;Peter&quot;=&gt;&quot;35&quot;,&quot;Ben&quot;=&gt;&quot;37&quot;,&quot;Joe&quot;=&gt;&quot;43&quot;);
+// 或者
+$age['Peter']=&quot;35&quot;;
+$age['Ben']=&quot;37&quot;;
+$age['Joe']=&quot;43&quot;;
+</code></pre></div><ul><li>遍历关联数组</li></ul> <div class="language- extra-class"><pre class="language-text"><code>&lt;?php
+	$age=array(&quot;Peter&quot;=&gt;&quot;35&quot;,&quot;Ben&quot;=&gt;&quot;37&quot;,&quot;Joe&quot;=&gt;&quot;43&quot;);
+	 
+	foreach($age as $x=&gt;$x_value)
+	{
+	    echo &quot;Key=&quot; . $x . &quot;, Value=&quot; . $x_value;
+	    echo &quot;&lt;br&gt;&quot;;
+	}
+?&gt;
+</code></pre></div></li></ul></li> <li><p>数组排序</p> <ul><li>sort() - 升序排列</li> <li>rsort() - 降序排列</li> <li>asort() - 根据关联数组的值，对数组升序排列</li> <li>ksort() - 根据关联数组的键，对数组升序排列</li> <li>arsort() - 根据关联数组的值，对数组降序排列</li> <li>krsort() - 根据关联数组的键，对数组降序排列</li></ul></li> <li><p>PHP 超级全局变量</p> <ul><li>$GLOBALS 包含全部变量的全局组合数组，变量的名字就是数组的键</li> <li>$_SERVER  包含诸如头信息(header)、路径(path)、以及脚本位置(script locations)等信息的数组。</li> <li>$_REQUEST 用于收集HTML表单提交的数据</li> <li>$_POST 广泛应用于收集表单数据，在HTML标签的指定该属性：&quot;method=&quot;post&quot;&quot;</li> <li>$_GET 广泛应用于收集表单数据，在HTML标签的指定该属性：&quot;method=&quot;get&quot;</li> <li>$_FILES</li> <li>$_ENV</li> <li>$_COOKIE</li> <li>$_SESSION</li></ul></li> <li><p>函数</p> <ul><li>内建函数,超1000个 <a href="http://www.runoob.com/php/php-ref-array.html" target="_blank" rel="noopener noreferrer">PHP参考手册<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li>创建 PHP 函数（函数名应能提示它的功能，以字母或者下划线开头）</li> <li>添加函数，为函数添加更多功能，添加参数，参数类似变量</li> <li>返回值 -- return语句</li></ul></li> <li><p>PHP魔法变量</p> <ul><li><strong>LINE</strong> ：文件中的当前行号。</li> <li><strong>FILE</strong> ：文件的完整路径和文件名。如果用在被包含文件中，则返回被包含的文件名。</li> <li><strong>DIR</strong> ： 文件所在的目录。如果用在被包括文件中，则返回被包括的文件所在的目录。</li> <li><strong>FUNCTION</strong> ：返回该函数被定义时的名字（区分大小写）。</li> <li><strong>CLASS</strong> ： 返回该类被定义时的名字（区分大小写）。</li> <li><strong>TRAIT</strong> ： Trait 名包括其被声明的作用区域</li> <li><strong>METHOD</strong> ： 返回该方法被定义时的名字（区分大小写）。</li> <li><strong>NAMESPACE</strong> ： 当前命名空间的名称（区分大小写）。</li></ul></li> <li><p>命名空间(namespace) <br></p> <ul><li>解决以下两类问题：
+<ul><li>用户编写的代码与PHP内部的类/函数/常量或第三方类/函数/常量之间的名字冲突。</li> <li>为很长的标识符名称(通常是为了缓解第一类问题而定义的)创建一个别名（或简短）的名称，提高源代码的可读性。</li></ul></li> <li>定义命名空间：通过关键词 namespace 来声明，如果一个文件中包含命名空间，它必须在其它所有代码之前声明命名空间。</li></ul> <div class="language- extra-class"><pre class="language-text"><code>&lt; ?php  
+	namespace MyProject1;  
+	// MyProject1 命名空间中的PHP代码  
+	 
+	namespace MyProject2;  
+	// MyProject2 命名空间中的PHP代码    
+	 
+	// 另一种语法
+	namespace MyProject3 {  
+	 // MyProject3 命名空间中的PHP代码    
+}  
+?&gt;
+</code></pre></div><ul><li><p>子命名空间，命名空间的名字可以使用分层次的方式定义</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;?php
+	namespace MyProject\Sub\Level;  //声明分层次的单个命名空间
+	
+	const CONNECT_OK = 1;
+	class Connection { /* ... */ }
+	function Connect() { /* ... */  }
+?&gt;
+</code></pre></div></li></ul></li> <li><p>PHP 面向对象 <br>
+对象的三个主要特征：</p> <pre><code>  - 对象的行为：可以对 对象施加那些操作
+  - 对象的形态：当施加那些方法是对象如何响应
+  - 对象的表示：具体区分在相同的行为与状态下有什么不同
+</code></pre> <p>面向对象内容：类、对象、成员变量、成员函数、继承、父类、子类、多态、重载、抽象性、封装、构造函数、析构函数。</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;?php
+	class phpClass {
+	  var $var1;
+	  var $var2 = &quot;constant string&quot;;
+	  
+	  function myfunc ($arg1, $arg2) {
+	     [..]
+	  }
+	  [..]
+	}
+?&gt;
+</code></pre></div></li></ul></div> <div class="page-edit"><!----> <!----></div> <!----> </div> <!----></div></div>
+    <script src="/assets/js/6.a593a008.js" defer></script><script src="/assets/js/app.179fdb04.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vuex 的学习记录 | Liuyun Blog</title>
+    <meta name="description" content="个人在前端开发过程中整理的全栈知识">
+    <link rel="icon" href="/logo.png">
+    
+    <link rel="preload" href="/assets/css/0.styles.cc2a2ebf.css" as="style"><link rel="preload" href="/assets/js/app.179fdb04.js" as="script"><link rel="preload" href="/assets/js/23.62c86287.js" as="script"><link rel="prefetch" href="/assets/js/2.cda51ec0.js"><link rel="prefetch" href="/assets/js/3.d9e4f004.js"><link rel="prefetch" href="/assets/js/4.89782e16.js"><link rel="prefetch" href="/assets/js/5.b88fe57b.js"><link rel="prefetch" href="/assets/js/6.a593a008.js"><link rel="prefetch" href="/assets/js/7.5de1569e.js"><link rel="prefetch" href="/assets/js/8.fe4249fe.js"><link rel="prefetch" href="/assets/js/9.979c7cc3.js"><link rel="prefetch" href="/assets/js/10.d3c0468d.js"><link rel="prefetch" href="/assets/js/11.78d628ba.js"><link rel="prefetch" href="/assets/js/12.a09bf4c7.js"><link rel="prefetch" href="/assets/js/13.d30963c3.js"><link rel="prefetch" href="/assets/js/14.2f465d9a.js"><link rel="prefetch" href="/assets/js/15.8faf7082.js"><link rel="prefetch" href="/assets/js/16.480ac2ea.js"><link rel="prefetch" href="/assets/js/17.dbd2c19f.js"><link rel="prefetch" href="/assets/js/18.0728f048.js"><link rel="prefetch" href="/assets/js/19.2e57d3d7.js"><link rel="prefetch" href="/assets/js/20.b45cef85.js"><link rel="prefetch" href="/assets/js/21.da673e5a.js"><link rel="prefetch" href="/assets/js/22.0adb5271.js"><link rel="prefetch" href="/assets/js/24.5c80a2bb.js"><link rel="prefetch" href="/assets/js/25.7290e58d.js"><link rel="prefetch" href="/assets/js/26.2767c10d.js"><link rel="prefetch" href="/assets/js/27.89b69b2f.js"><link rel="prefetch" href="/assets/js/28.2cf3b2c5.js"><link rel="prefetch" href="/assets/js/29.2545ca7e.js"><link rel="prefetch" href="/assets/js/30.802a91cb.js"><link rel="prefetch" href="/assets/js/31.1b6da1b5.js"><link rel="prefetch" href="/assets/js/32.9e994f0a.js"><link rel="prefetch" href="/assets/js/33.34ee87b9.js"><link rel="prefetch" href="/assets/js/34.a5fa4c30.js"><link rel="prefetch" href="/assets/js/35.34ae4516.js"><link rel="prefetch" href="/assets/js/36.7d4adbea.js"><link rel="prefetch" href="/assets/js/37.39bfa8e7.js"><link rel="prefetch" href="/assets/js/38.85086c4c.js"><link rel="prefetch" href="/assets/js/39.ec5ca575.js"><link rel="prefetch" href="/assets/js/40.bec19f6e.js"><link rel="prefetch" href="/assets/js/41.e00424d9.js"><link rel="prefetch" href="/assets/js/42.45f73e33.js"><link rel="prefetch" href="/assets/js/43.896dfa1e.js"><link rel="prefetch" href="/assets/js/44.cd8a0728.js"><link rel="prefetch" href="/assets/js/45.830001ab.js"><link rel="prefetch" href="/assets/js/46.b9361b43.js"><link rel="prefetch" href="/assets/js/47.67fa6b04.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.cc2a2ebf.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Liuyun Blog</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">前端指南</a></div><div class="nav-item"><a href="/utils/" class="nav-link">辅助工具</a></div><div class="nav-item"><a href="/full-stack/" class="nav-link">全栈集锦</a></div><div class="nav-item"><a href="/others/" class="nav-link">其他</a></div><div class="nav-item"><a href="https://liuyun012.github.io/xes-wxapp/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  xes-wxapp
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/liuyun012/Js_frame/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">前端指南</a></div><div class="nav-item"><a href="/utils/" class="nav-link">辅助工具</a></div><div class="nav-item"><a href="/full-stack/" class="nav-link">全栈集锦</a></div><div class="nav-item"><a href="/others/" class="nav-link">其他</a></div><div class="nav-item"><a href="https://liuyun012.github.io/xes-wxapp/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  xes-wxapp
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/liuyun012/Js_frame/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>前端指南</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/guide/" class="sidebar-link">前端开发指南</a></li><li><a href="/guide/html-head.html" class="sidebar-link">常用html &lt;meta&gt;</a></li><li><a href="/guide/css问题汇总.html" class="sidebar-link">CSS 语法整理</a></li><li><a href="/guide/JavaScript语言特性.html" class="sidebar-link">/guide/JavaScript语言特性.html</a></li><li><a href="/guide/JavaScript基础操作汇总.html" class="sidebar-link">JavaScript 基础操作汇总</a></li><li><a href="/guide/JavaScript学习知识积累.html" class="sidebar-link">JavaScript学习知识积累</a></li><li><a href="/guide/JavaScript问题汇总.html" class="sidebar-link">JavaScript 常见问题汇总</a></li><li><a href="/guide/前端编码规范整理.html" class="sidebar-link">前端编码规范 -- 项目整理</a></li><li><a href="/guide/常用正则表达式整理汇总.html" class="sidebar-link">JavaScript正则表达式整理汇总</a></li><li><a href="/guide/jade语法.html" class="sidebar-link">Jade 语法整理</a></li><li><a href="/guide/原生操作DOM汇总.html" class="sidebar-link">原生JavaScript DOM操作汇总</a></li><li><a href="/guide/Vue日常项目学习整理汇总.html" class="sidebar-link">/guide/Vue日常项目学习整理汇总.html</a></li><li><a href="/guide/React 日常项目学习整理汇总.html" class="sidebar-link">/guide/React 日常项目学习整理汇总.html</a></li><li><a href="/guide/React-Router4.0使用汇总.html" class="sidebar-link">/guide/React-Router4.0使用汇总.html</a></li><li><a href="/guide/快应用踩坑集锦.html" class="sidebar-link">快应用开发过程踩坑集锦汇总</a></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h2 id="vuex-的学习记录"><a href="#vuex-的学习记录" aria-hidden="true" class="header-anchor">#</a> Vuex 的学习记录</h2> <ul><li><p>资料参考网址</p> <ul><li><a href="https://vuex.vuejs.org/zh-cn/" target="_blank" rel="noopener noreferrer">Vuex中文官网<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/vuejs/vuex/tree/dev/examples/shopping-cart" target="_blank" rel="noopener noreferrer">Vuex项目结构示例 -- 购物车<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="http://www.jianshu.com/p/caff7b8ab2cf" target="_blank" rel="noopener noreferrer">Vuex 通俗版教程<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://zh.nuxtjs.org/" target="_blank" rel="noopener noreferrer">Nuxt.js -- vuex的服务器端渲染<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li> <li><p>Vuex的简介<br></p> <ul><li>Vuex 是一个类似 Redux 的状态管理器，专为 Vue.js 应用程序开发，采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化，并集成到了Vue的官方调试工具 <a href="https://github.com/vuejs/vue-devtools" target="_blank" rel="noopener noreferrer">devtools extension<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li>Vuex的使用情况： 当开发大型单页面应用（SPA）时,会出现多个视图组件依赖同一个状态，来自不同视图的行为需要变更同一个状态。</li></ul></li> <li><p>基础使用及API说明</p> <ul><li><p>常用api及基础写法</p> <div class="language- extra-class"><pre class="language-text"><code>// func 指代 Function，函数
+const store = new Vuex.Store(
+	{
+	    state: {} | func,   // 根state对象，初始数据或状态赋值
+	    mutations: {},      // 纯函数修改数据的方法，处理函数总是接受 state 作为第一个，payload 作为第二个参数(可选)
+	    actions: {},        // 事件，动作， 处理函数总是接受 context 作为第一个参数，payload 作为第二个参数（可选）。
+	    getters: {},        // store 的计算属性，返回值会根据它的依赖被缓存起来，且只有当它的依赖值发生改变才会被重新计算
+	    modules: {},        // 包含子模块的对象，会被合并到 store
+	    plugins: [],        // 包含应用在store上的插件方法，这些插件接受store作为唯一参数，可以监听 mutation(用于外部地数据持久化、记录或调试)或者提交 mutation(用于内部数据，例如 websocket 或 某些观察者)
+	    strict: Boolean,    // 默认值：false, 使Vuex store进入严格模式，任何 mutation 处理函数以外修改 Vuex state 都会抛出错误。
+	}
+);
+</code></pre></div></li></ul> <div class="language- extra-class"><pre class="language-text"><code>- 最简单的 Vuex 示例 
+
+	```
+	import Vue from 'vue';
+	import Vuex from 'vuex';
+	Vue.use(Vuex);
+	
+	const store = new Vuex.Store({
+	    state: {
+	        count: 0
+	    },
+	    mutations: {
+	        increment (state) {
+	            state.count++
+	        }
+	    }
+	});
+	
+	store.commit('increment');
+	console.log(store.state.count)  // 1
+	```
+	
+	注明：每一个Vuex应用就是一个store,在store中包含组件的共享状态 `state` 和改变状态的方法 `mutations`，且只能通过 `mutations` 改变store的 `state` 的状态，不能通过类似 `store.state.count = 5` 的方式直接更改(直接修改，状态不会被同步，组件也不会重新渲染)
+
+- 在Vue组件使用Vuex
+	- 在&lt;b&gt;根组件&lt;/b&gt;，将store 注入到每一个子组件中，在子组件就可以通过 `this.$store` 访问：
+
+	```
+	// 根组件
+	import store from './store';
+	new Vue({
+	  el: '#app',
+	  router,
+	  store,
+	  render: h =&gt; h(App)
+	})
+	
+	// Counter 组件
+	export default {
+		  name: 'counter',
+		  computed: {
+		  	 count () {
+        	   return this.$store.state.count
+   			}
+    	  }
+		}
+	```
+	- &lt;b&gt;Getters&lt;/b&gt;: Vuex 中`getters` 对象，接受state作为第一个参数，可以方便我们在 store 对 state 进行处理计算。Getter也可以接受其他 &lt;b&gt;getters&lt;/b&gt; 作为第二参数
+	
+	```
+	const store = new Vuex.Store({
+		  state: {
+		    todos: [
+		      { id: 1, text: '...', done: true },
+		      { id: 2, text: '...', done: false }
+		    ]
+		  },
+		  getters: {
+		    doneTodos: state =&gt; {
+		      return state.todos.filter(todo =&gt; todo.done)
+		    }
+		  }
+		})
+	// 在Vue中通过 store.getters对象调用
+	computed: {
+	  doneTodos () {
+	    return this.$store.getters.doneTodos
+	  }
+	}
+	// Getter也可以接受其他getters作为第二个参数
+	getters: {
+	  doneTodos: state =&gt; {
+	      return state.todos.filter(todo =&gt; todo.done)
+	  },
+	  doneTodosCount: (state, getters) =&gt; {
+	    return getters.doneTodos.length
+	  }
+	}
+	```
+	- &lt;b&gt;Mutations&lt;/b&gt;: 每一个mutation都有一个事件类型type和一个回调函数handler，`Mutations`必须是同步函数，若需要异步操作，就需要 `Actions`了。
+	
+	```
+	const store = new Vuex.Store({
+	  state: {
+	    count: 1
+	  },
+	  mutations: {
+	    increment (state) {
+	      state.count++;   // 变更state状态
+	    }
+	  }
+	})
+	// 调用mutation，需要通过store.commit方法调用mutation type
+	store.commit('increment');
+	// 可以向store.commit传入第二参数，也就是mutation的payload(多数情况传对象)
+	mutaion: {
+	    increment (state, n) {
+	        state.count += n;
+	    },
+	    outcrement (state, payload) {
+	        state.totalPrice += payload.price + payload.count;
+	    }
+	}
+	
+	store.commit('increment', 10);
+	store.commit('outcrement', {
+	    price: 10,
+	    count: 8
+	});
+	```
+</code></pre></div></li> <li><p>Vuex.Store 组件绑定的辅助函数
+- mapState(namespace?: string, map: Array<string> | Object), 第一个参数可选。当一个组件需要获取多个状态的时候，将这些状态都声明为计算属性会有些重复和冗余。使用 <code>mapState</code> 辅助函数可以帮助我们批量生成计算属性。</string></p> <pre><code>  ```
+  // 在单独构建的版本中辅助函数为 Vuex.mapState
+  import { mapState } from 'vuex'
+  
+  export default {
+    computed: mapState({
+      // 箭头函数可使代码更简练
+      count: state =&gt; state.count,  // 不使用mapState辅助函数的写法
+  
+      // 传字符串参数 'count' 等同于 `state =&gt; state.count`
+      countAlias: 'count',          // 写法一，使用别名方式
+  
+      // 为了能够使用 `this` 获取局部状态，必须使用常规函数
+      countPlusLocalState (state) {
+        return state.count + this.localCount  // 写法二，常规函数方式
+      }
+      
+      // 
+    })
+  }
+  
+  // 当映射的计算属性的名称与state的子节点名称相同时，可用字符串数组的写法
+  export default { 
+  	computed: mapState(['count'])  // 映射 this.count 为 store.state.count
+  }
+  
+  // 使用 ES6 的 对象展开运算符 的写法去简化
+  export default { 
+  	computed: { ...mapState(['count','total']) }	} 
+  ```
+  - mapGetters(namespace?: string, map: Array&lt;string&gt; | Object) : 将 store 中的 getter 映射到局部计算属性。
+  
+  ```
+  import { mapGetters } from 'vuex'
+  export default {
+  	computed: {
+      // 使用对象展开运算符将 getter 混入 computed 对象中
+      ...mapGetters([
+        'doneTodosCount',
+        'anotherGetter'
+      ])
+    }
+  }
+  // 想将getter属性另取一个名字，需使用对象形式
+  export default {
+  	computed: {
+      mapGetters({
+  	    doneCount: 'doneTodosCount' // 映射 `this.doneCount` 为`store.getters.doneTodosCount`
+  	})
+    }
+  }
+  ```
+  - mapActions(namespace?: string, map: Array&lt;string&gt; | Object): 将组件的 methods 映射为 store.dispatch 调用
+  
+  ```
+  import { mapActions } from 'vuex'
+
+  export default {
+    methods: {
+      ...mapActions([
+        'increment', // 将 `this.increment()` 映射为 `this.$store.dispatch('increment')`
+  
+        // `mapActions` 也支持载荷：
+        'incrementBy' // 将 `this.incrementBy(amount)` 映射为 `this.$store.dispatch('incrementBy', amount)`
+      ]),
+      
+      ...mapActions({
+        add: 'increment' // 将 `this.add()` 映射为 `this.$store.dispatch('increment')`
+      })
+    }
+  }
+  ```
+  - mapMutations(namespace?: string, map: Array&lt;string&gt; | Object): 将组件中的 methods 映射为 store.commit 调用
+  
+  ```
+  import { mapMutations } from 'vuex'
+  export default {
+  	methods: {
+  		...mapMutions([
+  			'increment',  // 将`this.increment()` 映射为 'this.$store.commit('increment')'
+  			
+  			// `mapMutations` 也支持载荷：
+  			'incrementBy'  // 将 `this.incrementBy(amount)` 映射为 `this.$store.commit('incrementBy', amount)`
+  		]),
+  		...mapMutations({
+  			add: 'increment',  // 将 `this.add()`映射为`this.$store.commit('increment')`
+  		})
+  	}
+  }
+  ```
+  - createNamespacedHelpers(namespace: string): 建基于某个命名空间辅助函数
+  
+  ```
+  	import { createNamespacedHelpers } from 'vuex'
+  	const { mapState, mapActions } = createNamespacedHelpers('some/nested/module')
+  	
+  	export default {
+  	  computed: {
+  	    // 在 `some/nested/module` 中查找
+  	    ...mapState({
+  	      a: state =&gt; state.a,
+  	      b: state =&gt; state.b
+  	    })
+  	  },
+  	  methods: {
+  	    // 在 `some/nested/module` 中查找
+  	    ...mapActions([
+  	      'foo',
+  	      'bar'
+  	    ])
+  	  }
+  	}
+  ```
+</code></pre></li> <li><p>Vuex.Store 的实例属性
+- store.commit( '', { } ) : 提交 mutation
+- store.dispatch( '', { } ) : 分发 actions
+- store.replaceState(newstate): 替换 store 的根状态，仅用状态合并或时光调试。
+- store.watch( getter, cb ) : 响应式地监测一个 getter 方法的返回值，当值改变时调用回调函数。
+- store.subscribe(Function): 注册监听 store 的 mutations , Function 会在每个 mutations 完成后调用，接受 mutation 和 经过 mutation 后的状态作为参数：</p> <pre><code>  	```
+  	store.subscribe((mutation, state) =&gt; {
+  		  console.log(mutation.type)
+  		  console.log(mutation.payload)
+  		})
+  	```
+  - store.subscribeAction(handler: Function): 订阅 store 的action, handler 会在分发的时候调用并接收 action 描述和当前的 store 的 state两个参数。
+  
+  	```
+  	store.subscribeAction((action, state) =&gt; {
+  		  console.log(action.type)
+  		  console.log(action.payload)
+  		})
+  	```
+</code></pre></li></ul></div> <div class="page-edit"><!----> <!----></div> <!----> </div> <!----></div></div>
+    <script src="/assets/js/23.62c86287.js" defer></script><script src="/assets/js/app.179fdb04.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Express开发框架学习汇总 | Liuyun Blog</title>
+    <meta name="description" content="个人在前端开发过程中整理的全栈知识">
+    <link rel="icon" href="/logo.png">
+    
+    <link rel="preload" href="/assets/css/0.styles.cc2a2ebf.css" as="style"><link rel="preload" href="/assets/js/app.179fdb04.js" as="script"><link rel="preload" href="/assets/js/5.b88fe57b.js" as="script"><link rel="prefetch" href="/assets/js/23.62c86287.js"><link rel="prefetch" href="/assets/js/2.cda51ec0.js"><link rel="prefetch" href="/assets/js/3.d9e4f004.js"><link rel="prefetch" href="/assets/js/4.89782e16.js"><link rel="prefetch" href="/assets/js/6.a593a008.js"><link rel="prefetch" href="/assets/js/7.5de1569e.js"><link rel="prefetch" href="/assets/js/8.fe4249fe.js"><link rel="prefetch" href="/assets/js/9.979c7cc3.js"><link rel="prefetch" href="/assets/js/10.d3c0468d.js"><link rel="prefetch" href="/assets/js/11.78d628ba.js"><link rel="prefetch" href="/assets/js/12.a09bf4c7.js"><link rel="prefetch" href="/assets/js/13.d30963c3.js"><link rel="prefetch" href="/assets/js/14.2f465d9a.js"><link rel="prefetch" href="/assets/js/15.8faf7082.js"><link rel="prefetch" href="/assets/js/16.480ac2ea.js"><link rel="prefetch" href="/assets/js/17.dbd2c19f.js"><link rel="prefetch" href="/assets/js/18.0728f048.js"><link rel="prefetch" href="/assets/js/19.2e57d3d7.js"><link rel="prefetch" href="/assets/js/20.b45cef85.js"><link rel="prefetch" href="/assets/js/21.da673e5a.js"><link rel="prefetch" href="/assets/js/22.0adb5271.js"><link rel="prefetch" href="/assets/js/24.5c80a2bb.js"><link rel="prefetch" href="/assets/js/25.7290e58d.js"><link rel="prefetch" href="/assets/js/26.2767c10d.js"><link rel="prefetch" href="/assets/js/27.89b69b2f.js"><link rel="prefetch" href="/assets/js/28.2cf3b2c5.js"><link rel="prefetch" href="/assets/js/29.2545ca7e.js"><link rel="prefetch" href="/assets/js/30.802a91cb.js"><link rel="prefetch" href="/assets/js/31.1b6da1b5.js"><link rel="prefetch" href="/assets/js/32.9e994f0a.js"><link rel="prefetch" href="/assets/js/33.34ee87b9.js"><link rel="prefetch" href="/assets/js/34.a5fa4c30.js"><link rel="prefetch" href="/assets/js/35.34ae4516.js"><link rel="prefetch" href="/assets/js/36.7d4adbea.js"><link rel="prefetch" href="/assets/js/37.39bfa8e7.js"><link rel="prefetch" href="/assets/js/38.85086c4c.js"><link rel="prefetch" href="/assets/js/39.ec5ca575.js"><link rel="prefetch" href="/assets/js/40.bec19f6e.js"><link rel="prefetch" href="/assets/js/41.e00424d9.js"><link rel="prefetch" href="/assets/js/42.45f73e33.js"><link rel="prefetch" href="/assets/js/43.896dfa1e.js"><link rel="prefetch" href="/assets/js/44.cd8a0728.js"><link rel="prefetch" href="/assets/js/45.830001ab.js"><link rel="prefetch" href="/assets/js/46.b9361b43.js"><link rel="prefetch" href="/assets/js/47.67fa6b04.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.cc2a2ebf.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Liuyun Blog</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link">前端指南</a></div><div class="nav-item"><a href="/utils/" class="nav-link">辅助工具</a></div><div class="nav-item"><a href="/full-stack/" class="nav-link router-link-active">全栈集锦</a></div><div class="nav-item"><a href="/others/" class="nav-link">其他</a></div><div class="nav-item"><a href="https://liuyun012.github.io/xes-wxapp/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  xes-wxapp
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/liuyun012/Js_frame/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/" class="nav-link">前端指南</a></div><div class="nav-item"><a href="/utils/" class="nav-link">辅助工具</a></div><div class="nav-item"><a href="/full-stack/" class="nav-link router-link-active">全栈集锦</a></div><div class="nav-item"><a href="/others/" class="nav-link">其他</a></div><div class="nav-item"><a href="https://liuyun012.github.io/xes-wxapp/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  xes-wxapp
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/liuyun012/Js_frame/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>全栈集锦</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/full-stack/" class="sidebar-link">全栈开发知识大汇总</a></li><li><a href="/full-stack/前端和后端注释文档生成.html" class="sidebar-link">前端和后端注释文档生成</a></li><li><a href="/full-stack/PHP基础知识整理.html" class="sidebar-link">PHP 简介 和 开发环境配置</a></li><li><a href="/full-stack/mysql数据库学习资料汇总.html" class="sidebar-link">MySQL数据库学习资料汇总</a></li><li><a href="/full-stack/http协议资料整理.html" class="sidebar-link">HTTP 协议</a></li><li><a href="/full-stack/Express框架学习.html" class="active sidebar-link">Express开发框架学习汇总</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/full-stack/Express框架学习.html#参考资料网址" class="sidebar-link">参考资料网址</a></li><li class="sidebar-sub-header"><a href="/full-stack/Express框架学习.html#express入门教程" class="sidebar-link">Express入门教程</a></li></ul></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="express开发框架学习汇总"><a href="#express开发框架学习汇总" aria-hidden="true" class="header-anchor">#</a> Express开发框架学习汇总</h1> <p>基于 Node.js 平台，快速、开放、极简的 web 开发框架。它提供一系列强大的特性，帮助你创建各种 Web 和移动设备应用。</p> <h2 id="参考资料网址"><a href="#参考资料网址" aria-hidden="true" class="header-anchor">#</a> 参考资料网址</h2> <ul><li><a href="http://www.expressjs.com.cn/" target="_blank" rel="noopener noreferrer">Express中文官网<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul> <h2 id="express入门教程"><a href="#express入门教程" aria-hidden="true" class="header-anchor">#</a> Express入门教程</h2> <ul><li>安装</li></ul> <p>假定已安装 <a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener noreferrer">Node.js<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>，为你的应用创建一个项目目录，命令将要求你输入几个参数，直接按“回车”键接受默认设置。</p> <pre><code>```html
+$ mkdir myapp
+$ cd myapp
+$ npm init
+$ npm install express --save
+```		
+</code></pre> <ul><li>Hello World实例</li></ul> <ol><li><p>进入myapp目录，创建一个为 app.js 的文件，将下面的代码复制进去：</p> <div class="language-html extra-class"><pre class="language-html"><code>var express = require('express');
+var app = express();
+
+app.get('/', function (req, res) {
+	res.send('Hello World!');
+});
+
+var server = app.listen(3000, function () {
+	var host = server.address().address;
+	var port = server.address().port;
+	console.log('Example app listening at http://%s:%s', host, port);
+});
+</code></pre></div></li> <li><p>在终端通过如下命令启动此应用</p> <div class="language- extra-class"><pre class="language-text"><code>$ node app.js
+</code></pre></div></li> <li><p>然后在浏览器中打开 <code>http://localhost:3000/</code> 并查看输出结果。</p></li></ol> <ul><li><p>Express 应用生成器</p> <div class="language-html extra-class"><pre class="language-html"><code>$ npm install express-generator -g
+$ express -h    // -h 选项可列出所有可用的命令行选项
+$ express myapp
+$ cd myapp 
+$ npm install
+$ DEBUG=myapp npm start   // 启动这个应用（MacOS 或 Linux 平台）
+</code></pre></div><p>在浏览器中打开 http://localhost:3000/ 网址就可以看到这个应用了</p></li> <li><p>数据库集成 -- MySql为例</p></li></ul> <ol><li><p>安装mysql</p> <div class="language-html extra-class"><pre class="language-html"><code>$ npm install mysql
+</code></pre></div></li> <li><p>数据库连接代码示例</p> <div class="language-html extra-class"><pre class="language-html"><code>var mysql = require('mysql');
+var connection = mysql.createConnection({
+	host     : 'localhost',
+	user     : 'root',
+	password : 'root'
+});
+
+connection.connect();
+
+connection.query('SELECT 1 + 1 AS solution', function(err, rows, fields) {
+	if (err) throw err;
+	console.log('The solution is: ', rows[0].solution);
+});
+
+connection.end();
+</code></pre></div></li></ol></div> <div class="page-edit"><!----> <!----></div> <!----> </div> <!----></div></div>
+    <script src="/assets/js/5.b88fe57b.js" defer></script><script src="/assets/js/app.179fdb04.js" defer></script>
+  </body>
+</html>
