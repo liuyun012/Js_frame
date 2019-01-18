@@ -14,8 +14,8 @@
   },
   "homepage": "https://github.com/liuyun012/Js_frame#readme",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "serve": "vuepress dev docs",
+    "build": "vuepress build docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
