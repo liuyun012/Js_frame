@@ -9,6 +9,7 @@ module.exports = {
   themeConfig: {
     nav: [
       {text: '前端指南', link: '/guide/'},
+      {text: 'Vue源码解读', link: '/vue/'},
       {text: '辅助工具', link: '/utils/'},
       {text: '全栈集锦', link: '/full-stack/'},
       {text: '其他', link: '/others/'},
@@ -17,6 +18,7 @@ module.exports = {
     ],
     sidebar: {
       '/guide/': guideSidebarConfig(),
+      '/vue/': vueSidebarConfig(),
       '/utils/': utilsSidebarConfig(),
       '/full-stack/': fullSidebarConfig(),
       '/others/': othersSidebarConfig(),
@@ -46,6 +48,20 @@ function guideSidebarConfig () {
         '/guide/React 日常项目学习整理汇总',
         '/guide/React-Router4.0使用汇总',
         '/guide/快应用踩坑集锦',
+      ]
+    }
+  ]
+}
+
+// Vue2.5 源码解读左侧导航
+function vueSidebarConfig () {
+  return [
+    {
+      title: 'Vue 源码解读',
+      collapsable: false,
+      children: [
+        '/vue/',
+        '/vue/00',
       ]
     }
   ]

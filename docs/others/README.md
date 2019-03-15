@@ -8,11 +8,58 @@
 - [奇虎360前端 - 奇舞团](https://75team.com/)
 - [W3cplus - 大漠css技术博客](https://www.w3cplus.com/)
 - [印记中文 - 前端框架翻译文档汇总](https://docschina.org/)
-- [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
+- [阮一峰的网络日志](https://www.ruanyifeng.com/blog/)
 - [Node.js中文网 - api文档](http://nodejs.cn/api/)
 - [InterviewMap - 前端面试图谱](https://yuchengkai.cn/docs/zh/)
 - [掘金 - 程序员开发社区](https://juejin.im/)
 - [Github - 程序员开发必备](https://github.com/)
+- [InfoQ - 极客邦科技](https://www.infoq.cn/)
+
+## 第十一周 2019.03.11~03.17
+- [vue源码分析 -- 基于 2.2.6版本](https://github.com/liutao/vue2.0-source)
+- [我的 MAC 设置](https://juejin.im/post/5c83cb6ff265da2dc2321bc3?utm_source=gold_browser_extension)
+- [跟大家聊一下前端性能怎么优化](https://juejin.im/post/5c74a1ec6fb9a049e063fd20)
+- [前端代码质量优化交流](https://juejin.im/post/5c7e1c326fb9a04a027b18c2?utm_source=gold_browser_extension)
+- [手把手教你用node撸一个图片压缩工具](https://www.jqhtml.com/17965.html)
+- [Web 实时推送技术的总结](https://github.com/ljianshu/Blog)
+- [一个前端码农的 Flutter 实战经验](https://juejin.im/post/5c88a97451882501c950f0c9?utm_source=gold_browser_extension)
+- [tesseract-OCR 图像识别插件 node-tesr 了解一下？](https://juejin.im/post/5c89d779518825126b3c9863?utm_source=gold_browser_extension)
+- [Vue技术内幕 - 逐行级别的 Vue 源码分析](http://hcysun.me/vue-design/)
+
+## 第十周 2019.03.04~03.10
+- [我是如何让公司后台管理系统焕然一新的(上) -性能优化](https://juejin.im/post/5c76843af265da2ddd4a6dd0?utm_source=gold_browser_extension)
+- [《JavaScript 模式》知识点小抄本（上）](https://juejin.im/post/5c7bf4fce51d4567f064d9ae?utm_source=gold_browser_extension)
+- [JavaScript库架构实战](https://juejin.im/post/5c7c7f9851882540c8245054?utm_source=gold_browser_extension)
+- [保留提交历史的git库迁移方法](https://alexspring123.github.io/2017/11/14/201711/%E4%BF%9D%E7%95%99%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2%E7%9A%84git%E5%BA%93%E8%BF%81%E7%A7%BB%E6%96%B9%E6%B3%95/)
+- [怎样检查搬瓦工IP被墙](https://www.banwago.com/1265.html)
+- [最新 搬瓦工VPS手动搭建梯子教程（解决一键搭建空白问题）](https://www.wervps.com/we/2252.html)
+- [我在淘宝做前端的这三年 — 第三年](https://juejin.im/post/5c811e426fb9a04a0c2f3bdb?utm_source=gold_browser_extension)
+
+## 第九周 2019.02.25~03.03
+- [我在淘宝做前端的这三年 — 第一年](https://juejin.im/post/5c74d4b9e51d4512c37ea03b?utm_source=gold_browser_extension)
+- [JS性能优化38条"军规"，2019年呕心力作](https://juejin.im/post/5c6e064c51882562eb50fc18?utm_source=gold_browser_extension)
+- [ESLint 静态代码检查](https://juejin.im/post/5ca766e296fb9a04a0379e365?utm_source=gold_browser_extension)
+- [加快Vue项目的开发速度](https://github.com/QDMarkMan/CodeBlog/blob/master/Vue/%E5%8A%A0%E5%BF%ABVue%E9%A1%B9%E7%9B%AE%E7%9A%84%E5%BC%80%E5%8F%91%E9%80%9F%E5%BA%A6.md)
+- [Canvas 都坐下，基本操作](https://juejin.im/post/5c74e01bf265da2de80f6e4b?utm_source=gold_browser_extension)
+- [基于postman的api自动化测试实践](https://juejin.im/post/5c763aae51882562ed51530a?utm_source=gold_browser_extension)
+- [使用ESLint ＆ Prettier美化Vue代码](https://nice.lovejade.cn/zh/article/beautify-vue-by-eslint-and-prettier.html#%E4%BF%AE%E6%94%B9%E8%A7%84%E5%88%99%E9%85%8D%E7%BD%AE)
+- [vue项目中使用token的身份验证的简单实践](https://juejin.im/post/5c788f8a6fb9a04a0379e9ae?utm_source=gold_browser_extension)
+
+## 第八周 2019.02.18~02.24
+- [谈谈axios中Post请求变成OPTIONS的几种解决方案](https://juejin.im/post/5c68b2efe51d457fd52ee155)
+
+## 第五周 2019.01.28~02.03
+- [凹凸实验室前端代码规范](https://guide.aotu.io/docs/html/code.html)
+- [vueCli3搭建的vue-vuex-router开发模版](https://github.com/wangyupo/vue-vuex-router)
+- [每日时报，以前端技术体系为主要分享课题](https://wubaiqing.github.io/zaobao/)
+- [Chameleon 变色龙 一套代码运行多端的开发框架](https://cmljs.org/#/)
+
+
+## 第四周 2019.01.21~01.27
+- [回顾两年前整理的前端规范](https://juejin.im/post/5c1ca73be51d454be8630b77)
+- [SCSS — 缩减50%的样式代码](https://juejin.im/post/5c4888ef51882524ed5bbf51?utm_source=gold_browser_extension)
+- [小程序从手动埋点到自动埋点](https://github.com/zhengguorong/articles/issues/34)
+
 
 ## 第三周 2019.01.14~01.20
 - [字体搜索引擎](https://www.getthefont.com/)
