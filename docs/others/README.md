@@ -15,6 +15,127 @@
 - [Github - 程序员开发必备](https://github.com/)
 - [InfoQ - 极客邦科技](https://www.infoq.cn/)
 
+## 第二十二周 2019.06.10~06.16
+
+- [前端项目架构时遇到的问题](https://web.blued.cn/2017/06/14/framework-qa/)
+- [结合自己造的轮子实践按需加载](https://www.cnblogs.com/MuYunyun/p/9615455.html)
+- [使用模块化工具打包自己开发的JS库](http://anata.me/2018/06/06/%E4%BD%BF%E7%94%A8%E6%A8%A1%E5%9D%97%E5%8C%96%E5%B7%A5%E5%85%B7%E6%89%93%E5%8C%85%E8%87%AA%E5%B7%B1%E5%BC%80%E5%8F%91%E7%9A%84JS%E5%BA%93/)
+- [写一个babel插件实现按需打包的功能](https://www.jianshu.com/p/b2e0b90b507d)
+- [前端性能优化三部曲(加载篇)](https://juejin.im/post/5d00820b5188255ee806a1c7?utm_source=gold_browser_extension)
+- [前端算法整理转载](https://juejin.im/post/5cfddfd8e51d455d6d5357e3?utm_source=gold_browser_extension)
+
+## 第二十一周 2019.06.03~06.09
+- [jsliang 的前端文档库](https://liangjunrong.github.io/SUMMARY.html)
+- [H5案例分享](https://www.h5anli.com/)
+- [Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
+- [Vue技术内幕](http://hcysun.me/vue-design/)
+- [记前端私有NPM仓库的使用](http://www.mach945.com/2018/10/19/%E8%AE%B0%E5%89%8D%E7%AB%AF%E7%A7%81%E6%9C%89npm%E4%BB%93%E5%BA%93%E7%9A%84%E4%BD%BF%E7%94%A8/)
+- [活动运营自动化平台实践](https://juejin.im/post/5cf76328f265da1bab299cb0?utm_source=gold_browser_extension)
+- [团队需要一个私有npm](http://catchzeng.com/2018/05/22/%E5%9B%A2%E9%98%9F%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%E7%A7%81%E6%9C%89npm/)
+- [搭建NPM私有库](https://www.jianshu.com/p/1d0e85d14234)
+
+## 第二十周 2019.05.27~06.02
+- [大型项目前端架构浅谈（8000字原创）](https://juejin.im/post/5cea1f705188250640005472?utm_source=gold_browser_extension)
+- [git各命令的原理和初级使用，顺手玩下git钩子](https://juejin.im/post/5ce6758c518825332f6b76dc?utm_source=gold_browser_extension)
+- [手摸手，带你用vue撸后台 系列五(v4.0新版本)](https://juejin.im/post/5c92ff94f265da6128275a85?utm_source=gold_browser_extension)
+- [【前端词典】进阶必备的网络基础](https://mp.weixin.qq.com/s/MpjLLZjM9yusbmVh8bv7ug)
+- [前端锦囊 第5期| 工作中可能用到的 npm 包](https://mp.weixin.qq.com/s/itccR3Flkt9eTKueaR-Vhw)
+## 第十九周 2019.05.20~05.26
+- [腾讯广告 - 枫页落地页使用手册](https://e.qq.com/ads/learning/data/assist-tools/video/024/)
+- [奇舞团 - 刘博文博客](https://github.com/berwin/blog)
+- [南瓜屋 - 技术解决方案与Vue最佳实践](https://ppt.baomitu.com/d/8a94cafc)
+- [网格背景棋盘实现纯css](https://blog.csdn.net/qq_27401917/article/details/80909564)
+
+## 第十八周 2019.05.13~05.19
+- [JS是世界上最好的语言—— 使用Electron开发桌面应用(一)](https://juejin.im/post/5ccaf7296fb9a0321f042907?utm_source=gold_browser_extension)
+- [手摸手，带你用vue撸后台 系列五(v4.0新版本)](https://juejin.im/post/5c92ff94f265da6128275a85?utm_source=gold_browser_extension)
+- [W3C Web 技术总负责人：拓展 Web 核心能力，W3C 关注哪些技术？](https://www.infoq.cn/article/F0J6ddfKN*NHYNTJbAGh)
+- [vue-router 之 keep-alive](https://www.jianshu.com/p/0b0222954483)
+
+## 第十七周 2019.05.06~05.12
+- [HTTP 2.0 和 HTTP 1.1 相比有哪些优势呢？](https://www.zhihu.com/question/306768582/answer/595200654?utm_source=wechat_session&utm_medium=social&utm_oi=816040435926585344)
+- [TLS详解](https://www.jianshu.com/p/1fc7130eb2c2)
+- [TLS 详解](https://juejin.im/post/5b88a93df265da43231f1451)
+- [使用 Wireshark 调试 HTTP/2 流量](https://imququ.com/post/http2-traffic-in-wireshark.html)
+- [开发环境Nginx配置SSL证书启用HTTPS](https://zhuanlan.zhihu.com/p/31344617)
+
+## 第十七周 2019.04.29~05.05
+- [从零实现一个 Webpack Plugin](https://juejin.im/post/5cc6b457518825634d444365?utm_source=gold_browser_extension&from=singlemessage)
+- [Verdaccio 搭建私有 NPM](https://juejin.im/post/5cc81991f265da036d79c8ca?utm_source=gold_browser_extension&from=singlemessage)
+- [用vscode开发vue应用](https://juejin.im/entry/5cca6b376fb9a032106bdbe9?utm_source=gold_browser_extension)
+- [5分钟了解vue-router的基本使用](https://juejin.im/post/5ccba038f265da037c7cf423?utm_source=gold_browser_extension)
+- [SQL必知必会笔记（上）](https://juejin.im/post/5ccb01196fb9a03217282ee2?utm_source=gold_browser_extension)
+- [【深度长文】JavaScript数组所有API全解密](http://louiszhai.github.io/2017/04/28/array/)
+- [开发效率提升之工具篇](https://juejin.im/repo/5cb995166fb9a06b5ab6392e?utm_source=gold_browser_extension)
+- [Vue-Cli 3.0从0 开始搭建项目（篇1）](https://juejin.im/post/5ccd4580f265da038932a461?utm_source=gold_browser_extension)
+- [Alfred工具安装教程](https://www.jianshu.com/p/d21f8302f70f)
+- [Mac效率神器Alfred以及常用Workflow](https://www.jianshu.com/p/0e78168da7ab)
+- [5分钟上手Mac效率神器Alfred以及Alfred常用操作](https://www.jianshu.com/p/e9f3352c785f)
+- [Mac效率神器Alfred以及常用Workflow](https://www.jianshu.com/p/0e78168da7ab)
+
+## 第十七周 2019.04.22~04.28
+- [Node.js 一行命令上传本地文件到服务器](https://juejin.im/post/5cbb1fdaf265da03a743f0dc?utm_source=gold_browser_extension)
+- [一文弄懂Nginx的location匹配](https://juejin.im/post/5cbe89b6f265da0373718707?utm_source=gold_browser_extension)
+- [用一次就会爱上的cli工具开发](https://juejin.im/post/5cc160b2f265da03452bdf5b?utm_source=gold_browser_extension)
+- [前端开发规范 从制定到实施](https://juejin.im/post/5cc542c6f265da03ab2331a5?utm_source=gold_browser_extension)
+- [Cz工具集使用介绍 - 规范Git提交说明](https://juejin.im/post/5cc4694a6fb9a03238106eb9?utm_source=gold_browser_extension)
+- [JS常用正则表达式备忘录](https://juejin.im/entry/5cc65702f265da039f0f1b62?utm_source=gold_browser_extension)
+- [怎样把网站升级到http/2](https://zhuanlan.zhihu.com/p/29609078)
+- [http2.0 --速度与激情](https://my.oschina.net/u/861562/blog/1823472)
+- [HTTP 协议入门 - 阮一峰](http://www.ruanyifeng.com/blog/2016/08/http.html)
+- [HTTP 的前世今生：一次性搞懂 HTTP、HTTPS、SPDY、HTTP2](https://segmentfault.com/a/1190000016996541)
+- [Let's Encrypt 免费通配符 SSL 证书申请教程](https://www.hi-linux.com/posts/6968.html)
+- [基于page-skeleton-webpack-plugin分析自动生成骨架屏原理](https://juejin.im/post/5c9890166fb9a070b8506341)
+
+## 第十六周 2019.04.15~04.21
+- [VS Code 插件开发中文文档](https://liiked.github.io/VS-Code-Extension-Doc-ZH/#/api/README)
+- [vscode编写插件详细过程](https://www.cnblogs.com/caipeiyu/p/5507252.html)
+- [xmake-vscode插件开发过程记录](https://juejin.im/post/59decff851882578c2084b5b)
+
+## 第十五周 2019.04.08~04.14
+- [基于Vue实现页面切换左右滑动效果](https://blog.csdn.net/u010394015/article/details/79263873)
+- [前端工程师必备：前端的模块化](https://juejin.im/post/5cb004da5188251b130c773e?utm_source=gold_browser_extension)
+- [Web前端必备-Nginx知识汇总](https://juejin.im/post/5cb0b220f265da03937858ba?utm_source=gold_browser_extension)
+- [【面试篇】寒冬求职季之你必须要懂的原生JS(上)](https://juejin.im/post/5cab0c45f265da2513734390?utm_source=gold_browser_extension)
+
+## 第十四周 2019.04.01~04.07
+- [Hiper - 令人愉悦的性能统计分析工具](ttps://github.com/pod4g/hiper/blob/master/README.zh-CN.md)
+- [dbdiagram.io - 制作数据库关系图的在线工具](https://dbdiagram.io/d)
+- [pagedraw - 浏览器里面的 UI 生成器](https://pagedraw.io/)
+- [OAuth 2.0 的一个简单解释](http://www.ruanyifeng.com/blog/2019/04/oauth_design.html)
+- [Jenkins 自动化部署](https://juejin.im/post/5ca402d76fb9a05e4c0e6bb3?utm_source=gold_browser_extension)
+- [Python通用编程](https://juejin.im/user/5c8e77cde51d452631328af3/posts)
+- [bash脚本最佳实践](https://juejin.im/entry/5c9ae7fbe51d452fbb6f82e1?utm_source=gold_browser_extension)
+- [vue单元测试vue test utils使用初探](https://juejin.im/post/5ca56c2551882543fa41d51f?utm_source=gold_browser_extension)
+- [看完这篇Linux基本的操作就会了](https://juejin.im/post/5af8329d518825426d2d3887)
+- [Linux服务器的初步配置流程](http://www.ruanyifeng.com/blog/2014/03/server_setup.html)
+- [你不知道的浏览器页面渲染机制](https://juejin.im/post/5ca0c0abe51d4553a942c17d?utm_source=gold_browser_extension)
+- [前端模块化详解(完整版)](https://juejin.im/post/5c17ad756fb9a049ff4e0a62)
+
+## 第十四周 2019.04.01~04.07
+- [Vue-CLI 3.x 自动部署项目至服务器](https://juejin.im/post/5ca1b0d8e51d453b1c1524f8?utm_source=gold_browser_extension)
+- [一步步搭建 VuePress 及优化【初始化到发布】](https://juejin.im/post/5c9efe596fb9a05e122c73f1?utm_source=gold_browser_extension)
+- [xmind 8 pro Mac破解版(思维导图) 附xmind 8 序列号](https://blog.csdn.net/Richard__Ting/article/details/81914260)
+- [『管理工具-NPM』相关内容整理](http://object.ws/2017/05/09/npm-note/)
+- [VueRouter 源码深度解析](https://juejin.im/post/5b5697675188251b11097464)
+- [懒得勤快，互联网分享精神，勤于发现，乐于分享](https://masuit.com/)
+
+## 第十三周 2019.03.25~03.31
+- [stylelint 中文](http://stylelint.cn/)
+- [JavaScript 代码格式化](http://xiaweiss.com/art/20180726-javascript-code-format/)
+- [ESLint StyleLint 和 Prettier](https://www.kancloud.cn/chandler/web_technology/724758)
+- [CSS代码检查工具stylelint](http://www.fdlly.com/p/1577881883.html)
+- [推荐大家使用的CSS书写规范、顺序](http://www.shejidaren.com/css-written-specifications.html)
+- [CSS 伪类、伪元素、规则、以及属性的速查列表](https://github.com/Wizard67/note-css-order#properties-%E5%B1%9E%E6%80%A7)
+
+
+## 第十二周 2019.03.18~03.24
+- [搬瓦工后台直接搭建 shadowsocks](https://kiwivm.64clouds.com/main-exec.php?mode=extras_shadowsocks)
+- [Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
+- [Vue技术内幕](http://hcysun.me/vue-design/)
+- [脑袋瓜子 - 破解软件汇总](https://www.naodai.org/)
+- [用vue-cli3从0打造一个完整的UI库](https://juejin.im/post/5c934511f265da60d82dc7ab?utm_source=gold_browser_extension)
+
 ## 第十一周 2019.03.11~03.17
 - [vue源码分析 -- 基于 2.2.6版本](https://github.com/liutao/vue2.0-source)
 - [我的 MAC 设置](https://juejin.im/post/5c83cb6ff265da2dc2321bc3?utm_source=gold_browser_extension)
