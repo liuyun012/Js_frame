@@ -15,6 +15,31 @@
 - [Github - 程序员开发必备](https://github.com/)
 - [InfoQ - 极客邦科技](https://www.infoq.cn/)
 
+## 第二十七周 2019.07.15~2019.07.21
+- [Vuex 通俗版教程](https://yeaseonzhang.github.io/2017/03/16/Vuex-%E9%80%9A%E4%BF%97%E7%89%88/)
+
+## 第二十六周 2019.07.08~2019.07.14
+- [花椒前端基于 GitLab CI/CD 的自动化构建、发布实践](https://mp.weixin.qq.com/s/Yjx3wMz2-m-WDPV9ihMxxA)
+- [揭秘vue-sfc-cli: 组件研发利器](https://juejin.im/post/5d21cc33e51d45108c59a5bc?utm_source=gold_browser_extension)
+- [vue组件发布npm最佳实践](https://juejin.im/post/5b231f6ff265da595f0d2540)
+- [十分钟把你的 web 网页 改造为 Electron App](https://juejin.im/post/5d18c8e96fb9a07ede0b597d?utm_source=gold_browser_extension)
+- [如何开发一个基于 Vue 的 ui 组件库](https://github.com/BuptStEve/blog/issues/23)
+- [如何开发一个基于 TypeScript 的工具库并自动生成文档](https://buptsteve.github.io/blog/posts/019.ts-docs.html)
+
+
+## 第二十五周 2019.07.01~07.07
+- [mac中安全地使用rm命令](https://blog.piaoruiqing.com/blog/2019/06/27/mac%E4%B8%AD%E5%AE%89%E5%85%A8%E5%9C%B0%E4%BD%BF%E7%94%A8rm%E5%91%BD%E4%BB%A4/)
+- [一张图教你快速玩转vue-cli3](https://juejin.im/post/5d1782eaf265da1ba91592fc?utm_source=gold_browser_extension)
+- [你可能不知道的 npm 实用技巧](https://juejin.im/post/5d1c51e851882517b74a820e?utm_source=gold_browser_extension&from=singlemessage)
+
+## 第二十四周 2019.06.24~06.30
+- [Vue图片裁剪上传组件](https://juejin.im/post/5c9b19aef265da60e34703af)
+- [移动端上传图片进行平移放大缩小操作后生成海报](https://juejin.im/post/5b744ed6e51d45663b7b6b8b)
+
+## 第二十三周 2019.06.17~06.23
+
+- [前端工程化（5）：你所需要的npm知识储备都在这了](https://juejin.im/post/5d08d3d3f265da1b7e103a4d?utm_source=gold_browser_extension)
+
 ## 第二十二周 2019.06.10~06.16
 
 - [前端项目架构时遇到的问题](https://web.blued.cn/2017/06/14/framework-qa/)
